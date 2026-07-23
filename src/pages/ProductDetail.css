@@ -1,0 +1,92 @@
+.product-detail {
+  position: relative;
+  min-height: 100vh;
+  background-color: var(--color-bg);
+}
+
+.back-button {
+  position: absolute;
+  top: var(--space-md);
+  left: var(--space-md);
+  z-index: 20;
+  background-color: var(--color-glass-bg);
+  backdrop-filter: blur(8px);
+}
+
+.product-detail-hero {
+  position: relative;
+  height: 45vh;
+  width: 100%;
+}
+
+.hero-media {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.5));
+}
+
+.product-detail-content {
+  position: relative;
+  border-radius: var(--radius-lg) var(--radius-lg) 0 0;
+  padding: var(--space-xl) var(--space-md);
+  min-height: 60vh;
+  box-shadow: 0 -4px 20px rgba(0,0,0,0.1);
+}
+
+.detail-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: var(--space-xs);
+}
+
+.detail-title {
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.detail-price {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.detail-weight {
+  font-size: 0.9rem;
+  margin-bottom: var(--space-md);
+}
+
+.detail-badges {
+  margin-bottom: var(--space-lg);
+}
+
+.detail-badges .badge {
+  width: auto;
+  padding: 4px 12px;
+  border-radius: var(--radius-full);
+}
+
+.detail-desc {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: var(--space-xl);
+}
+
+.detail-section {
+  margin-bottom: var(--space-lg);
+}
+
+.detail-section h3 {
+  font-size: 1.1rem;
+  margin-bottom: var(--space-xs);
+}
+
+.detail-actions {
+  margin-top: var(--space-2xl);
+  padding-bottom: var(--space-xl);
+}

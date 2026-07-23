@@ -1,0 +1,32 @@
+[
+  {
+    "id": "c-kahvaltilar",
+    "businessId": "restaurant-a",
+    "name": "Kahvaltılar",
+    "order": 1
+  },
+  {
+    "id": "c-ana-yemekler",
+    "businessId": "restaurant-a",
+    "name": "Ana Yemekler",
+    "order": 2
+  },
+  {
+    "id": "c-icecekler",
+    "businessId": "restaurant-a",
+    "name": "İçecekler",
+    "order": 3
+  },
+  {
+    "id": "c-kokteyller",
+    "businessId": "beach-club",
+    "name": "Kokteyller",
+    "order": 1
+  },
+  {
+    "id": "c-baslangiclar",
+    "businessId": "beach-club",
+    "name": "Başlangıçlar",
+    "order": 2
+  }
+]
