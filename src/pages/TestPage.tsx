@@ -335,9 +335,35 @@ const TestPage: React.FC = () => {
               onChange={e => handleProductChange('imageUrl', e.target.value)}
               style={{ width: '100%', padding: '8px', borderRadius: '4px', border: '1px solid #ccc' }}
             />
-            {editingProduct.imageUrl && (
-               <img src={editingProduct.imageUrl} alt="Önizleme" style={{ height: '60px', marginTop: '8px', borderRadius: '4px' }} />
-            )}
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: '8px' }}>
+              {editingProduct.imageUrl && (
+                 <img src={editingProduct.imageUrl} alt="Önizleme" style={{ height: '60px', borderRadius: '4px' }} />
+              )}
+              <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center' }}>
+                 <input type="file" id="imageUpload" style={{ display: 'none' }} accept="image/*" onChange={async (e) => {
+                    const file = e.target.files?.[0];
+                    if (!file) return;
+                    setIsSaving(true);
+                    try {
+                      const response = await fetch(`/api/upload?filename=${encodeURIComponent(file.name)}`, {
+                        method: 'POST',
+                        body: file,
+                        headers: { 'Content-Type': 'application/octet-stream' }
+                      });
+                      const data = await response.json();
+                      if (data.url) handleProductChange('imageUrl', data.url);
+                    } catch (err) {
+                      alert("Resim yüklenirken hata oluştu.");
+                    } finally {
+                      setIsSaving(false);
+                      e.target.value = '';
+                    }
+                 }} />
+                 <button className="btn" onClick={() => document.getElementById('imageUpload')?.click()} style={{ background: '#007bff', color: '#fff', fontSize: '0.8rem', padding: '6px 12px' }}>
+                    📁 Bilgisayardan Yükle
+                 </button>
+              </div>
+            </div>
           </div>
 
           <div style={{ marginTop: 'var(--space-sm)' }}>

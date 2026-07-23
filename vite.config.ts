@@ -40,6 +40,31 @@ function localJsonEditorPlugin() {
               res.end(JSON.stringify({ success: false, error: err.message }));
             }
           });
+        } else if (req.method === 'POST' && req.url?.startsWith('/api/upload')) {
+          const urlObj = new URL(req.url, `http://${req.headers.host}`);
+          const filename = urlObj.searchParams.get('filename') || `upload_${Date.now()}.jpg`;
+          
+          const assetsDir = path.resolve(__dirname, 'public/assets');
+          if (!fs.existsSync(assetsDir)) {
+            fs.mkdirSync(assetsDir, { recursive: true });
+          }
+
+          const uploadPath = path.resolve(assetsDir, filename);
+          const writeStream = fs.createWriteStream(uploadPath);
+          
+          req.pipe(writeStream);
+          
+          req.on('end', () => {
+             res.statusCode = 200;
+             res.setHeader('Content-Type', 'application/json');
+             res.end(JSON.stringify({ url: `/assets/${filename}` }));
+          });
+          
+          req.on('error', (err) => {
+             console.error('Upload error', err);
+             res.statusCode = 500;
+             res.end(JSON.stringify({ error: err.message }));
+          });
         } else {
           next();
         }
