@@ -52,7 +52,7 @@
     "badges": {
       "vegan": false,
       "vegetarian": false,
-      "glutenFree": false
+      "glutenFree": true
     }
   },
   {
