@@ -17,6 +17,7 @@ export interface Category {
   businessId: string;
   name: string;
   order: number;
+  imageUrl?: string;
 }
 
 export interface Product {

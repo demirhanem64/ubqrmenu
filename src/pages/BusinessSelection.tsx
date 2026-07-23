@@ -9,7 +9,7 @@ const USAK_LOGO = "/logo.png";
 
 const BusinessSelection: React.FC = () => {
   const [businesses, setBusinesses] = useState<Business[]>([]);
-  const [showSplash, setShowSplash] = useState(true);
+  const [showSplash, setShowSplash] = useState(() => !sessionStorage.getItem('splashPlayed'));
   const navigate = useNavigate();
 
   useEffect(() => {
@@ -19,10 +19,12 @@ const BusinessSelection: React.FC = () => {
     };
     fetchBusinesses();
 
-    // Hide splash screen after 2.5 seconds
-    const timer = setTimeout(() => setShowSplash(false), 2500);
-    return () => clearTimeout(timer);
-  }, []);
+    if (showSplash) {
+      sessionStorage.setItem('splashPlayed', 'true');
+      const timer = setTimeout(() => setShowSplash(false), 2500);
+      return () => clearTimeout(timer);
+    }
+  }, [showSplash]);
 
   return (
     <>

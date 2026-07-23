@@ -155,6 +155,36 @@ const TestPage: React.FC = () => {
     setIsSaving(false);
   };
 
+  const handleImageUpload = async (e: React.ChangeEvent<HTMLInputElement>, callback: (url: string) => void) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+    setIsSaving(true);
+    try {
+      const response = await fetch(`/api/upload?filename=${encodeURIComponent(file.name)}`, {
+        method: 'POST',
+        body: file,
+        headers: { 'Content-Type': 'application/octet-stream' }
+      });
+      const data = await response.json();
+      if (data.url) callback(data.url);
+    } catch (err) {
+      alert("Resim yüklenirken hata oluştu.");
+    } finally {
+      setIsSaving(false);
+      e.target.value = '';
+    }
+  };
+
+  const addNewBusiness = () => {
+    setEditingBusiness({
+      id: `biz_${generateId()}`,
+      name: 'Yeni İşletme',
+      description: '',
+      address: '',
+      imageUrl: '/assets/placeholder.jpg'
+    });
+  };
+
   const addNewCategory = () => {
     if (!selectedBusinessId) return;
     setEditingCategory({
@@ -182,9 +212,12 @@ const TestPage: React.FC = () => {
     return (
       <div className="container" style={{ paddingBottom: 'var(--space-2xl)' }}>
         <h1 style={{ padding: 'var(--space-md) 0' }}>Yönetim Paneli</h1>
-        <p className="text-muted" style={{ marginBottom: 'var(--space-xl)' }}>
+        <p className="text-muted" style={{ marginBottom: 'var(--space-md)' }}>
           İşletmenin menüsünü düzenlemek için işletme kartına tıklayın. Sadece işletme detaylarını düzenlemek için "DÜZENLEMEK İÇİN TIKLA" butonuna basın.
         </p>
+        <button className="btn btn-primary" onClick={addNewBusiness} style={{ marginBottom: 'var(--space-xl)' }}>
+          + Yeni İşletme Ekle
+        </button>
 
         {editingBusiness && (
           <div className="glass" style={{ padding: 'var(--space-md)', borderRadius: 'var(--radius-md)', marginBottom: 'var(--space-md)', border: '2px solid var(--color-primary)' }}>
@@ -217,6 +250,27 @@ const TestPage: React.FC = () => {
                 onChange={e => handleBusinessChange('address', e.target.value)}
                 style={{ width: '100%', padding: '8px', borderRadius: '4px', border: '1px solid #ccc' }}
               />
+            </div>
+
+            <div style={{ marginTop: 'var(--space-sm)' }}>
+              <label style={{ display: 'block', fontSize: '0.9rem', marginBottom: '4px' }}>İşletme Görsel URL (Resim):</label>
+              <input 
+                type="text" 
+                value={editingBusiness.imageUrl || ''} 
+                onChange={e => handleBusinessChange('imageUrl', e.target.value)}
+                style={{ width: '100%', padding: '8px', borderRadius: '4px', border: '1px solid #ccc' }}
+              />
+              <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: '8px' }}>
+                {editingBusiness.imageUrl && (
+                   <img src={editingBusiness.imageUrl} alt="Önizleme" style={{ height: '60px', borderRadius: '4px' }} />
+                )}
+                <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center' }}>
+                   <input type="file" id="bizImageUpload" style={{ display: 'none' }} accept="image/*" onChange={(e) => handleImageUpload(e, url => handleBusinessChange('imageUrl', url))} />
+                   <button className="btn" onClick={() => document.getElementById('bizImageUpload')?.click()} style={{ background: '#007bff', color: '#fff', fontSize: '0.8rem', padding: '6px 12px' }}>
+                      📁 Bilgisayardan Yükle
+                   </button>
+                </div>
+              </div>
             </div>
 
             <div style={{ marginTop: 'var(--space-md)', display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'wrap' }}>
@@ -292,6 +346,27 @@ const TestPage: React.FC = () => {
             />
           </div>
 
+          <div style={{ marginTop: 'var(--space-sm)' }}>
+            <label style={{ display: 'block', fontSize: '0.9rem', marginBottom: '4px' }}>Kategori Görsel URL (İsteğe bağlı):</label>
+            <input 
+              type="text" 
+              value={editingCategory.imageUrl || ''} 
+              onChange={e => handleCategoryChange('imageUrl', e.target.value)}
+              style={{ width: '100%', padding: '8px', borderRadius: '4px', border: '1px solid #ccc' }}
+            />
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: '8px' }}>
+              {editingCategory.imageUrl && (
+                 <img src={editingCategory.imageUrl} alt="Önizleme" style={{ height: '60px', borderRadius: '4px' }} />
+              )}
+              <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center' }}>
+                 <input type="file" id="catImageUpload" style={{ display: 'none' }} accept="image/*" onChange={(e) => handleImageUpload(e, url => handleCategoryChange('imageUrl', url))} />
+                 <button className="btn" onClick={() => document.getElementById('catImageUpload')?.click()} style={{ background: '#007bff', color: '#fff', fontSize: '0.8rem', padding: '6px 12px' }}>
+                    📁 Bilgisayardan Yükle
+                 </button>
+              </div>
+            </div>
+          </div>
+
           <div style={{ marginTop: 'var(--space-md)', display: 'flex', gap: '8px', alignItems: 'center' }}>
             <button className="btn btn-primary" onClick={handleSaveCategory} disabled={isSaving}>
               {isSaving ? 'Kaydediliyor...' : '💾 Kategoriyi Kaydet'}
@@ -340,25 +415,7 @@ const TestPage: React.FC = () => {
                  <img src={editingProduct.imageUrl} alt="Önizleme" style={{ height: '60px', borderRadius: '4px' }} />
               )}
               <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center' }}>
-                 <input type="file" id="imageUpload" style={{ display: 'none' }} accept="image/*" onChange={async (e) => {
-                    const file = e.target.files?.[0];
-                    if (!file) return;
-                    setIsSaving(true);
-                    try {
-                      const response = await fetch(`/api/upload?filename=${encodeURIComponent(file.name)}`, {
-                        method: 'POST',
-                        body: file,
-                        headers: { 'Content-Type': 'application/octet-stream' }
-                      });
-                      const data = await response.json();
-                      if (data.url) handleProductChange('imageUrl', data.url);
-                    } catch (err) {
-                      alert("Resim yüklenirken hata oluştu.");
-                    } finally {
-                      setIsSaving(false);
-                      e.target.value = '';
-                    }
-                 }} />
+                 <input type="file" id="imageUpload" style={{ display: 'none' }} accept="image/*" onChange={(e) => handleImageUpload(e, url => handleProductChange('imageUrl', url))} />
                  <button className="btn" onClick={() => document.getElementById('imageUpload')?.click()} style={{ background: '#007bff', color: '#fff', fontSize: '0.8rem', padding: '6px 12px' }}>
                     📁 Bilgisayardan Yükle
                  </button>
