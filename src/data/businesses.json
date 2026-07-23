@@ -22,5 +22,12 @@
       "title": "Atapark Sosyal Tesisleri Menü",
       "description": "Atapark Sosyal Tesisleri ferahlatıcı içecekler ve atıştırmalıklar."
     }
+  },
+  {
+    "id": "biz_tecaadzfa",
+    "name": "Çocuk Kent Kafeterya",
+    "description": "sdsdsd",
+    "address": "sdsdsd",
+    "imageUrl": "/assets/cocukkent.jpg"
   }
 ]
