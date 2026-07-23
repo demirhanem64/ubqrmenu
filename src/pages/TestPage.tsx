@@ -152,6 +152,7 @@ const TestPage: React.FC = () => {
   const addNewProduct = (categoryId: string) => {
     setEditingProduct({
       id: `prod_${generateId()}`,
+      businessId: selectedBusinessId || '',
       categoryId,
       name: 'Yeni Ürün',
       price: 0,
