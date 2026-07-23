@@ -67,6 +67,14 @@ const BusinessSelection: React.FC = () => {
             >
               Sosyal Tesisler
             </motion.h2>
+            <motion.h3
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 1.0, duration: 0.5 }}
+              style={{ textAlign: 'center', fontSize: '1.2rem', fontWeight: 600, color: 'var(--color-primary)', marginTop: '8px' }}
+            >
+              QR MENU
+            </motion.h3>
           </motion.div>
         )}
       </AnimatePresence>
