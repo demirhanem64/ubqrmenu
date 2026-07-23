@@ -122,10 +122,13 @@ const TestPage: React.FC = () => {
     setSaveMessage('');
     
     const originalProduct = allProducts.find(p => p.id === editingProduct.id);
-    const searchName = originalProduct ? originalProduct.name.trim().toLowerCase() : editingProduct.name.trim().toLowerCase();
+    const searchName = originalProduct ? originalProduct.name.trim().toLocaleLowerCase('tr-TR') : editingProduct.name.trim().toLocaleLowerCase('tr-TR');
     
     let updatedAllProducts = allProducts.map(p => {
-      if (p.name.trim().toLowerCase() === searchName) {
+      if (p.id === editingProduct.id) {
+        return editingProduct; // Orijinal ürünü her halükarda tam güncelleyelim
+      }
+      if (p.name.trim().toLocaleLowerCase('tr-TR') === searchName) {
         return { 
           ...p, 
           name: editingProduct.name,
