@@ -45,9 +45,12 @@ const TestPage: React.FC = () => {
     setIsSaving(true);
     setSaveMessage('');
     
-    const updatedBusinesses = businesses.map(b => 
-      b.id === editingBusiness.id ? editingBusiness : b
-    );
+    let updatedBusinesses;
+    if (businesses.find(b => b.id === editingBusiness.id)) {
+      updatedBusinesses = businesses.map(b => b.id === editingBusiness.id ? editingBusiness : b);
+    } else {
+      updatedBusinesses = [...businesses, editingBusiness];
+    }
 
     const success = await saveDataLocally('businesses', updatedBusinesses);
     if (success) {
