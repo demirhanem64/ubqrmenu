@@ -62,7 +62,7 @@
     "name": "Açık Büfe",
     "price": 1000,
     "imageUrl": "/assets/placeholder.jpg",
-    "shortDescription": "",
+    "shortDescription": "Kahvaltı 1000 lira",
     "badges": {
       "vegan": false,
       "vegetarian": false,
