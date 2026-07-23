@@ -28,5 +28,11 @@
     "businessId": "atikapinar-tesisleri",
     "name": "Sıcak İçecekler",
     "order": 2
+  },
+  {
+    "id": "cat_72edwyiza",
+    "businessId": "kent-park-tesisleri",
+    "name": "Çaylar",
+    "order": 99
   }
 ]
