@@ -27,3 +27,24 @@ export const getProductsByCategory = async (categoryId: string): Promise<Product
 export const getProductById = async (productId: string): Promise<Product | undefined> => {
   return (productsData as Product[]).find(p => p.id === productId);
 };
+
+export const saveDataLocally = async (type: 'businesses' | 'categories' | 'products', data: any) => {
+  if (import.meta.env.PROD) {
+    console.warn("Saving data is only available in local development mode.");
+    return false;
+  }
+  
+  try {
+    const response = await fetch(`/api/save/${type}`, {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify(data, null, 2), // Pretty print JSON
+    });
+    return response.ok;
+  } catch (error) {
+    console.error(`Error saving ${type}:`, error);
+    return false;
+  }
+};

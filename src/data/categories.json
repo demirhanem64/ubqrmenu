@@ -1,32 +1,32 @@
 [
   {
     "id": "c-kahvaltilar",
-    "businessId": "restaurant-a",
+    "businessId": "kent-park-tesisleri",
     "name": "Kahvaltılar",
     "order": 1
   },
   {
     "id": "c-ana-yemekler",
-    "businessId": "restaurant-a",
+    "businessId": "kent-park-tesisleri",
     "name": "Ana Yemekler",
     "order": 2
   },
   {
     "id": "c-icecekler",
-    "businessId": "restaurant-a",
+    "businessId": "kent-park-tesisleri",
     "name": "İçecekler",
     "order": 3
   },
   {
-    "id": "c-kokteyller",
-    "businessId": "beach-club",
-    "name": "Kokteyller",
+    "id": "c-tatlilar",
+    "businessId": "atikapinar-tesisleri",
+    "name": "Tatlılar",
     "order": 1
   },
   {
-    "id": "c-baslangiclar",
-    "businessId": "beach-club",
-    "name": "Başlangıçlar",
+    "id": "c-sicak-icecekler",
+    "businessId": "atikapinar-tesisleri",
+    "name": "Sıcak İçecekler",
     "order": 2
   }
 ]

@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ChevronRight } from 'lucide-react';
+import { ChevronRight, MapPin } from 'lucide-react';
 import type { Business } from '../types';
 import './BusinessCard.css';
 
@@ -28,7 +28,17 @@ const BusinessCard: React.FC<BusinessCardProps> = ({ business, onClick }) => {
         </div>
       </div>
       <div className="business-card-content">
-        <p className="business-card-desc text-muted">{business.description}</p>
+        {business.description && (
+          <div className="business-announcement text-primary" style={{ marginBottom: '8px', fontSize: '0.9rem', fontWeight: 500 }}>
+            {business.description}
+          </div>
+        )}
+        {business.address && (
+          <div className="business-address text-muted" style={{ display: 'flex', alignItems: 'flex-start', gap: '4px', fontSize: '0.85rem' }}>
+            <MapPin size={14} style={{ marginTop: '2px', flexShrink: 0 }} />
+            <span>{business.address}</span>
+          </div>
+        )}
       </div>
     </motion.div>
   );
