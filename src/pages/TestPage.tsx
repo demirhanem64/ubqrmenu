@@ -121,12 +121,25 @@ const TestPage: React.FC = () => {
     setIsSaving(true);
     setSaveMessage('');
     
-    const updatedAllProducts = allProducts.map(p => {
-      if (p.name.trim().toLowerCase() === editingProduct.name.trim().toLowerCase()) {
-        return { ...p, price: editingProduct.price, imageUrl: editingProduct.imageUrl, shortDescription: editingProduct.shortDescription };
+    const originalProduct = allProducts.find(p => p.id === editingProduct.id);
+    const searchName = originalProduct ? originalProduct.name.trim().toLowerCase() : editingProduct.name.trim().toLowerCase();
+    
+    let updatedAllProducts = allProducts.map(p => {
+      if (p.name.trim().toLowerCase() === searchName) {
+        return { 
+          ...p, 
+          name: editingProduct.name,
+          price: editingProduct.price, 
+          imageUrl: editingProduct.imageUrl, 
+          shortDescription: editingProduct.shortDescription 
+        };
       }
       return p;
     });
+
+    if (!originalProduct && !allProducts.find(p => p.id === editingProduct.id)) {
+      updatedAllProducts = [...updatedAllProducts, editingProduct];
+    }
 
     const success = await saveDataLocally('products', updatedAllProducts);
     if (success) {
