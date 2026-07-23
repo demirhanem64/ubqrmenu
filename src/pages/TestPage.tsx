@@ -82,6 +82,35 @@ const TestPage: React.FC = () => {
     setIsSaving(false);
   };
 
+  const handleApplyToAll = async () => {
+    if (!editingProduct) return;
+    setIsSaving(true);
+    setSaveMessage('');
+    
+    const allProducts = (await import('../data/products.json')).default as Product[];
+    
+    const updatedAllProducts = allProducts.map(p => {
+      if (p.name.trim().toLowerCase() === editingProduct.name.trim().toLowerCase()) {
+        return { ...p, price: editingProduct.price };
+      }
+      return p;
+    });
+
+    const success = await saveDataLocally('products', updatedAllProducts);
+    if (success) {
+      setSaveMessage('✅ Tüm işletmelerde güncellendi!');
+      setProducts(products.map(p => 
+        p.name.trim().toLowerCase() === editingProduct.name.trim().toLowerCase() 
+          ? { ...p, price: editingProduct.price } 
+          : p
+      ));
+      setTimeout(() => setEditingProduct(null), 1500);
+    } else {
+      setSaveMessage('❌ Kaydedilirken hata oluştu.');
+    }
+    setIsSaving(false);
+  };
+
   return (
     <div className="container" style={{ paddingBottom: 'var(--space-2xl)' }}>
       <h1 style={{ padding: 'var(--space-md) 0' }}>Test & Geliştirme Sayfası</h1>
@@ -125,7 +154,7 @@ const TestPage: React.FC = () => {
             />
           </div>
 
-          <div style={{ marginTop: 'var(--space-md)', display: 'flex', gap: '8px', alignItems: 'center' }}>
+          <div style={{ marginTop: 'var(--space-md)', display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'wrap' }}>
             <button className="btn btn-primary" onClick={handleSaveBusiness} disabled={isSaving}>
               {isSaving ? 'Kaydediliyor...' : '💾 Bilgileri Kaydet'}
             </button>
@@ -175,9 +204,12 @@ const TestPage: React.FC = () => {
             />
           </div>
 
-          <div style={{ marginTop: 'var(--space-md)', display: 'flex', gap: '8px', alignItems: 'center' }}>
+          <div style={{ marginTop: 'var(--space-md)', display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'wrap' }}>
             <button className="btn btn-primary" onClick={handleSaveProduct} disabled={isSaving}>
-              {isSaving ? 'Kaydediliyor...' : '💾 Dosyaya Kaydet'}
+              {isSaving ? 'Kaydediliyor...' : '💾 Sadece Bu Ürünü Kaydet'}
+            </button>
+            <button className="btn btn-primary" onClick={handleApplyToAll} disabled={isSaving} style={{ background: '#28a745' }}>
+              🌍 Tüm İşletmelere Uygula (Aynı isimli ürünler)
             </button>
             <button className="btn" onClick={() => setEditingProduct(null)} style={{ background: '#e0e0e0', color: '#333' }}>
               İptal
