@@ -54,5 +54,19 @@
       "vegetarian": false,
       "glutenFree": false
     }
+  },
+  {
+    "id": "prod_3256y4jzt",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "c-tatlilar",
+    "name": "Açık Büfe",
+    "price": 1000,
+    "imageUrl": "/assets/placeholder.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
   }
 ]
