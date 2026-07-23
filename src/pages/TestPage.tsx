@@ -137,7 +137,11 @@ const TestPage: React.FC = () => {
           name: editingProduct.name,
           price: editingProduct.price, 
           imageUrl: editingProduct.imageUrl, 
-          shortDescription: editingProduct.shortDescription 
+          shortDescription: editingProduct.shortDescription,
+          longDescription: editingProduct.longDescription,
+          allergens: editingProduct.allergens,
+          ingredients: editingProduct.ingredients,
+          badges: editingProduct.badges
         };
       }
       return p;
@@ -403,6 +407,53 @@ const TestPage: React.FC = () => {
               onChange={e => handleProductChange('shortDescription', e.target.value)}
               style={{ width: '100%', padding: '8px', borderRadius: '4px', border: '1px solid #ccc', minHeight: '60px' }}
             />
+          </div>
+
+          <div style={{ marginTop: 'var(--space-sm)' }}>
+            <label style={{ display: 'block', fontSize: '0.9rem', marginBottom: '4px' }}>Detaylı Açıklama (Pop-up'ta görünür):</label>
+            <textarea 
+              value={editingProduct.longDescription || ''} 
+              onChange={e => handleProductChange('longDescription', e.target.value)}
+              style={{ width: '100%', padding: '8px', borderRadius: '4px', border: '1px solid #ccc', minHeight: '80px' }}
+            />
+          </div>
+
+          <div style={{ marginTop: 'var(--space-sm)' }}>
+            <label style={{ display: 'block', fontSize: '0.9rem', marginBottom: '4px' }}>İçindekiler (Virgülle ayırın, Örn: Domates, Biber):</label>
+            <input 
+              type="text" 
+              value={editingProduct.ingredients?.join(', ') || ''} 
+              onChange={e => handleProductChange('ingredients', e.target.value ? e.target.value.split(',').map(s => s.trim()).filter(s => s) : [])}
+              style={{ width: '100%', padding: '8px', borderRadius: '4px', border: '1px solid #ccc' }}
+            />
+          </div>
+
+          <div style={{ marginTop: 'var(--space-sm)' }}>
+            <label style={{ display: 'block', fontSize: '0.9rem', marginBottom: '4px' }}>Alerjen Uyarısı (Virgülle ayırın, Örn: Süt ürünleri, Gluten):</label>
+            <input 
+              type="text" 
+              value={editingProduct.allergens?.join(', ') || ''} 
+              onChange={e => handleProductChange('allergens', e.target.value ? e.target.value.split(',').map(s => s.trim()).filter(s => s) : [])}
+              style={{ width: '100%', padding: '8px', borderRadius: '4px', border: '1px solid #ccc' }}
+            />
+          </div>
+
+          <div style={{ marginTop: 'var(--space-sm)' }}>
+            <label style={{ display: 'block', fontSize: '0.9rem', marginBottom: '6px' }}>Özel Etiketler:</label>
+            <div style={{ display: 'flex', gap: '16px', flexWrap: 'wrap' }}>
+              <label style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.9rem' }}>
+                <input type="checkbox" checked={!!editingProduct.badges?.vegetarian} onChange={e => handleProductChange('badges', { ...editingProduct.badges, vegetarian: e.target.checked })} />
+                Vejetaryen
+              </label>
+              <label style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.9rem' }}>
+                <input type="checkbox" checked={!!editingProduct.badges?.vegan} onChange={e => handleProductChange('badges', { ...editingProduct.badges, vegan: e.target.checked })} />
+                Vegan
+              </label>
+              <label style={{ display: 'flex', alignItems: 'center', gap: '6px', fontSize: '0.9rem' }}>
+                <input type="checkbox" checked={!!editingProduct.badges?.glutenFree} onChange={e => handleProductChange('badges', { ...editingProduct.badges, glutenFree: e.target.checked })} />
+                Glütensiz
+              </label>
+            </div>
           </div>
 
           <div style={{ marginTop: 'var(--space-sm)' }}>
