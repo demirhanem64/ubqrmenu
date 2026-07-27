@@ -251,5 +251,149 @@
       "MISIR",
       "BBQ SOS"
     ]
+  },
+  {
+    "id": "prod_nq1bnec2f",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_05mm460z9",
+    "name": "KÖRİ SOSLU TAVUK",
+    "price": 250,
+    "imageUrl": "/assets/KÖRİ SOSLU TAVUK.jpg",
+    "shortDescription": "Piliç Bonfile, Mantar, Köri Baharatı, Krema Yanında Mevsim Yeşilliği ve Pilav",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Piliç Bonfile, Mantar, Köri Baharatı, Krema Yanında Mevsim Yeşilliği ve Pilav ile karbonhidrat değeri( 96,04 g)",
+    "ingredients": [
+      "Piliç Bonfile",
+      "Mantar",
+      "Köri Baharatı",
+      "Krema Yanında Mevsim Yeşilliği ve Pilav"
+    ]
+  },
+  {
+    "id": "prod_30djkdndk",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_05mm460z9",
+    "name": "BARBEKÜ SOSLU TAVUK",
+    "price": 250,
+    "imageUrl": "/assets/BARBEKÜ SOSLU TAVUK.jpg",
+    "shortDescription": "Piliç Bonfile, Mantar, Renkli Biberler, Mısır, Barbekü Sos, Yanında Mevsim Yeşilliği ve Pilav",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Piliç Bonfile, Mantar, Renkli Biberler, Mısır, Barbekü Sos, Yanında Mevsim Yeşilliği ve Pilav ile karbonhidrat değeri( 184,65)\n\n",
+    "ingredients": [
+      "Piliç Bonfile",
+      "Mantar",
+      "Renkli Biberler",
+      "Mısır",
+      "Barbekü Sos",
+      "Yanında Mevsim Yeşilliği ve Pilav"
+    ]
+  },
+  {
+    "id": "prod_yd268zs6e",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_05mm460z9",
+    "name": "IZGARA TAVUK",
+    "price": 250,
+    "imageUrl": "/assets/IZGARA TAVUK.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "karbonhidrat değeri( 97,7 g)"
+  },
+  {
+    "id": "prod_4fvwtxhab",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_05mm460z9",
+    "name": "ACI SOSLU TAVUK",
+    "price": 250,
+    "imageUrl": "/assets/ACI SOSLU TAVUK.jpg",
+    "shortDescription": "Piliç Bonfile, Mantar, Mexican Sos, Mexican Fasulye, Renkli Biberler Yanında Mevsim Yeşilliği ve Pilav\n",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Piliç Bonfile, Mantar, Mexican Sos, Mexican Fasulye, Renkli Biberler Yanında Mevsim Yeşilliği ve Pilav ile karbonhidrat değeri( 80,7 g)",
+    "ingredients": [
+      "Piliç Bonfile",
+      "Mantar",
+      "Mexican Sos",
+      "Mexican Fasulye",
+      "Renkli Biberler Yanında Mevsim Yeşilliği ve Pilav"
+    ]
+  },
+  {
+    "id": "prod_5loble5y6",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_05mm460z9",
+    "name": "KREMALI MANTARLI TAVUK",
+    "price": 250,
+    "imageUrl": "/assets/KREMALI MANTARLI TAVUK.jpg",
+    "shortDescription": "Piliç Bonfile, Mantar, Krema, Yanında Mevsim Yeşilliği ve Pilav",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Piliç Bonfile, Mantar, Krema, Yanında Mevsim Yeşilliği ve Pilav ile karbonhidrat değeri( 84,57 g)",
+    "ingredients": [
+      "Piliç Bonfile",
+      "Mantar",
+      "Krema",
+      "Yanında Mevsim Yeşilliği ve Pilav"
+    ]
+  },
+  {
+    "id": "prod_m6i1cagyq",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_05mm460z9",
+    "name": "FESLEĞEN SOSLU TAVUK",
+    "price": 250,
+    "imageUrl": "/assets/FESLEĞEN SOSLU TAVUK.jpg",
+    "shortDescription": "Piliç Bonfile, Mantar, Fesleğen, Krema. Yanında Mevsim Yeşilliği ve Pilav",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Piliç Bonfile, Mantar, Fesleğen, Krema. Yanında Mevsim Yeşilliği ve Pilav ile servis edilir",
+    "ingredients": [
+      "Piliç Bonfile",
+      "Mantar",
+      "Fesleğen",
+      "Krema. Yanında Mevsim Yeşilliği ve Pilav"
+    ]
+  },
+  {
+    "id": "prod_g6326kdlo",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_05mm460z9",
+    "name": "DAĞ KEKİKLİ TAVUK",
+    "price": 250,
+    "imageUrl": "/assets/DAĞ KEKİKLİ TAVUK.jpg",
+    "shortDescription": "Piliç Bonfile, Dağ Kekiği, Krema, Yanında Mevsim Yeşilliği ve Pilav",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Piliç Bonfile, Dağ Kekiği, Krema, Yanında Mevsim Yeşilliği ve Pilav ile servis edilir.",
+    "ingredients": [
+      "Piliç Bonfile",
+      "Dağ Kekiği",
+      "Krema",
+      "Yanında Mevsim Yeşilliği ve Pilav"
+    ]
   }
 ]

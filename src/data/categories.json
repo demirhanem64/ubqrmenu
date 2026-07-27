@@ -29,5 +29,12 @@
     "name": "Burgerler ve Pizzalar",
     "order": 1,
     "imageUrl": "/assets/burgerler ve pizzalar.jpg"
+  },
+  {
+    "id": "cat_05mm460z9",
+    "businessId": "atikapinar-tesisleri",
+    "name": "Tavuklar",
+    "order": 2,
+    "imageUrl": "/assets/tavuklar.jpg"
   }
 ]
