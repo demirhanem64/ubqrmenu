@@ -367,6 +367,28 @@ const TestPage: React.FC = () => {
             </div>
 
             <div style={{ marginTop: 'var(--space-sm)' }}>
+              <label style={{ display: 'block', fontSize: '0.9rem', marginBottom: '4px' }}>İşletme Linki (URL / Slug):</label>
+              <input 
+                type="text" 
+                value={editingBusiness.slug || ''} 
+                onChange={e => handleBusinessChange('slug', e.target.value)}
+                placeholder="ornek-isletme-adi"
+                style={{ width: '100%', padding: '8px', borderRadius: '4px', border: '1px solid #ccc' }}
+              />
+              <span style={{ fontSize: '0.75rem', color: '#666' }}>Boşluk yerine tire (-) kullanın. Değiştirilmezse mevcut ID kullanılır.</span>
+            </div>
+
+            <div style={{ marginTop: 'var(--space-sm)' }}>
+              <label style={{ display: 'block', fontSize: '0.9rem', marginBottom: '4px' }}>Sıralama Numarası (Örn: 1):</label>
+              <input 
+                type="number" 
+                value={editingBusiness.order || ''} 
+                onChange={e => handleBusinessChange('order', parseInt(e.target.value) || 99)}
+                style={{ width: '100%', padding: '8px', borderRadius: '4px', border: '1px solid #ccc' }}
+              />
+            </div>
+
+            <div style={{ marginTop: 'var(--space-sm)' }}>
               <label style={{ display: 'block', fontSize: '0.9rem', marginBottom: '4px' }}>Duyuru / Açıklama (Örn: Kapalı Günler):</label>
               <textarea 
                 value={editingBusiness.description || ''} 
