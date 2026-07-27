@@ -143,7 +143,7 @@ const BusinessSelection: React.FC = () => {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: showSplash ? 3.2 : 0.3, duration: 0.6 }}
-            style={{ marginTop: 'var(--space-md)', padding: '10px 0', background: 'transparent', color: 'var(--color-text)', borderRadius: '4px', overflow: 'hidden', whiteSpace: 'nowrap' }}
+            style={{ marginTop: 'var(--space-md)', padding: '10px 0', background: 'transparent', color: 'red', borderRadius: '4px', overflow: 'hidden', whiteSpace: 'nowrap' }}
           >
             
             <div style={{ whiteSpace: 'nowrap', overflow: 'hidden', boxSizing: 'border-box' }}>
