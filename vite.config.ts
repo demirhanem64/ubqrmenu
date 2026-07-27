@@ -13,7 +13,7 @@ function localJsonEditorPlugin() {
         if (req.method === 'POST' && req.url?.startsWith('/api/save/')) {
           const type = req.url.split('/').pop();
           
-          if (!['businesses', 'categories', 'products'].includes(type || '')) {
+          if (!['businesses', 'categories', 'products', 'settings'].includes(type || '')) {
             res.statusCode = 400;
             res.end('Invalid data type');
             return;

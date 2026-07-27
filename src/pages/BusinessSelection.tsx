@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import type { Business } from '../types';
-import { getBusinesses } from '../services/dataService';
+import type { Business, Settings } from '../types';
+import { getBusinesses, getSettings } from '../services/dataService';
 import BusinessCard from '../components/BusinessCard';
 import { motion, AnimatePresence } from 'framer-motion';
 
@@ -9,6 +9,8 @@ const USAK_LOGO = "/logo.png";
 
 const BusinessSelection: React.FC = () => {
   const [businesses, setBusinesses] = useState<Business[]>([]);
+  const [settings, setSettings] = useState<Settings | null>(null);
+  const [showAdPopup, setShowAdPopup] = useState(true);
   const [showSplash, setShowSplash] = useState(() => !sessionStorage.getItem('splashPlayed'));
   const navigate = useNavigate();
 
@@ -16,6 +18,8 @@ const BusinessSelection: React.FC = () => {
     const fetchBusinesses = async () => {
       const data = await getBusinesses();
       setBusinesses(data);
+      const s = await getSettings();
+      setSettings(s);
     };
     fetchBusinesses();
 
@@ -81,7 +85,45 @@ const BusinessSelection: React.FC = () => {
         )}
       </AnimatePresence>
 
+      
+      <AnimatePresence>
+        {!showSplash && settings?.adPopupActive && settings?.adPopupImageUrl && showAdPopup && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            style={{
+              position: 'fixed', top: 0, left: 0, right: 0, bottom: 0,
+              backgroundColor: 'rgba(0,0,0,0.7)', zIndex: 9998,
+              display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '20px'
+            }}
+          >
+            <div style={{ position: 'relative', maxWidth: '400px', width: '100%', borderRadius: '10px', overflow: 'hidden', background: '#fff' }}>
+              <button 
+                onClick={() => setShowAdPopup(false)}
+                style={{
+                  position: 'absolute', top: '10px', right: '10px', width: '32px', height: '32px',
+                  borderRadius: '50%', background: 'rgba(0,0,0,0.6)', color: '#fff',
+                  border: 'none', fontSize: '1.2rem', display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  cursor: 'pointer', zIndex: 10
+                }}
+              >
+                &times;
+              </button>
+              {settings.adPopupLink ? (
+                <a href={settings.adPopupLink} target="_blank" rel="noopener noreferrer">
+                  <img src={settings.adPopupImageUrl} alt="Duyuru" style={{ width: '100%', display: 'block' }} />
+                </a>
+              ) : (
+                <img src={settings.adPopupImageUrl} alt="Duyuru" style={{ width: '100%', display: 'block' }} />
+              )}
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
       <div className="container" style={{ paddingBottom: 'var(--space-2xl)' }}>
+        
         <motion.div 
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -95,6 +137,30 @@ const BusinessSelection: React.FC = () => {
             <h3 style={{ fontSize: '0.8rem', fontWeight: 400, margin: 0, color: 'var(--color-primary)' }}>Sosyal Tesisler QR MENU</h3>
           </div>
         </motion.div>
+
+        {settings?.announcement && (
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: showSplash ? 3.2 : 0.3, duration: 0.6 }}
+            style={{ marginTop: 'var(--space-md)', padding: '10px 0', background: 'var(--color-primary)', color: '#fff', borderRadius: '4px', overflow: 'hidden', whiteSpace: 'nowrap' }}
+          >
+            
+            <div style={{ whiteSpace: 'nowrap', overflow: 'hidden', boxSizing: 'border-box' }}>
+               <div style={{ display: 'inline-block', paddingLeft: '100%', animation: 'marquee 15s linear infinite', fontSize: '1rem', fontWeight: 500 }}>
+                 {settings.announcement}
+               </div>
+               <style>{`
+                 @keyframes marquee {
+                   0%   { transform: translate(0, 0); }
+                   100% { transform: translate(-100%, 0); }
+                 }
+               `}</style>
+            </div>
+
+          </motion.div>
+        )}
+
         
         <motion.div
           initial={{ opacity: 0 }}

@@ -1,10 +1,15 @@
-import type { Business, Category, Product } from '../types';
+import type { Business, Category, Product, Settings } from '../types';
 import businessesData from '../data/businesses.json';
 import categoriesData from '../data/categories.json';
 import productsData from '../data/products.json';
+import settingsData from '../data/settings.json';
 
 // Simulate API delay if needed, but since we are completely static and want to be fast, 
 // we will just return immediately. This abstraction helps if we move to an API later.
+
+export const getSettings = async (): Promise<Settings> => {
+  return settingsData as Settings;
+};
 
 export const getBusinesses = async (): Promise<Business[]> => {
   return businessesData as Business[];
@@ -28,7 +33,7 @@ export const getProductById = async (productId: string): Promise<Product | undef
   return (productsData as Product[]).find(p => p.id === productId);
 };
 
-export const saveDataLocally = async (type: 'businesses' | 'categories' | 'products', data: any) => {
+export const saveDataLocally = async (type: 'businesses' | 'categories' | 'products' | 'settings', data: any) => {
   if (import.meta.env.PROD) {
     console.warn("Saving data is only available in local development mode.");
     return false;

@@ -41,3 +41,10 @@ export interface Product {
   };
   relatedProductIds?: string[];
 }
+
+export interface Settings {
+  announcement?: string;
+  adPopupActive?: boolean;
+  adPopupImageUrl?: string;
+  adPopupLink?: string;
+}

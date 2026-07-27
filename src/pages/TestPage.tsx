@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import type { Business, Product, Category } from '../types';
+import type { Business, Product, Category, Settings } from '../types';
 import { getBusinesses, saveDataLocally } from '../services/dataService';
 import BusinessCard from '../components/BusinessCard';
 import ProductCard from '../components/ProductCard';
@@ -10,6 +10,8 @@ const TestPage: React.FC = () => {
   const [businesses, setBusinesses] = useState<Business[]>([]);
   const [allCategories, setAllCategories] = useState<Category[]>([]);
   const [allProducts, setAllProducts] = useState<Product[]>([]);
+  const [settings, setSettings] = useState<Settings | null>(null);
+  const [editingSettings, setEditingSettings] = useState<Settings | null>(null);
   
   const [selectedBusinessId, setSelectedBusinessId] = useState<string | null>(null);
   
@@ -33,6 +35,9 @@ const TestPage: React.FC = () => {
     
     const p = (await import('../data/products.json?raw')).default;
     setAllProducts(JSON.parse(p));
+    
+    const s = (await import('../data/settings.json?raw')).default;
+    setSettings(JSON.parse(s));
   };
 
   const handleBusinessChange = (field: keyof Business, value: any) => {
@@ -117,6 +122,52 @@ const TestPage: React.FC = () => {
       setSaveMessage('❌ Kaydedilirken hata oluştu.');
     }
     setIsSaving(false);
+  };
+
+  
+  const handleSaveSettings = async () => {
+    if (!editingSettings) return;
+    setIsSaving(true);
+    setSaveMessage('');
+    const success = await saveDataLocally('settings', editingSettings);
+    if (success) {
+      setSaveMessage('✅ Ayarlar kaydedildi!');
+      setSettings(editingSettings);
+      setTimeout(() => { setEditingSettings(null); setSaveMessage(''); }, 1500);
+    } else {
+      setSaveMessage('❌ Kaydedilirken hata oluştu.');
+    }
+    setIsSaving(false);
+  };
+
+  const handleDeleteBusiness = async () => {
+    if (!editingBusiness) return;
+    if (window.confirm("Bu işletmeyi silmek istediğinize emin misiniz?")) {
+      const updated = businesses.filter(b => b.id !== editingBusiness.id);
+      await saveDataLocally('businesses', updated);
+      setBusinesses(updated);
+      setEditingBusiness(null);
+    }
+  };
+
+  const handleDeleteCategory = async () => {
+    if (!editingCategory) return;
+    if (window.confirm("Bu kategoriyi silmek istediğinize emin misiniz?")) {
+      const updated = allCategories.filter(c => c.id !== editingCategory.id);
+      await saveDataLocally('categories', updated);
+      setAllCategories(updated);
+      setEditingCategory(null);
+    }
+  };
+
+  const handleDeleteProduct = async () => {
+    if (!editingProduct) return;
+    if (window.confirm("Bu ürünü silmek istediğinize emin misiniz?")) {
+      const updated = allProducts.filter(p => p.id !== editingProduct.id);
+      await saveDataLocally('products', updated);
+      setAllProducts(updated);
+      setEditingProduct(null);
+    }
   };
 
   const handleApplyToAll = async () => {
@@ -222,12 +273,87 @@ const TestPage: React.FC = () => {
         <p className="text-muted" style={{ marginBottom: 'var(--space-md)' }}>
           İşletmenin menüsünü düzenlemek için işletme kartına tıklayın. Sadece işletme detaylarını düzenlemek için "DÜZENLEMEK İÇİN TIKLA" butonuna basın.
         </p>
+        
+        <div style={{ marginBottom: 'var(--space-xl)' }}>
+          <button className="btn" onClick={() => setEditingSettings(settings || {})} style={{ background: '#6c757d', color: '#fff' }}>
+             ⚙️ Genel Ayarlar (Duyuru & Reklam)
+          </button>
+        </div>
+
+        {editingSettings && (
+          <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: 'rgba(0,0,0,0.5)', zIndex: 9999, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '20px', overflowY: 'auto' }}>
+            <div className="glass" style={{ width: '100%', maxWidth: '600px', maxHeight: '90vh', overflowY: 'auto', padding: 'var(--space-md)', borderRadius: 'var(--radius-md)', border: '2px solid var(--color-primary)', background: '#fff' }}>
+              <h3>Genel Ayarlar</h3>
+              
+              <div style={{ marginTop: 'var(--space-sm)' }}>
+                <label style={{ display: 'block', fontSize: '0.9rem', marginBottom: '4px' }}>Anasayfa Duyuru / Kayan Yazı (Boşsa gizlenir):</label>
+                <input 
+                  type="text" 
+                  value={editingSettings.announcement || ''} 
+                  onChange={e => setEditingSettings({...editingSettings, announcement: e.target.value})}
+                  style={{ width: '100%', padding: '8px', borderRadius: '4px', border: '1px solid #ccc' }}
+                  placeholder="Örn: Yenilenen menümüzle hizmetinizdeyiz!"
+                />
+              </div>
+
+              <div style={{ marginTop: 'var(--space-md)' }}>
+                <label style={{ display: 'flex', alignItems: 'center', gap: '8px', fontSize: '1rem', fontWeight: 'bold' }}>
+                  <input type="checkbox" checked={!!editingSettings.adPopupActive} onChange={e => setEditingSettings({...editingSettings, adPopupActive: e.target.checked})} />
+                  Anasayfa Reklam/Popup Aktif Mi?
+                </label>
+              </div>
+
+              <div style={{ marginTop: 'var(--space-sm)' }}>
+                <label style={{ display: 'block', fontSize: '0.9rem', marginBottom: '4px' }}>Popup Resim URL:</label>
+                <input 
+                  type="text" 
+                  value={editingSettings.adPopupImageUrl || ''} 
+                  onChange={e => setEditingSettings({...editingSettings, adPopupImageUrl: e.target.value})}
+                  style={{ width: '100%', padding: '8px', borderRadius: '4px', border: '1px solid #ccc' }}
+                />
+                <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginTop: '8px' }}>
+                  {editingSettings.adPopupImageUrl && (
+                     <img src={editingSettings.adPopupImageUrl} alt="Önizleme" style={{ height: '60px', borderRadius: '4px' }} />
+                  )}
+                  <div style={{ marginLeft: 'auto', display: 'flex', alignItems: 'center' }}>
+                     <input type="file" id="popupImageUpload" style={{ display: 'none' }} accept="image/*" onChange={(e) => handleImageUpload(e, url => setEditingSettings({...editingSettings, adPopupImageUrl: url}))} />
+                     <button className="btn" onClick={() => document.getElementById('popupImageUpload')?.click()} style={{ background: '#007bff', color: '#fff', fontSize: '0.8rem', padding: '6px 12px' }}>
+                        📁 Bilgisayardan Yükle
+                     </button>
+                  </div>
+                </div>
+              </div>
+
+              <div style={{ marginTop: 'var(--space-sm)' }}>
+                <label style={{ display: 'block', fontSize: '0.9rem', marginBottom: '4px' }}>Popup Tıklanınca Gidilecek Link (İsteğe bağlı):</label>
+                <input 
+                  type="text" 
+                  value={editingSettings.adPopupLink || ''} 
+                  onChange={e => setEditingSettings({...editingSettings, adPopupLink: e.target.value})}
+                  style={{ width: '100%', padding: '8px', borderRadius: '4px', border: '1px solid #ccc' }}
+                />
+              </div>
+
+              <div style={{ marginTop: 'var(--space-md)', display: 'flex', gap: '8px', alignItems: 'center', flexWrap: 'wrap' }}>
+                <button className="btn btn-primary" onClick={handleSaveSettings} disabled={isSaving}>
+                  {isSaving ? 'Kaydediliyor...' : '💾 Ayarları Kaydet'}
+                </button>
+                <button className="btn" onClick={() => setEditingSettings(null)} style={{ background: '#e0e0e0', color: '#333' }}>
+                  Kapat
+                </button>
+                {saveMessage && <span style={{ marginLeft: '10px', fontSize: '0.9rem' }}>{saveMessage}</span>}
+              </div>
+            </div>
+          </div>
+        )}
+
         <button className="btn btn-primary" onClick={addNewBusiness} style={{ marginBottom: 'var(--space-xl)' }}>
           + Yeni İşletme Ekle
         </button>
 
         {editingBusiness && (
-          <div className="glass" style={{ padding: 'var(--space-md)', borderRadius: 'var(--radius-md)', marginBottom: 'var(--space-md)', border: '2px solid var(--color-primary)' }}>
+<div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: 'rgba(0,0,0,0.5)', zIndex: 9999, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '20px', overflowY: 'auto' }}>
+          <div className="glass" style={{ width: '100%', maxWidth: '600px', maxHeight: '90vh', overflowY: 'auto', padding: 'var(--space-md)', borderRadius: 'var(--radius-md)', border: '2px solid var(--color-primary)', background: '#fff' }}>
             <h3>İşletme Düzenle: {editingBusiness.name}</h3>
             
             <div style={{ marginTop: 'var(--space-sm)' }}>
@@ -288,8 +414,10 @@ const TestPage: React.FC = () => {
                 İptal
               </button>
               {saveMessage && <span style={{ marginLeft: '10px', fontSize: '0.9rem' }}>{saveMessage}</span>}
+              <button className="btn" onClick={handleDeleteBusiness} style={{ background: '#dc3545', color: '#fff', marginLeft: 'auto' }}>🗑️ Sil</button>
             </div>
-          </div>
+</div>
+        </div>
         )}
 
         <div style={{ margin: 'var(--space-md) 0' }}>
@@ -330,7 +458,8 @@ const TestPage: React.FC = () => {
       </button>
 
       {editingCategory && (
-        <div className="glass" style={{ padding: 'var(--space-md)', borderRadius: 'var(--radius-md)', marginBottom: 'var(--space-xl)', border: '2px solid var(--color-primary)' }}>
+<div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: 'rgba(0,0,0,0.5)', zIndex: 9999, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '20px', overflowY: 'auto' }}>
+          <div className="glass" style={{ width: '100%', maxWidth: '600px', maxHeight: '90vh', overflowY: 'auto', padding: 'var(--space-md)', borderRadius: 'var(--radius-md)', border: '2px solid var(--color-primary)', background: '#fff' }}>
           <h3>Kategori Düzenle: {editingCategory.name}</h3>
           
           <div style={{ marginTop: 'var(--space-sm)' }}>
@@ -382,12 +511,15 @@ const TestPage: React.FC = () => {
               İptal
             </button>
             {saveMessage && <span style={{ marginLeft: '10px', fontSize: '0.9rem' }}>{saveMessage}</span>}
-          </div>
+              <button className="btn" onClick={handleDeleteCategory} style={{ background: '#dc3545', color: '#fff', marginLeft: 'auto' }}>🗑️ Sil</button>
+            </div>
+</div>
         </div>
       )}
 
       {editingProduct && (
-        <div id="product-editor" className="glass" style={{ padding: 'var(--space-md)', borderRadius: 'var(--radius-md)', marginBottom: 'var(--space-xl)', border: '2px solid var(--color-primary)' }}>
+<div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: 'rgba(0,0,0,0.5)', zIndex: 9999, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '20px', overflowY: 'auto' }}>
+          <div className="glass" style={{ width: '100%', maxWidth: '600px', maxHeight: '90vh', overflowY: 'auto', padding: 'var(--space-md)', borderRadius: 'var(--radius-md)', border: '2px solid var(--color-primary)', background: '#fff' }}>
           <h3>Ürün Düzenle: {editingProduct.name}</h3>
           
           <div style={{ marginTop: 'var(--space-sm)' }}>
@@ -498,7 +630,9 @@ const TestPage: React.FC = () => {
               İptal
             </button>
             {saveMessage && <span style={{ marginLeft: '10px', fontSize: '0.9rem' }}>{saveMessage}</span>}
-          </div>
+              <button className="btn" onClick={handleDeleteProduct} style={{ background: '#dc3545', color: '#fff', marginLeft: 'auto' }}>🗑️ Sil</button>
+            </div>
+</div>
         </div>
       )}
 
@@ -515,7 +649,7 @@ const TestPage: React.FC = () => {
             </div>
             
             <div style={{ marginBottom: '16px' }}>
-              <button className="btn" onClick={() => { addNewProduct(c.id); setTimeout(() => document.getElementById('product-editor')?.scrollIntoView(), 100); }} style={{ padding: '6px 12px', fontSize: '0.85rem', background: '#333', color: '#fff' }}>
+              <button className="btn" onClick={() => { addNewProduct(c.id);  }} style={{ padding: '6px 12px', fontSize: '0.85rem', background: '#333', color: '#fff' }}>
                 + Bu Kategoriye Yeni Ürün Ekle
               </button>
             </div>
@@ -527,7 +661,7 @@ const TestPage: React.FC = () => {
                      <ProductCard product={p} onClick={() => {}} />
                   </div>
                   <div 
-                    onClick={() => { setEditingProduct(p); setTimeout(() => document.getElementById('product-editor')?.scrollIntoView(), 100); }}
+                    onClick={() => { setEditingProduct(p);  }}
                     style={{ position: 'absolute', top: 10, right: 10, background: 'var(--color-primary)', color: '#fff', fontSize: '0.7rem', padding: '4px 10px', borderRadius: '10px', cursor: 'pointer', pointerEvents: 'auto' }}>
                     DÜZENLE
                   </div>
