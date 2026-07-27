@@ -5,6 +5,7 @@ import { getBusinessById, getCategoriesByBusiness, getProductsByCategory } from 
 import Header from '../components/Header';
 import CategoryNav from '../components/CategoryNav';
 import ProductCard from '../components/ProductCard';
+import './Menu.css';
 
 const Menu: React.FC = () => {
   const { businessId } = useParams<{ businessId: string }>();
@@ -39,8 +40,8 @@ const Menu: React.FC = () => {
       const savedCategory = sessionStorage.getItem(`activeCategory_${businessId}`);
       if (savedCategory && cats.some(c => c.id === savedCategory)) {
         setActiveCategoryId(savedCategory);
-      } else if (cats.length > 0) {
-        setActiveCategoryId(cats[0].id);
+      } else {
+        setActiveCategoryId('');
       }
     };
     loadData();
@@ -50,7 +51,10 @@ const Menu: React.FC = () => {
   }, [businessId, navigate]);
 
   useEffect(() => {
-    if (!activeCategoryId) return;
+    if (!activeCategoryId) {
+      setProducts([]);
+      return;
+    }
     const loadProducts = async () => {
       const prods = await getProductsByCategory(activeCategoryId);
       setProducts(prods);
@@ -78,16 +82,44 @@ const Menu: React.FC = () => {
       )}
 
       <div className="container" style={{ paddingBottom: 'var(--space-2xl)' }}>
-        {products.length === 0 ? (
-          <p className="text-muted" style={{ textAlign: 'center', marginTop: 'var(--space-xl)' }}>Bu kategoride ürün bulunmamaktadır.</p>
+        {!activeCategoryId ? (
+          <div className="category-grid-main">
+            {categories.map((category) => (
+              <div
+                key={category.id}
+                className="category-grid-item"
+                onClick={() => {
+                  setActiveCategoryId(category.id);
+                  if (businessId) {
+                    sessionStorage.setItem(`activeCategory_${businessId}`, category.id);
+                  }
+                }}
+              >
+                <div className="category-grid-img-container">
+                  {category.imageUrl ? (
+                    <img src={category.imageUrl} alt={category.name} loading="lazy" />
+                  ) : (
+                    <span className="category-grid-placeholder">{category.name.charAt(0)}</span>
+                  )}
+                </div>
+                <span className="category-grid-title">{category.name}</span>
+              </div>
+            ))}
+          </div>
         ) : (
-          products.map(product => (
-            <ProductCard 
-              key={product.id} 
-              product={product} 
-              onClick={(id) => navigate(`/${businessId}/product/${id}`)}
-            />
-          ))
+          <div className="product-grid">
+            {products.length === 0 ? (
+              <p className="text-muted" style={{ textAlign: 'center', marginTop: 'var(--space-xl)', gridColumn: '1 / -1' }}>Bu kategoride ürün bulunmamaktadır.</p>
+            ) : (
+              products.map(product => (
+                <ProductCard 
+                  key={product.id} 
+                  product={product} 
+                  onClick={(id) => navigate(`/${businessId}/product/${id}`)}
+                />
+              ))
+            )}
+          </div>
         )}
       </div>
     </div>
