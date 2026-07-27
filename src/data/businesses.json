@@ -24,20 +24,6 @@
     }
   },
   {
-    "id": "biz_tecaadzfa",
-    "name": "Çocuk Kent Kafeterya",
-    "description": "sdsdsd",
-    "address": "sdsdsd",
-    "imageUrl": "/assets/cocukkent.jpg"
-  },
-  {
-    "id": "biz_u37fb98up",
-    "name": "Esentepe Kafeterya",
-    "description": "",
-    "address": "Atatürk Mahallesi, 2. Elmas Sokak (Alper Günbayram Caddesi / Okulu karşısı), Merkez/Uşak",
-    "imageUrl": "/assets/esentepe.jpg"
-  },
-  {
     "id": "biz_pgxu887bi",
     "name": "Yeşil Karaağaç Sosyal Tesisleri",
     "description": "",

@@ -76,13 +76,14 @@
     "name": "Hamburger",
     "price": 220,
     "imageUrl": "/assets/hamburger.jpg",
-    "shortDescription": "",
+    "shortDescription": "El Yapımı Burger Köftesi, Marul, Turşu, Domates, Mevsim Yeşilliği ve Patates",
     "badges": {
       "vegan": false,
       "vegetarian": false,
       "glutenFree": false
     },
-    "longDescription": "El Yapımı Burger Köftesi, Marul, Turşu, Domates, Mevsim Yeşilliği ve Patates İle karbonhidrat değeri( 97 g)"
+    "longDescription": "El Yapımı Burger Köftesi, Marul, Turşu, Domates, Mevsim Yeşilliği ve Patates İle karbonhidrat değeri( 97 g)",
+    "ingredients": []
   },
   {
     "id": "prod_401f64cmn",
@@ -91,7 +92,7 @@
     "name": "CHEESEBURGER",
     "price": 240,
     "imageUrl": "/assets/CHEESEBURGER.jpg",
-    "shortDescription": "",
+    "shortDescription": "El Yapımı Burger Köftesi Üzerine Cheddar Peyniri, Marul, Turşu, Domates, Mevsim yeşilliği ve Patates",
     "badges": {
       "vegan": false,
       "vegetarian": false,
@@ -106,12 +107,149 @@
     "name": "TAVUK BURGER",
     "price": 200,
     "imageUrl": "/assets/TAVUK BURGER.jpg",
-    "shortDescription": "",
+    "shortDescription": "Piliç Bonfile, Cheddar Peyniri, Marul, Turşu, Domates, Mevsim Yeşilliği ve Patates",
     "badges": {
       "vegan": false,
       "vegetarian": false,
       "glutenFree": false
     },
     "longDescription": "Piliç Bonfile, Cheddar Peyniri, Marul, Turşu, Domates, Mevsim Yeşilliği ve Patates İle karbonhidrat değeri( 120,39 g)\n\n"
+  },
+  {
+    "id": "prod_wn2ui7vff",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_ig70rfdmb",
+    "name": "MEXİCAN BURGER",
+    "price": 240,
+    "imageUrl": "/assets/MEXİCAN BURGER.jpg",
+    "shortDescription": "El Yapımı Burger Köftesi, Mexican Sos, Cheddar Peyniri, Marul, Turşu, Domates, Mevsim Yeşilliği ve Patates",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "El Yapımı Burger Köftesi, Mexican Sos, Cheddar Peyniri, Marul, Turşu, Domates, Mevsim Yeşilliği ve Patates İle karbonhidrat değeri( 80 g)\n\n"
+  },
+  {
+    "id": "prod_d2jyadghf",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_ig70rfdmb",
+    "name": "MARGARİTA PİZZA",
+    "price": 200,
+    "imageUrl": "/assets/MARGARİTA PİZZA.jpg",
+    "shortDescription": "Pizza Peyniri, Pizza Sosu ve Domates\n",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Pizza Peyniri, Pizza Sosu ve Domates İle karbonhidrat değeri( 131,77 g)\n\n"
+  },
+  {
+    "id": "prod_6ugnxaync",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_ig70rfdmb",
+    "name": "SUCUKLU PİZZA",
+    "price": 220,
+    "imageUrl": "/assets/SUCUKLU PİZZA.jpg",
+    "shortDescription": "Pizza Peyniri, Pizza Sosu ve Sucuk",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Pizza Peyniri, Pizza Sosu ve Sucuk İle karbonhidrat değeri( 130,08 g)\n\n"
+  },
+  {
+    "id": "prod_4gd5llp7f",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_ig70rfdmb",
+    "name": "VEJETERYAN PİZZA",
+    "price": 200,
+    "imageUrl": "/assets/VEJETERYAN PİZZA.jpg",
+    "shortDescription": "Pizza Peyniri, Pizza Sosu, Domates, Mantar, Biber, Mısır ve Zeytin",
+    "badges": {
+      "vegan": false,
+      "vegetarian": true,
+      "glutenFree": false
+    },
+    "longDescription": "Pizza Peyniri, Pizza Sosu, Domates, Mantar, Biber, Mısır ve Zeytin",
+    "ingredients": [
+      "Pizza Peyniri",
+      "Pizza Sosu",
+      "Domates",
+      "Mantar",
+      "Biber",
+      "Mısır ve Zeytin"
+    ]
+  },
+  {
+    "id": "prod_m812mmu77",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_ig70rfdmb",
+    "name": "KARIŞIK PİZZA",
+    "price": 240,
+    "imageUrl": "/assets/KARIŞIK PİZZA.jpg",
+    "shortDescription": "Pizza Peyniri, Pizza Sosu, Domates, Mantar, Biber, Mısır, Zeytin, Sucuk, Sosis ve Salam",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Pizza Peyniri, Pizza Sosu, Domates, Mantar, Biber, Mısır, Zeytin, Sucuk, Sosis ve Salam İle karbonhidrat değeri( 197,7 g)",
+    "ingredients": [
+      "Pizza Peyniri",
+      "Pizza Sosu",
+      "Domates",
+      "Mantar",
+      "Biber",
+      "Mısır",
+      "Zeytin",
+      "Sucuk",
+      "Sosis ve Salam"
+    ]
+  },
+  {
+    "id": "prod_t93g0gzka",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_ig70rfdmb",
+    "name": "DÖRT PEYNİRLİ PİZZA",
+    "price": 240,
+    "imageUrl": "/assets/DÖRT PEYNİRLİ PİZZA.jpg",
+    "shortDescription": "CHEDAR, BEYAZ PEYNİR, MOZERELLA, KAŞAR",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "CHEDAR, BEYAZ PEYNİR, MOZERELLA, KAŞAR",
+    "ingredients": [
+      "CHEDAR",
+      "BEYAZ PEYNİR",
+      "MOZERELLA",
+      "KAŞAR"
+    ]
+  },
+  {
+    "id": "prod_6law3n6qo",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_ig70rfdmb",
+    "name": "BARBEKÜ SOSLU TAVUKLU PİZZA",
+    "price": 220,
+    "imageUrl": "/assets/BARBEKÜ SOSLU TAVUKLU PİZZA.jpg",
+    "shortDescription": "TAVUK, BİBER, MANTAR, MISIR, BBQ SOS",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "TAVUK, BİBER, MANTAR, MISIR, BBQ SOS",
+    "ingredients": [
+      "TAVUK",
+      "BİBER",
+      "MANTAR",
+      "MISIR",
+      "BBQ SOS"
+    ]
   }
 ]

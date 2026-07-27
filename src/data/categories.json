@@ -18,18 +18,6 @@
     "order": 3
   },
   {
-    "id": "c-tatlilar",
-    "businessId": "atikapinar-tesisleri",
-    "name": "Tatlılar",
-    "order": 2
-  },
-  {
-    "id": "c-sicak-icecekler",
-    "businessId": "atikapinar-tesisleri",
-    "name": "Sıcak İçecekler",
-    "order": 2
-  },
-  {
     "id": "cat_72edwyiza",
     "businessId": "kent-park-tesisleri",
     "name": "Çaylar",
