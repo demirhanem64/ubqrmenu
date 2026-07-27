@@ -147,7 +147,7 @@ const BusinessSelection: React.FC = () => {
           >
             
             <div style={{ whiteSpace: 'nowrap', overflow: 'hidden', boxSizing: 'border-box' }}>
-               <div style={{ display: 'inline-block', paddingLeft: '100%', animation: 'marquee 15s linear infinite', fontSize: '1rem', fontWeight: 500 }}>
+               <div style={{ display: 'inline-block', paddingLeft: '100%', animation: 'marquee 12s linear infinite', fontSize: '1rem', fontWeight: 500 }}>
                  {settings.announcement}
                </div>
                <style>{`
