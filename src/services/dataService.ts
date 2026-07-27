@@ -12,7 +12,7 @@ export const getSettings = async (): Promise<Settings> => {
 };
 
 export const getBusinesses = async (): Promise<Business[]> => {
-  return businessesData as Business[];
+  return (businessesData as Business[]).sort((a, b) => (a.order || 99) - (b.order || 99));
 };
 
 export const getBusinessById = async (id: string): Promise<Business | undefined> => {

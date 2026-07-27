@@ -2,6 +2,7 @@ export interface Business {
   id: string;
   slug?: string;
   name: string;
+  order?: number;
   description: string;
   address?: string;
   imageUrl: string;

@@ -3,6 +3,7 @@
     "id": "kent-park-tesisleri",
     "slug": "dortyol-sosyal-tesisleri",
     "name": "Dörtyol Sosyal Tesisleri",
+    "order": 1,
     "description": "Pazartesi günleri bakım nedeniyle kapalıdır.",
     "address": "Kurtuluş Mahallesi, Doğan Sokak, Kent Park İçi, Uşak Merkez",
     "imageUrl": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&q=80&w=800",
@@ -16,6 +17,7 @@
     "id": "atikapinar-tesisleri",
     "slug": "atapark-sosyal-tesisleri",
     "name": "Atapark Sosyal Tesisleri",
+    "order": 2,
     "description": "Ailenizle keyifli vakit geçirebileceğiniz huzurlu ortam.",
     "address": "Atatürk Mahallesi, Atapark İçi, Uşak Merkez",
     "imageUrl": "/assets/atapark.jpg",
@@ -29,6 +31,7 @@
     "id": "biz_pgxu887bi",
     "slug": "yesil-karaagac-sosyal-tesisleri",
     "name": "Yeşil Karaağaç Sosyal Tesisleri",
+    "order": 3,
     "description": "",
     "address": "Yeşil Karaağaç Mahallesi, Yeşil Karaağaç Göleti Kenarı, 64000 Uşak Merkez / Uşak",
     "imageUrl": "/assets/ykaraağaç.jpg"
