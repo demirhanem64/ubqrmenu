@@ -48,7 +48,7 @@ const Menu: React.FC = () => {
     
     // cleanup theme
     return () => { document.documentElement.removeAttribute('data-theme'); };
-  }, [businessId, navigate]);
+  }, [slug, navigate]);
 
   useEffect(() => {
     if (!activeCategoryId) {
