@@ -34,5 +34,12 @@
     "businessId": "kent-park-tesisleri",
     "name": "Çaylar",
     "order": 99
+  },
+  {
+    "id": "cat_ig70rfdmb",
+    "businessId": "atikapinar-tesisleri",
+    "name": "Burgerler ve Pizzalar",
+    "order": 99,
+    "imageUrl": "/assets/burgerler ve pizzalar.jpg"
   }
 ]

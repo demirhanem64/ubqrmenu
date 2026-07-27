@@ -68,5 +68,50 @@
       "vegetarian": false,
       "glutenFree": false
     }
+  },
+  {
+    "id": "prod_d5qu90z9v",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_ig70rfdmb",
+    "name": "Hamburger",
+    "price": 220,
+    "imageUrl": "/assets/hamburger.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "El Yapımı Burger Köftesi, Marul, Turşu, Domates, Mevsim Yeşilliği ve Patates İle karbonhidrat değeri( 97 g)"
+  },
+  {
+    "id": "prod_401f64cmn",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_ig70rfdmb",
+    "name": "CHEESEBURGER",
+    "price": 240,
+    "imageUrl": "/assets/CHEESEBURGER.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "El Yapımı Burger Köftesi Üzerine Cheddar Peyniri, Marul, Turşu, Domates, Mevsim yeşilliği ve Patates İle karbonhidrat değeri( 113,53 g)"
+  },
+  {
+    "id": "prod_fk514odc8",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_ig70rfdmb",
+    "name": "TAVUK BURGER",
+    "price": 200,
+    "imageUrl": "/assets/TAVUK BURGER.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Piliç Bonfile, Cheddar Peyniri, Marul, Turşu, Domates, Mevsim Yeşilliği ve Patates İle karbonhidrat değeri( 120,39 g)\n\n"
   }
 ]

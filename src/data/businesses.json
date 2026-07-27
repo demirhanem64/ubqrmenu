@@ -16,7 +16,7 @@
     "name": "Atapark Sosyal Tesisleri",
     "description": "Ailenizle keyifli vakit geçirebileceğiniz huzurlu ortam.",
     "address": "Atatürk Mahallesi, Atapark İçi, Uşak Merkez",
-    "imageUrl": "https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&q=80&w=800",
+    "imageUrl": "/assets/atapark.jpg",
     "theme": "light",
     "seo": {
       "title": "Atapark Sosyal Tesisleri Menü",
@@ -29,5 +29,19 @@
     "description": "sdsdsd",
     "address": "sdsdsd",
     "imageUrl": "/assets/cocukkent.jpg"
+  },
+  {
+    "id": "biz_u37fb98up",
+    "name": "Esentepe Kafeterya",
+    "description": "",
+    "address": "Atatürk Mahallesi, 2. Elmas Sokak (Alper Günbayram Caddesi / Okulu karşısı), Merkez/Uşak",
+    "imageUrl": "/assets/esentepe.jpg"
+  },
+  {
+    "id": "biz_pgxu887bi",
+    "name": "Yeşil Karaağaç Sosyal Tesisleri",
+    "description": "",
+    "address": "Yeşil Karaağaç Mahallesi, Yeşil Karaağaç Göleti Kenarı, 64000 Uşak Merkez / Uşak",
+    "imageUrl": "/assets/ykaraağaç.jpg"
   }
 ]
