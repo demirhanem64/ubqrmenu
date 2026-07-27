@@ -19,6 +19,10 @@ export const getBusinessById = async (id: string): Promise<Business | undefined>
   return (businessesData as Business[]).find(b => b.id === id);
 };
 
+export const getBusinessBySlug = async (slug: string): Promise<Business | undefined> => {
+  return (businessesData as Business[]).find(b => b.slug === slug || b.id === slug);
+};
+
 export const getCategoriesByBusiness = async (businessId: string): Promise<Category[]> => {
   return (categoriesData as Category[])
     .filter(c => c.businessId === businessId)

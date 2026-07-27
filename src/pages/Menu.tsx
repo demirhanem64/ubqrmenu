@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import type { Business, Category, Product } from '../types';
-import { getBusinessById, getCategoriesByBusiness, getProductsByCategory } from '../services/dataService';
+import { getBusinessBySlug, getCategoriesByBusiness, getProductsByCategory } from '../services/dataService';
 import Header from '../components/Header';
 import CategoryNav from '../components/CategoryNav';
 import ProductCard from '../components/ProductCard';
 import './Menu.css';
 
 const Menu: React.FC = () => {
-  const { businessId } = useParams<{ businessId: string }>();
+  const { businessId: slug } = useParams<{ businessId: string }>(); // slug from URL
   const navigate = useNavigate();
   
   const [business, setBusiness] = useState<Business | null>(null);
@@ -17,10 +17,10 @@ const Menu: React.FC = () => {
   const [products, setProducts] = useState<Product[]>([]);
 
   useEffect(() => {
-    if (!businessId) return;
+    if (!slug) return;
 
     const loadData = async () => {
-      const b = await getBusinessById(businessId);
+      const b = await getBusinessBySlug(slug);
       if (!b) {
         navigate('/'); // not found
         return;
@@ -34,10 +34,10 @@ const Menu: React.FC = () => {
         document.documentElement.removeAttribute('data-theme');
       }
 
-      const cats = await getCategoriesByBusiness(businessId);
+      const cats = await getCategoriesByBusiness(b.id);
       setCategories(cats);
       
-      const savedCategory = sessionStorage.getItem(`activeCategory_${businessId}`);
+      const savedCategory = sessionStorage.getItem(`activeCategory_${b.id}`);
       if (savedCategory && cats.some(c => c.id === savedCategory)) {
         setActiveCategoryId(savedCategory);
       } else {
@@ -74,8 +74,8 @@ const Menu: React.FC = () => {
           activeCategoryId={activeCategoryId} 
           onSelect={(id) => {
             setActiveCategoryId(id);
-            if (businessId) {
-              sessionStorage.setItem(`activeCategory_${businessId}`, id);
+            if (business) {
+              sessionStorage.setItem(`activeCategory_${business.id}`, id);
             }
           }} 
         />
@@ -90,8 +90,8 @@ const Menu: React.FC = () => {
                 className="category-grid-item"
                 onClick={() => {
                   setActiveCategoryId(category.id);
-                  if (businessId) {
-                    sessionStorage.setItem(`activeCategory_${businessId}`, category.id);
+                  if (business) {
+                    sessionStorage.setItem(`activeCategory_${business.id}`, category.id);
                   }
                 }}
               >
@@ -115,7 +115,7 @@ const Menu: React.FC = () => {
                 <ProductCard 
                   key={product.id} 
                   product={product} 
-                  onClick={(id) => navigate(`/${businessId}/product/${id}`)}
+                  onClick={(id) => navigate(`/${slug}/product/${id}`)}
                 />
               ))
             )}

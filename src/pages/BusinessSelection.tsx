@@ -183,9 +183,10 @@ const BusinessSelection: React.FC = () => {
             <BusinessCard 
               key={business.id} 
               business={business} 
-              onClick={(id) => {
-                sessionStorage.removeItem(`activeCategory_${id}`);
-                navigate(`/${id}`);
+              onClick={() => {
+                const routeId = business.slug || business.id;
+                sessionStorage.removeItem(`activeCategory_${business.id}`);
+                navigate(`/${routeId}`);
               }}
             />
           ))}
