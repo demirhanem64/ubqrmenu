@@ -13,13 +13,20 @@ const CategoryNav: React.FC<CategoryNavProps> = ({ categories, activeCategoryId,
     <div className="category-nav-wrapper">
       <div className="category-nav">
         {categories.map((category) => (
-          <button
+          <div
             key={category.id}
-            className={`category-item ${activeCategoryId === category.id ? 'active' : ''}`}
+            className={`category-card ${activeCategoryId === category.id ? 'active' : ''}`}
             onClick={() => onSelect(category.id)}
           >
-            {category.name}
-          </button>
+            <div className="category-card-img-container">
+              {category.imageUrl ? (
+                <img src={category.imageUrl} alt={category.name} className="category-card-img" loading="lazy" />
+              ) : (
+                <span className="category-card-placeholder">{category.name.charAt(0)}</span>
+              )}
+            </div>
+            <span className="category-card-title">{category.name}</span>
+          </div>
         ))}
       </div>
     </div>

@@ -35,7 +35,11 @@ const Menu: React.FC = () => {
 
       const cats = await getCategoriesByBusiness(businessId);
       setCategories(cats);
-      if (cats.length > 0) {
+      
+      const savedCategory = sessionStorage.getItem(`activeCategory_${businessId}`);
+      if (savedCategory && cats.some(c => c.id === savedCategory)) {
+        setActiveCategoryId(savedCategory);
+      } else if (cats.length > 0) {
         setActiveCategoryId(cats[0].id);
       }
     };
@@ -64,7 +68,12 @@ const Menu: React.FC = () => {
         <CategoryNav 
           categories={categories} 
           activeCategoryId={activeCategoryId} 
-          onSelect={setActiveCategoryId} 
+          onSelect={(id) => {
+            setActiveCategoryId(id);
+            if (businessId) {
+              sessionStorage.setItem(`activeCategory_${businessId}`, id);
+            }
+          }} 
         />
       )}
 
