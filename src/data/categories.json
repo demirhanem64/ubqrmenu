@@ -36,5 +36,19 @@
     "name": "Tavuklar",
     "order": 2,
     "imageUrl": "/assets/tavuklar.jpg"
+  },
+  {
+    "id": "cat_3b6zdmqbu",
+    "businessId": "atikapinar-tesisleri",
+    "name": "Kırmızı Etler",
+    "order": 3,
+    "imageUrl": "/assets/KIRMIZI ETLER.jpg"
+  },
+  {
+    "id": "cat_au41bpb30",
+    "businessId": "atikapinar-tesisleri",
+    "name": "Makarna ve Salatalar",
+    "order": 4,
+    "imageUrl": "/assets/makarna ve salatalar.jpg"
   }
 ]

@@ -73,7 +73,7 @@
     "id": "prod_d5qu90z9v",
     "businessId": "atikapinar-tesisleri",
     "categoryId": "cat_ig70rfdmb",
-    "name": "Hamburger",
+    "name": "HAMBURGER",
     "price": 220,
     "imageUrl": "/assets/hamburger.jpg",
     "shortDescription": "El Yapımı Burger Köftesi, Marul, Turşu, Domates, Mevsim Yeşilliği ve Patates",
@@ -394,6 +394,186 @@
       "Dağ Kekiği",
       "Krema",
       "Yanında Mevsim Yeşilliği ve Pilav"
+    ]
+  },
+  {
+    "id": "prod_o3daudkrv",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_3b6zdmqbu",
+    "name": "IZGARA KÖFTE",
+    "price": 300,
+    "imageUrl": "/assets/IZGARA KÖFTE.jpg",
+    "shortDescription": "Izgara Köfte Yanında Köz Domates, Köz Biber, Mevsim Yeşilliği ve Pilav",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Izgara Köfte Yanında Köz Domates, Köz Biber, Mevsim Yeşilliği ve Pilav İle karbonhidrat değeri( 106,37 g)",
+    "ingredients": [
+      "Izgara Köfte Yanında Köz Domates",
+      "Köz Biber",
+      "Mevsim Yeşilliği ve Pilav"
+    ]
+  },
+  {
+    "id": "prod_l7ec1ixlh",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_au41bpb30",
+    "name": "PENNE NAPOLİTEN",
+    "price": 200,
+    "imageUrl": "/assets/PENNE NAPOLİTEN.jpg",
+    "shortDescription": "Domates Sos, Kaşar Peynir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Domates Sos, Kaşar Peynir İle Servis Edilir",
+    "ingredients": [
+      "Domates Sos",
+      "Kaşar Peynir"
+    ]
+  },
+  {
+    "id": "prod_q1nlj50fq",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_au41bpb30",
+    "name": "PENNE PESTO",
+    "price": 200,
+    "imageUrl": "/assets/PENNE PESTO.jpg",
+    "shortDescription": "Pesto Sos, Krema ve Kaşar Peynir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Pesto Sos, Krema ve Kaşar Peynir ile karbonhidrat değeri( 207,08 g)",
+    "ingredients": [
+      "Pesto Sos",
+      "Krema ve Kaşar Peynir"
+    ]
+  },
+  {
+    "id": "prod_oyp66hbxi",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_au41bpb30",
+    "name": "PENNE ARABİATTA",
+    "price": 200,
+    "imageUrl": "/assets/PENNE ARABİATTA.jpg",
+    "shortDescription": "Acılı Domates Sos, Siyah Zeytin ve Kaşar Peynir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Acılı Domates Sos, Siyah Zeytin ve Kaşar peynir ile karbonhidrat değeri( 212,85 g)",
+    "ingredients": [
+      "Acılı Domates Sos",
+      "Siyah Zeytin ve Kaşar Peynir"
+    ]
+  },
+  {
+    "id": "prod_ofydbfb8r",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_au41bpb30",
+    "name": "PENNE ALFREDO",
+    "price": 200,
+    "imageUrl": "/assets/PENNE ALFREDO.jpg",
+    "shortDescription": "Piliç Bonfile, Mantar, Krema ve Kaşar Peynir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Piliç Bonfile, Mantar, Krema ve Kaşar Peynir İle Servis Edilir",
+    "ingredients": [
+      "Piliç Bonfile",
+      "Mantar",
+      "Krema ve Kaşar Peynir"
+    ]
+  },
+  {
+    "id": "prod_vdje0nxzv",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_au41bpb30",
+    "name": "PENNE KÖRİ",
+    "price": 200,
+    "imageUrl": "/assets/PENNE KÖRİ.jpg",
+    "shortDescription": "Köri Sos, Krema, Mantar, Piliç Bonfile ve Kaşar Peynir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Köri Sos, Krema, Mantar, Piliç Bonfile ve Kaşar Peynir ile Servis Edilir",
+    "ingredients": [
+      "Köri Sos",
+      "Krema",
+      "Mantar",
+      "Piliç Bonfile ve Kaşar Peynir"
+    ]
+  },
+  {
+    "id": "prod_dpcw2f3l0",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_au41bpb30",
+    "name": "TAVUKLU SEZAR SALATA",
+    "price": 160,
+    "imageUrl": "/assets/TAVUKLU SEZAR SALATA.jpg",
+    "shortDescription": "Mevsim Yeşilliği, Izgara Tavuk Parçaları, Kroton Ekmek, Kurutulmuş Domates, Kaşar peynir ve Çeri Domates ve Sezar Sos",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Mevsim Yeşilliği, Izgara Tavuk Parçaları, Kroton Ekmek, Kurutulmuş Domates, Kaşar peynir ve Çeri Domates ve Sezar Sos İle karbonhidrat değeri( 50,22 g)",
+    "ingredients": [
+      "Mevsim Yeşilliği",
+      "Izgara Tavuk Parçaları",
+      "Kroton Ekmek",
+      "Kurutulmuş Domates",
+      "Kaşar peynir ve Çeri Domates ve Sezar Sos"
+    ]
+  },
+  {
+    "id": "prod_2g9ep1hqe",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_au41bpb30",
+    "name": "IZGARA TAVUK SALATA",
+    "price": 130,
+    "imageUrl": "/assets/IZGARA TAVUK SALATA.jpg",
+    "shortDescription": "MEVSİM YEŞİLLİĞİ, TAVUK, MISIR, HAVUÇ",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "MEVSİM YEŞİLLİĞİ, TAVUK, MISIR, HAVUÇ",
+    "ingredients": [
+      "MEVSİM YEŞİLLİĞİ",
+      "TAVUK",
+      "MISIR",
+      "HAVUÇ"
+    ]
+  },
+  {
+    "id": "prod_9emsb8lf5",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_au41bpb30",
+    "name": "MANTI",
+    "price": 170,
+    "imageUrl": "/assets/MANTI.jpg",
+    "shortDescription": "MANTI, YOĞURT. TEREYAĞI",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "MANTI, YOĞURT. TEREYAĞI",
+    "ingredients": [
+      "MANTI",
+      "YOĞURT. TEREYAĞI"
     ]
   }
 ]
