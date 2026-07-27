@@ -1,29 +1,5 @@
 [
   {
-    "id": "c-kahvaltilar",
-    "businessId": "kent-park-tesisleri",
-    "name": "Kahvaltılar",
-    "order": 1
-  },
-  {
-    "id": "c-ana-yemekler",
-    "businessId": "kent-park-tesisleri",
-    "name": "Ana Yemekler",
-    "order": 2
-  },
-  {
-    "id": "c-icecekler",
-    "businessId": "kent-park-tesisleri",
-    "name": "İçecekler",
-    "order": 3
-  },
-  {
-    "id": "cat_72edwyiza",
-    "businessId": "kent-park-tesisleri",
-    "name": "Çaylar",
-    "order": 99
-  },
-  {
     "id": "cat_ig70rfdmb",
     "businessId": "atikapinar-tesisleri",
     "name": "Burgerler ve Pizzalar",
