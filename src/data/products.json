@@ -575,5 +575,201 @@
       "MANTI",
       "YOĞURT. TEREYAĞI"
     ]
+  },
+  {
+    "id": "prod_finjgbtdg",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_se3tuwm4j",
+    "name": "IHLAMUR",
+    "price": 100,
+    "imageUrl": "/assets/IHLAMUR.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_uweebiv7m",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_se3tuwm4j",
+    "name": "ADA ÇAYI",
+    "price": 100,
+    "imageUrl": "/assets/ADA ÇAYI.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_q3lf060i6",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_se3tuwm4j",
+    "name": "KIŞ ÇAYI",
+    "price": 100,
+    "imageUrl": "/assets/KIŞ ÇAYI.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_ck8ug10t0",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_se3tuwm4j",
+    "name": "PAPATYA ÇAYI",
+    "price": 100,
+    "imageUrl": "/assets/PAPATYA ÇAYI.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_gbazj7fms",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_se3tuwm4j",
+    "name": "YEŞİL ÇAY",
+    "price": 100,
+    "imageUrl": "/assets/YEŞİL ÇAY.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_0uw8e3rp2",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_se3tuwm4j",
+    "name": "KEKİK ÇAYI",
+    "price": 100,
+    "imageUrl": "/assets/KEKİK ÇAYI.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_azz63jmsj",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_se3tuwm4j",
+    "name": "ÇİÇEK ÇAYI",
+    "price": 100,
+    "imageUrl": "/assets/ÇİÇEK ÇAYI.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_i0sdjny4q",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_se3tuwm4j",
+    "name": "TOZ ELMA ÇAYI",
+    "price": 20,
+    "imageUrl": "/assets/TOZ ELMA ÇAYI.png",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_rctpkzfz6",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_se3tuwm4j",
+    "name": "TOZ KİVİ ÇAYI",
+    "price": 20,
+    "imageUrl": "/assets/TOZ KİVİ ÇAYI.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_sitrnlap3",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_se3tuwm4j",
+    "name": "TOZ KUŞBURNU ÇAYI",
+    "price": 20,
+    "imageUrl": "/assets/TOZ KUŞBURNU ÇAYI.png",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_8q75pocbh",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_se3tuwm4j",
+    "name": "TOZ LİMON ÇAYI",
+    "price": 20,
+    "imageUrl": "/assets/TOZ LİMON ÇAYI.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_vt847ntnz",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_se3tuwm4j",
+    "name": "TOZ NANE LİMON ÇAYI",
+    "price": 20,
+    "imageUrl": "/assets/TOZ NANE LİMON ÇAYI.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_qbh0mt14b",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_se3tuwm4j",
+    "name": "TOZ MUZ ÇAYI",
+    "price": 20,
+    "imageUrl": "/assets/TOZ MUZ ÇAYI.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_vtsptg8yx",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_se3tuwm4j",
+    "name": "TOZ ORALET ÇAYI",
+    "price": 20,
+    "imageUrl": "/assets/TOZ ORALET ÇAYI.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
   }
 ]

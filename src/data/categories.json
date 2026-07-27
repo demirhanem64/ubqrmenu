@@ -50,5 +50,12 @@
     "name": "Makarna ve Salatalar",
     "order": 4,
     "imageUrl": "/assets/makarna ve salatalar.jpg"
+  },
+  {
+    "id": "cat_se3tuwm4j",
+    "businessId": "atikapinar-tesisleri",
+    "name": "Bitki Çayları",
+    "order": 5,
+    "imageUrl": "/assets/bitki çayları.jpg"
   }
 ]
