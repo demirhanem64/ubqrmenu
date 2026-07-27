@@ -64,9 +64,20 @@ const Menu: React.FC = () => {
 
   if (!business) return null;
 
+  const handleBack = () => {
+    if (activeCategoryId) {
+      setActiveCategoryId('');
+      if (business) {
+        sessionStorage.removeItem(`activeCategory_${business.id}`);
+      }
+    } else {
+      navigate('/');
+    }
+  };
+
   return (
     <div>
-      <Header title={business.name} showBack={true} />
+      <Header title={business.name} showBack={true} onBack={handleBack} />
       
       {categories.length > 0 && (
         <CategoryNav 

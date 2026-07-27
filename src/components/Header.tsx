@@ -7,15 +7,16 @@ import './Header.css';
 interface HeaderProps {
   title: string;
   showBack?: boolean;
+  onBack?: () => void;
 }
 
-const Header: React.FC<HeaderProps> = ({ title, showBack = true }) => {
+const Header: React.FC<HeaderProps> = ({ title, showBack = true, onBack }) => {
   const navigate = useNavigate();
 
   return (
     <header className="header glass">
       {showBack && (
-        <button className="btn-icon header-back" onClick={() => navigate(-1)}>
+        <button className="btn-icon header-back" onClick={onBack || (() => navigate(-1))}>
           <ArrowLeft size={20} />
         </button>
       )}
