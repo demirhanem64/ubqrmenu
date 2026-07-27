@@ -10,7 +10,7 @@ const USAK_LOGO = "/logo.png";
 const BusinessSelection: React.FC = () => {
   const [businesses, setBusinesses] = useState<Business[]>([]);
   const [settings, setSettings] = useState<Settings | null>(null);
-  const [showAdPopup, setShowAdPopup] = useState(true);
+  const [showAdPopup, setShowAdPopup] = useState(() => !sessionStorage.getItem('adPopupClosed'));
   const [showSplash, setShowSplash] = useState(() => !sessionStorage.getItem('splashPlayed'));
   const navigate = useNavigate();
 
@@ -100,7 +100,10 @@ const BusinessSelection: React.FC = () => {
           >
             <div style={{ position: 'relative', maxWidth: '400px', width: '100%', borderRadius: '10px', overflow: 'hidden', background: '#fff' }}>
               <button 
-                onClick={() => setShowAdPopup(false)}
+                onClick={() => {
+                  sessionStorage.setItem('adPopupClosed', 'true');
+                  setShowAdPopup(false);
+                }}
                 style={{
                   position: 'absolute', top: '10px', right: '10px', width: '32px', height: '32px',
                   borderRadius: '50%', background: 'rgba(0,0,0,0.6)', color: '#fff',
@@ -147,7 +150,7 @@ const BusinessSelection: React.FC = () => {
           >
             
             <div style={{ whiteSpace: 'nowrap', overflow: 'hidden', boxSizing: 'border-box' }}>
-               <div style={{ display: 'inline-block', paddingLeft: '100%', animation: 'marquee 12s linear infinite', fontSize: '1rem', fontWeight: 500 }}>
+               <div style={{ display: 'inline-block', paddingLeft: '100%', animation: 'marquee 9.5s linear infinite', fontSize: '1rem', fontWeight: 500 }}>
                  {settings.announcement}
                </div>
                <style>{`
