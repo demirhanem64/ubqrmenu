@@ -47,5 +47,19 @@
     "name": "Sıcak İçecekler",
     "order": 7,
     "imageUrl": "/assets/sıcak içecekler.jpg"
+  },
+  {
+    "id": "cat_3oaslsryz",
+    "businessId": "atikapinar-tesisleri",
+    "name": "Soğuk İçecekler",
+    "order": 8,
+    "imageUrl": "/assets/soğuk içecekler.jpeg"
+  },
+  {
+    "id": "cat_9aqukob8o",
+    "businessId": "atikapinar-tesisleri",
+    "name": "Kahvaltılar ve Omletler",
+    "order": 9,
+    "imageUrl": "/assets/kahvaltılar ve omletler.jpg"
   }
 ]

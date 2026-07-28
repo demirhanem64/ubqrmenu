@@ -1261,5 +1261,544 @@
       "vegetarian": false,
       "glutenFree": false
     }
+  },
+  {
+    "id": "prod_s7w7h8nzv",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_3oaslsryz",
+    "name": "SADE SODA",
+    "price": 30,
+    "imageUrl": "/assets/SADE SODA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_0p72eojyp",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_3oaslsryz",
+    "name": "SU",
+    "price": 20,
+    "imageUrl": "/assets/SU.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_lqptr23y2",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_3oaslsryz",
+    "name": "CHURCHİLL",
+    "price": 50,
+    "imageUrl": "/assets/CHURCHİLL.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_lix4rki6l",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_3oaslsryz",
+    "name": "KARPUZ ÇİLEKLİ SODA",
+    "price": 50,
+    "imageUrl": "/assets/KARPUZ ÇİLEKLİ SODA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_rvbs6fvgt",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_3oaslsryz",
+    "name": "LİMONLU SODA",
+    "price": 50,
+    "imageUrl": "/assets/LİMONLU SODA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_drlmpkpkg",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_3oaslsryz",
+    "name": "ELMALI SODA",
+    "price": 50,
+    "imageUrl": "/assets/ELMALI SODA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_xtcli0tkt",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_3oaslsryz",
+    "name": "AYRAN",
+    "price": 40,
+    "imageUrl": "/assets/AYRAN.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_6tyvhc6qx",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_3oaslsryz",
+    "name": "DOĞAL LİMONATA",
+    "price": 130,
+    "imageUrl": "/assets/DOĞAL LİMONATA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_f7rlenqhq",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_3oaslsryz",
+    "name": "TAZE SIKILMIŞ PORTAKAL SUYU",
+    "price": 130,
+    "imageUrl": "/assets/TAZE SIKILMIŞ PORTAKAL SUYU.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_gj8yd9c11",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_3oaslsryz",
+    "name": "MEYVE SUYU KAYISI",
+    "price": 70,
+    "imageUrl": "/assets/MEYVE SUYU KAYISI.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_7hbl7mden",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_3oaslsryz",
+    "name": "MEYVE SUYU ŞEFTALİ",
+    "price": 70,
+    "imageUrl": "/assets/MEYVE SUYU ŞEFTALİ.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_49bmoaufl",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_3oaslsryz",
+    "name": "MEYVE SUYU KARIŞIK",
+    "price": 70,
+    "imageUrl": "/assets/MEYVE SUYU KARIŞIK.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_qx4443trs",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_3oaslsryz",
+    "name": "MEYVE SUYU VİŞNE",
+    "price": 70,
+    "imageUrl": "/assets/MEYVE SUYU VİŞNE.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_c7hjm42i7",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_3oaslsryz",
+    "name": "COCA COLA",
+    "price": 70,
+    "imageUrl": "/assets/COCA COLA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "karbonhidrat değeri(69.96 g)"
+  },
+  {
+    "id": "prod_8jsef82ng",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_3oaslsryz",
+    "name": "FANTA",
+    "price": 70,
+    "imageUrl": "/assets/FANTA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "karbonhidrat değeri(48,18) g"
+  },
+  {
+    "id": "prod_ds707ewqa",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_3oaslsryz",
+    "name": "SPRİTE",
+    "price": 70,
+    "imageUrl": "/assets/SPRİTE.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "karbonhidrat değeri(20,46 g)"
+  },
+  {
+    "id": "prod_ss9n197iu",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_3oaslsryz",
+    "name": "COCA COLA ZERO",
+    "price": 70,
+    "imageUrl": "/assets/COCA COLA ZERO.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "karbonhidrat değeri( 0.066 g)"
+  },
+  {
+    "id": "prod_x33utglzu",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_3oaslsryz",
+    "name": "FUSE TEA ŞEFTALİ",
+    "price": 70,
+    "imageUrl": "/assets/FUSE TEA ŞEFTALİ.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_pskht79we",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_3oaslsryz",
+    "name": "FUSE TEA KARPUZ",
+    "price": 70,
+    "imageUrl": "/assets/FUSE TEA KARPUZ.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_iixbeh2iw",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_3oaslsryz",
+    "name": "FUSE TEA MANGO",
+    "price": 70,
+    "imageUrl": "/assets/FUSE TEA MANGO.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_dsnltvy7o",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_3oaslsryz",
+    "name": "FUSE TEA LİMON",
+    "price": 70,
+    "imageUrl": "/assets/FUSE TEA LİMON.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_ox7bx0nzv",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_3oaslsryz",
+    "name": "BURN",
+    "price": 90,
+    "imageUrl": "/assets/BURN.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_19e85losv",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_3oaslsryz",
+    "name": "FUSE TEA KAVUN ÇİLEK",
+    "price": 70,
+    "imageUrl": "/assets/FUSE TEA KAVUN ÇİLEK.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_aj62ygk3h",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_3oaslsryz",
+    "name": "MANGO ANANAS SODA",
+    "price": 50,
+    "imageUrl": "/assets/MANGO ANANAS SODA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_aou0z4w4j",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_9aqukob8o",
+    "name": "SERPME KAHVALTI 2 KİŞİLİK",
+    "price": 700,
+    "imageUrl": "/assets/SERPME KAHVALTI 2 KİŞİLİK.png",
+    "shortDescription": "Beyaz Peynir, Kaşar Peynir, Ezine peynir, Örgü Peynir, Sosis, Domates, Salatalık, Mevsim Yeşilliği, Siyah Zeytin, Yeşil Zeytin, Reçel, Tereyağ, Süzme Bal, Kaymak, Kuru Kayısı, Kuru Üzüm, Sigara Böreği, Kahvaltılık Sos, Sade Omlet, Patates Tava, Sütlü Çikolata, Ceviz, Sucuk, Zeytin Yağlı Sos, Simit, Çemen",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Beyaz Peynir, Kaşar Peynir, Ezine peynir, Örgü Peynir, Sosis, Domates, Salatalık, Mevsim Yeşilliği, Siyah Zeytin, Yeşil Zeytin, Reçel, Tereyağ, Süzme Bal, Kaymak, Kuru Kayısı, Kuru Üzüm, Sigara Böreği, Kahvaltılık Sos, Sade Omlet, Patates Tava, Sütlü Çikolata, Ceviz, Sucuk, Zeytin Yağlı Sos, Simit, Çemen karbonhidrat değeri( 629,134 g)",
+    "ingredients": [
+      "Beyaz Peynir",
+      "Kaşar Peynir",
+      "Ezine peynir",
+      "Örgü Peynir",
+      "Sosis",
+      "Domates",
+      "Salatalık",
+      "Mevsim Yeşilliği",
+      "Siyah Zeytin",
+      "Yeşil Zeytin",
+      "Reçel",
+      "Tereyağ",
+      "Süzme Bal",
+      "Kaymak",
+      "Kuru Kayısı",
+      "Kuru Üzüm",
+      "Sigara Böreği",
+      "Kahvaltılık Sos",
+      "Sade Omlet",
+      "Patates Tava",
+      "Sütlü Çikolata",
+      "Ceviz",
+      "Sucuk",
+      "Zeytin Yağlı Sos",
+      "Simit",
+      "Çemen"
+    ]
+  },
+  {
+    "id": "prod_x964w5q65",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_9aqukob8o",
+    "name": "KAHVALTI TABAĞI TEK KİŞİLİK",
+    "price": 300,
+    "imageUrl": "/assets/KAHVALTI TABAĞI TEK KİŞİLİK.jpg",
+    "shortDescription": "Beyaz Peynir, Kaşar Peynir, Sosis, Haşlanmış Yumurta, Domates, Salatalık, Siyah Zeytin, Yeşil Zeytin, Reçel, Sütlü Çikolata, Süzme Bal, Kaymak, Tere Yağ, Sigara Böreği, Kuru Üzüm, Kuru Kayısı, Patates Tava, Sucuk, Simit",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Beyaz Peynir, Kaşar Peynir, Sosis, Haşlanmış Yumurta, Domates, Salatalık, Siyah Zeytin, Yeşil Zeytin, Reçel, Sütlü Çikolata, Süzme Bal, Kaymak, Tere Yağ, Sigara Böreği, Kuru Üzüm, Kuru Kayısı, Patates Tava, Sucuk, Simit karbonhidrat değeri( 372,535 g)",
+    "ingredients": [
+      "Beyaz Peynir",
+      "Kaşar Peynir",
+      "Sosis",
+      "Haşlanmış Yumurta",
+      "Domates",
+      "Salatalık",
+      "Siyah Zeytin",
+      "Yeşil Zeytin",
+      "Reçel",
+      "Sütlü Çikolata",
+      "Süzme Bal",
+      "Kaymak",
+      "Tere Yağ",
+      "Sigara Böreği",
+      "Kuru Üzüm",
+      "Kuru Kayısı",
+      "Patates Tava",
+      "Sucuk",
+      "Simit"
+    ]
+  },
+  {
+    "id": "prod_7drpf9qxr",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_9aqukob8o",
+    "name": "SAHANDA YUMURTA",
+    "price": 70,
+    "imageUrl": "/assets/SAHANDA YUMURTA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Yumurta ve Tere Yağ ile karbonhidrat değeri( 1,36 g)"
+  },
+  {
+    "id": "prod_tpl1ikm20",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_9aqukob8o",
+    "name": "KAŞARLI SAHANDA YUMURTA",
+    "price": 100,
+    "imageUrl": "/assets/KAŞARLI SAHANDA YUMURTA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Yumurta, Kaşar Peynir ve Tere Yağ ile karbonhidrat değeri( 4,19 g)"
+  },
+  {
+    "id": "prod_sm6qkl7eo",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_9aqukob8o",
+    "name": "SUCUKLU SAHANDA YUMURTA",
+    "price": 125,
+    "imageUrl": "/assets/SUCUKLU SAHANDA YUMURTA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Yumurta, Sucuk ve Tere Yağ ile karbonhidrat değeri( 3,24 g)"
+  },
+  {
+    "id": "prod_b29pnc0o7",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_9aqukob8o",
+    "name": "MENEMEN",
+    "price": 110,
+    "imageUrl": "/assets/MENEMEN.png",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Yumurta, Domates, Biber ve Tere Yağ İle karbonhidrat değeri( 31,84 g)"
+  },
+  {
+    "id": "prod_lnytonpbl",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_9aqukob8o",
+    "name": "SADE OMLET",
+    "price": 90,
+    "imageUrl": "/assets/SADE OMLET.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Yumurta ve Tere Yağ İle (Domates ve Salatalık İle Servis Edilir) karbonhidrat değeri( 1,32 g)"
+  },
+  {
+    "id": "prod_oxocjsgw3",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_9aqukob8o",
+    "name": "KAŞARLI OMLET",
+    "price": 110,
+    "imageUrl": "/assets/KAŞARLI OMLET.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Yumurta, Kaşar Peynir ve Tere Yağ İle (Domates ve Salatalık İle Servis Edilir)"
+  },
+  {
+    "id": "prod_1jc8291jd",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_9aqukob8o",
+    "name": "BEYAZ PEYNİRLİ OMLET",
+    "price": 100,
+    "imageUrl": "/assets/BEYAZ PEYNİRLİ OMLET.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Yumurta, Beyaz Peynir, Maydanoz ve Tere Yağ İle (Domates ve Salatalık İle Servis Edilir) karbonhidrat değeri( 9,03 g)"
+  },
+  {
+    "id": "prod_awcvfkny5",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_9aqukob8o",
+    "name": "KARIŞIK OMLET",
+    "price": 125,
+    "imageUrl": "/assets/KARIŞIK OMLET.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Yumurta, Sucuk, Kaşar Peynir, Mantar ve Tere Yağ İle (Domates ve Salatalık İle Servis Edilir)"
   }
 ]
