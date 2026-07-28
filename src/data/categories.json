@@ -33,5 +33,19 @@
     "name": "Bitki Çayları",
     "order": 5,
     "imageUrl": "/assets/bitki çayları.jpg"
+  },
+  {
+    "id": "cat_qj522cbdm",
+    "businessId": "atikapinar-tesisleri",
+    "name": "Çerez * Tatlılar * Dondurma",
+    "order": 6,
+    "imageUrl": "/assets/ÇEREZ TATLILAR DONDURMA.jpg"
+  },
+  {
+    "id": "cat_lomuouxxz",
+    "businessId": "atikapinar-tesisleri",
+    "name": "Sıcak İçecekler",
+    "order": 7,
+    "imageUrl": "/assets/sıcak içecekler.jpg"
   }
 ]
