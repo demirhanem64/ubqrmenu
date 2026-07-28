@@ -96,5 +96,89 @@
     "name": "Kahvaltılar ve Omleter",
     "order": 3,
     "imageUrl": "/assets/kahvaltılar ve omletler.jpg"
+  },
+  {
+    "id": "cat_4h4hzb4bz",
+    "businessId": "kent-park-tesisleri",
+    "name": "Gözleme ve Tostlar",
+    "order": 4,
+    "imageUrl": "/assets/gözleme ve tostlar.jpg"
+  },
+  {
+    "id": "cat_md1g64bku",
+    "businessId": "kent-park-tesisleri",
+    "name": "Ara Sıcak ve Dürümler",
+    "order": 5,
+    "imageUrl": "/assets/ara sıcak ve dürümler.jpg"
+  },
+  {
+    "id": "cat_lhtaqenah",
+    "businessId": "kent-park-tesisleri",
+    "name": "Burger ve Pizza",
+    "order": 6,
+    "imageUrl": "/assets/burgerler ve pizzalar.jpg"
+  },
+  {
+    "id": "cat_l4ot9jdlr",
+    "businessId": "kent-park-tesisleri",
+    "name": "Tavuklar",
+    "order": 7,
+    "imageUrl": "/assets/tavuklar.jpg"
+  },
+  {
+    "id": "cat_0ienn9fmv",
+    "businessId": "kent-park-tesisleri",
+    "name": "Kırmızı Etler",
+    "order": 8,
+    "imageUrl": "/assets/KIRMIZI ETLER.jpg"
+  },
+  {
+    "id": "cat_kwzymhtpn",
+    "businessId": "kent-park-tesisleri",
+    "name": "Mantı & Makarna & Salatalar",
+    "order": 9,
+    "imageUrl": "/assets/mantı makarna salatalar.jpg"
+  },
+  {
+    "id": "cat_ww5amtjb7",
+    "businessId": "kent-park-tesisleri",
+    "name": "Waffle & Tatlılar & Dondurma",
+    "order": 10,
+    "imageUrl": "/assets/WAFFLE & TATLILAR & DONDURMA.jpeg"
+  },
+  {
+    "id": "cat_5nvi90igx",
+    "businessId": "kent-park-tesisleri",
+    "name": "Türk Kahveleri & Espresso Special",
+    "order": 11,
+    "imageUrl": "/assets/TÜRK KAHVELERİ & ESPRESSO SPECIAL.jpg"
+  },
+  {
+    "id": "cat_10qyhwnkc",
+    "businessId": "kent-park-tesisleri",
+    "name": "Bitki Çayları",
+    "order": 12,
+    "imageUrl": "/assets/bitki çayları.jpg"
+  },
+  {
+    "id": "cat_ociv0e9fx",
+    "businessId": "kent-park-tesisleri",
+    "name": "Limonata & Vitamin Bar",
+    "order": 13,
+    "imageUrl": "/assets/limonata & vitamin bar.jpg"
+  },
+  {
+    "id": "cat_4k8uui0ef",
+    "businessId": "kent-park-tesisleri",
+    "name": "Milkshake & Frozen & Smoothies",
+    "order": 14,
+    "imageUrl": "/assets/MİLKSHAKE & FROZEN & SMOOTHIES.jpeg"
+  },
+  {
+    "id": "cat_bzyxenkph",
+    "businessId": "kent-park-tesisleri",
+    "name": "Soğuk Kahveler & Kokteyl Şöleni",
+    "order": 15,
+    "imageUrl": "/assets/SOĞUK KAHVELER & KOKTEYL ŞÖLENİ.jpg"
   }
 ]

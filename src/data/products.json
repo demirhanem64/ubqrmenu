@@ -2658,5 +2658,1709 @@
       "Kaşar Peynir",
       "Mantar ve Tere Yağ İle (Domates ve Salatalık İle Servis Edilir)"
     ]
+  },
+  {
+    "id": "prod_jcqb2ihy2",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_4h4hzb4bz",
+    "name": "PATATESLİ GÖZLEME",
+    "price": 140,
+    "imageUrl": "/assets/PATATESLİ GÖZLEME.jpg",
+    "shortDescription": "(Domates, Salatalık ve Siyah Zeytin İle Servis Edilir)",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "(Domates, Salatalık ve Siyah Zeytin İle Servis Edilir) KARBONHİDRAT DEĞERİ 113,83"
+  },
+  {
+    "id": "prod_6e4yj9pyp",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_4h4hzb4bz",
+    "name": "PEYNİRLİ GÖZLEME",
+    "price": 140,
+    "imageUrl": "/assets/PEYNİRLİ GÖZLEME.jpg",
+    "shortDescription": "(Domates, Salatalık ve Siyah Zeytin İle Servis Edilir)",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "(Domates, Salatalık ve Siyah Zeytin İle Servis Edilir) KARBONHİDRAT DEĞERİ 104,58"
+  },
+  {
+    "id": "prod_cace6gokf",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_4h4hzb4bz",
+    "name": "KAŞARLI GÖZLEME",
+    "price": 140,
+    "imageUrl": "/assets/KAŞARLI GÖZLEME.jpg",
+    "shortDescription": "Domates, Salatalık ve Siyah Zeytin İle Servis Edilir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "(Domates, Salatalık ve Siyah Zeytin İle Servis Edilir) KARBONHİDRAT DEĞERİ 106,16"
+  },
+  {
+    "id": "prod_3g9y052bc",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_4h4hzb4bz",
+    "name": "KAŞARLI TOST",
+    "price": 130,
+    "imageUrl": "/assets/KAŞARLI TOST.jpg",
+    "shortDescription": "Tost Ekmeği Arasında Kaşar peyniri (Mevsim Yeşillikleri ve Patates İle Servis Edilir)",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Tost Ekmeği Arasında Kaşar peyniri (Mevsim Yeşillikleri ve Patates İle Servis Edilir) ( KARBONHİDRAT DEĞERİ 87,89 )"
+  },
+  {
+    "id": "prod_z5chb4mws",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_4h4hzb4bz",
+    "name": "KARIŞIK TOST",
+    "price": 150,
+    "imageUrl": "/assets/KARIŞIK TOST.jpg",
+    "shortDescription": "Tost Ekmeği Arasında Kaşar Peyniri ve Sucuk (Mevsim Yeşillikleri ve Patates İle Servis Edilir )",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Tost Ekmeği Arasında Kaşar Peyniri ve Sucuk (Mevsim Yeşillikleri ve Patates İle Servis Edilir ) ( KARBONHİDRAT DEĞERİ 85,84 )"
+  },
+  {
+    "id": "prod_bcnnd4di2",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_md1g64bku",
+    "name": "GÜNÜN ÇORBASI",
+    "price": 70,
+    "imageUrl": "/assets/GÜNÜN ÇORBASI.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_usxrvy2ut",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_md1g64bku",
+    "name": "SİGARA BÖREĞİ",
+    "price": 140,
+    "imageUrl": "/assets/SİGARA BÖREĞİ.jpg",
+    "shortDescription": "Mevsim Yeşillikleri ve Parmak Patates",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Mevsim Yeşillikleri ve Parmak Patates İle ( KARBONHİDRAT DEĞERİ 184,66 )"
+  },
+  {
+    "id": "prod_n269o7zts",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_md1g64bku",
+    "name": "SOĞAN HALKASI",
+    "price": 100,
+    "imageUrl": "/assets/SOĞAN HALKASI.jpeg",
+    "shortDescription": "Soğan Halkası, Mevsim Yeşillikleri",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Soğan Halkası, Mevsim Yeşillikleri İle ( KARBONHİDRAT DEĞERİ 74,1 )"
+  },
+  {
+    "id": "prod_ga46gl890",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_md1g64bku",
+    "name": "COMBO TABAĞI",
+    "price": 250,
+    "imageUrl": "/assets/COMBO TABAĞI.jpeg",
+    "shortDescription": "Sigara Böreği, Paçanga Böreği, Soğan Halkası, Parmak patates, Nugget, Sosis, Sucuk",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Sigara Böreği, Paçanga Böreği, Soğan Halkası, Parmak patates, Nugget, Sosis, Sucuk İle ( KARBONHİDRAT DEĞERİ 127,63 )",
+    "ingredients": [
+      "Sigara Böreği",
+      "Paçanga Böreği",
+      "Soğan Halkası",
+      "Parmak patates",
+      "Nugget",
+      "Sosis",
+      "Sucuk"
+    ]
+  },
+  {
+    "id": "prod_sk8bkmrc4",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_md1g64bku",
+    "name": "CAJUN TAVUK TABAĞI",
+    "price": 230,
+    "imageUrl": "/assets/CAJUN TAVUK TABAĞI.jpeg",
+    "shortDescription": "Kajun Baharatı İle Panelenmiş Piliç Parçaları ve Patates",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Kajun Baharatı İle Panelenmiş Piliç Parçaları ve Patates İle ( KARBONHİDRAT DEĞERİ 93,23 )",
+    "ingredients": [
+      "Kajun Baharatı İle Panelenmiş Piliç Parçaları ve Patates"
+    ]
+  },
+  {
+    "id": "prod_6qm1f2ry7",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_md1g64bku",
+    "name": "PATATES TAVA",
+    "price": 100,
+    "imageUrl": "/assets/PATATES TAVA.jpeg",
+    "shortDescription": "Parmak Patates",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Parmak Patates ile (KARBONHİDRAT DEĞERİ 53 )"
+  },
+  {
+    "id": "prod_mjf631fpq",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_md1g64bku",
+    "name": "TAVUK DÜRÜM",
+    "price": 200,
+    "imageUrl": "/assets/TAVUK DÜRÜM.jpg",
+    "shortDescription": "Tortilla Ekmeği Arasında Sotelenmiş Mantar, Renkli biberler, Piliç Bonfile Parçaları, Kaşar Peyniri, Mevsim Yeşilliği ve Patates",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Tortilla Ekmeği Arasında Sotelenmiş Mantar, Renkli biberler, Piliç Bonfile Parçaları, Kaşar Peyniri, Mevsim Yeşilliği ve Patates İle ( 136,41 )",
+    "ingredients": [
+      "Tortilla Ekmeği Arasında Sotelenmiş Mantar",
+      "Renkli biberler",
+      "Piliç Bonfile Parçaları",
+      "Kaşar Peyniri",
+      "Mevsim Yeşilliği ve Patates"
+    ]
+  },
+  {
+    "id": "prod_98okavxbw",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_md1g64bku",
+    "name": "KÖFTE DÜRÜM",
+    "price": 220,
+    "imageUrl": "/assets/KÖFTE DÜRÜM.jpg",
+    "shortDescription": "Tortilla Ekmeği Arasında Sotelenmiş Mantar, Renkli biberler, Izgara Köfte Parçaları, Kaşar peyniri, Mevsim Yeşilliği ve Patates",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Tortilla Ekmeği Arasında Sotelenmiş Mantar, Renkli biberler, Izgara Köfte Parçaları, Kaşar peyniri, Mevsim Yeşilliği ve Patates İle ( KARBONHİDRAT DEĞERİ 156,63 )",
+    "ingredients": [
+      "Tortilla Ekmeği Arasında Sotelenmiş Mantar",
+      "Renkli biberler",
+      "Izgara Köfte Parçaları",
+      "Kaşar peyniri",
+      "Mevsim Yeşilliği ve Patates"
+    ]
+  },
+  {
+    "id": "prod_jtzqzyzib",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_lhtaqenah",
+    "name": "HAMBURGER",
+    "price": 220,
+    "imageUrl": "/assets/hamburger.jpg",
+    "shortDescription": "El Yapımı Burger Köftesi, Marul, Turşu, Domates, Mevsim Yeşilliği ve Patates",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "El Yapımı Burger Köftesi, Marul, Turşu, Domates, Mevsim Yeşilliği ve Patates İle ( KARBONHİDRAT DEĞERİ 97 )",
+    "ingredients": [
+      "El Yapımı Burger Köftesi",
+      "Marul",
+      "Turşu",
+      "Domates",
+      "Mevsim Yeşilliği ve Patates"
+    ]
+  },
+  {
+    "id": "prod_l55rpz5uf",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_lhtaqenah",
+    "name": "CHEESEBURGER",
+    "price": 240,
+    "imageUrl": "/assets/CHEESEBURGER.jpg",
+    "shortDescription": "El Yapımı Burger Köftesi Üzerine Cheddar Peyniri, Marul, Turşu, Domates, Mevsim yeşilliği ve Patates",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "El Yapımı Burger Köftesi Üzerine Cheddar Peyniri, Marul, Turşu, Domates, Mevsim yeşilliği ve Patates İle ( KARBONHİDRAT DEĞERİ 113,53 )",
+    "ingredients": [
+      "El Yapımı Burger Köftesi Üzerine Cheddar Peyniri",
+      "Marul",
+      "Turşu",
+      "Domates",
+      "Mevsim yeşilliği ve Patates"
+    ]
+  },
+  {
+    "id": "prod_cqrfs3x4g",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_lhtaqenah",
+    "name": "TAVUK BURGER",
+    "price": 200,
+    "imageUrl": "/assets/TAVUK BURGER.jpg",
+    "shortDescription": "Piliç Bonfile, Cheddar Peyniri, Marul, Turşu, Domates, Mevsim Yeşilliği ve Patates",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Piliç Bonfile, Cheddar Peyniri, Marul, Turşu, Domates, Mevsim Yeşilliği ve Patates İle ( KARBONHİDRAT DEĞERİ 120,39 )",
+    "ingredients": [
+      "Piliç Bonfile",
+      "Cheddar Peyniri",
+      "Marul",
+      "Turşu",
+      "Domates",
+      "Mevsim Yeşilliği ve Patates"
+    ]
+  },
+  {
+    "id": "prod_g724f269v",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_lhtaqenah",
+    "name": "MEXİCAN BURGER",
+    "price": 240,
+    "imageUrl": "/assets/MEXİCAN BURGER.jpg",
+    "shortDescription": "El Yapımı Burger Köftesi, Mexican Sos, Cheddar Peyniri, Marul, Turşu, Domates, Mevsim Yeşilliği ve Patates",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "El Yapımı Burger Köftesi, Mexican Sos, Cheddar Peyniri, Marul, Turşu, Domates, Mevsim Yeşilliği ve Patates İle ( KARBONHİDRAT DEĞERİ 80 )",
+    "ingredients": [
+      "El Yapımı Burger Köftesi",
+      "Mexican Sos",
+      "Cheddar Peyniri",
+      "Marul",
+      "Turşu",
+      "Domates",
+      "Mevsim Yeşilliği ve Patates"
+    ]
+  },
+  {
+    "id": "prod_1sr0yputi",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_lhtaqenah",
+    "name": "MARGARİTA PİZZA",
+    "price": 200,
+    "imageUrl": "/assets/MARGARİTA PİZZA.jpg",
+    "shortDescription": "Pizza Peyniri, Napoliten Sos ve Domates",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Pizza Peyniri, Napoliten Sos ve Domates İle ( KARBONHİDRAT DEĞERİ 131,77 )",
+    "ingredients": [
+      "Pizza Peyniri",
+      "Napoliten Sos ve Domates"
+    ]
+  },
+  {
+    "id": "prod_vvox7qh5z",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_lhtaqenah",
+    "name": "DÖRT PEYNİRLİ PİZZA",
+    "price": 240,
+    "imageUrl": "/assets/DÖRT PEYNİRLİ PİZZA.jpg",
+    "shortDescription": "Pizza Peyniri, Cheddar Peynir, Beyaz Peynir ve Çeçil Peyniri",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Pizza Peyniri, Cheddar Peynir, Beyaz Peynir ve Çeçil Peyniri ile ( KARBONHİDRAT DEĞERİ 138,75 )",
+    "ingredients": [
+      "Pizza Peyniri",
+      "Cheddar Peynir",
+      "Beyaz Peynir ve Çeçil Peyniri"
+    ]
+  },
+  {
+    "id": "prod_gpxhezuzc",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_lhtaqenah",
+    "name": "MEXİCAN PİZZA",
+    "price": 240,
+    "imageUrl": "/assets/MEXİCAN PİZZA.jpg",
+    "shortDescription": "Pizza Peyniri, Sucuk, Mantar, Jelepon Biber, Mısır, Domates ve Acı Sos",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Pizza Peyniri, Sucuk, Mantar, Jelepon Biber, Mısır, Domates ve Acı Sos ile ( KARBONHİDRAT DEĞERİ 186,81 )",
+    "ingredients": [
+      "Pizza Peyniri",
+      "Sucuk",
+      "Mantar",
+      "Jelepon Biber",
+      "Mısır",
+      "Domates ve Acı Sos"
+    ]
+  },
+  {
+    "id": "prod_kq34cw68e",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_lhtaqenah",
+    "name": "SUCUKLU PİZZA",
+    "price": 220,
+    "imageUrl": "/assets/SUCUKLU PİZZA.jpg",
+    "shortDescription": "Pizza Peyniri, Pizza Sosu ve Sucuk",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Pizza Peyniri, Pizza Sosu ve Sucuk İle ( KARBONHİDRAT DEĞERİ 130,08 )",
+    "ingredients": [
+      "Pizza Peyniri",
+      "Pizza Sosu ve Sucuk"
+    ]
+  },
+  {
+    "id": "prod_f03wll3rm",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_lhtaqenah",
+    "name": "VEJETERYAN PİZZA",
+    "price": 200,
+    "imageUrl": "/assets/VEJETERYAN PİZZA.jpg",
+    "shortDescription": "Pizza Peyniri, Napoliten Sos, Domates, Mantar, Biber, Mısır ve Zeytin",
+    "badges": {
+      "vegan": false,
+      "vegetarian": true,
+      "glutenFree": false
+    },
+    "longDescription": "Pizza Peyniri, Napoliten Sos, Domates, Mantar, Biber, Mısır ve Zeytin İle ( KARBONHİDRAT DEĞERİ 170,29 )",
+    "ingredients": [
+      "Pizza Peyniri",
+      "Napoliten Sos",
+      "Domates",
+      "Mantar",
+      "Biber",
+      "Mısır ve Zeytin"
+    ]
+  },
+  {
+    "id": "prod_pxlf3sj4z",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_lhtaqenah",
+    "name": "BARBEKÜ SOSLU TAVUK PİZZA",
+    "price": 220,
+    "imageUrl": "/assets/BARBEKÜ SOSLU TAVUK PİZZA.jpg",
+    "shortDescription": "Pizza Peyniri, Barbekü Soslu Tavuk Parçaları, Biber, Mısır, Mantar ve Domates",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Pizza Peyniri, Barbekü Soslu Tavuk Parçaları, Biber, Mısır, Mantar ve Domates ile ( KARBONHİDRAT DEĞERİ 184,65 )",
+    "ingredients": [
+      "Pizza Peyniri",
+      "Barbekü Soslu Tavuk Parçaları",
+      "Biber",
+      "Mısır",
+      "Mantar ve Domates"
+    ]
+  },
+  {
+    "id": "prod_tr4lo4myv",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_lhtaqenah",
+    "name": "KARIŞIK PİZZA",
+    "price": 240,
+    "imageUrl": "/assets/KARIŞIK PİZZA.jpg",
+    "shortDescription": "Pizza Peyniri, Napoliten Sos, Domates, Mantar, Biber, Mısır, Zeytin, Sucuk, Sosis ve Salam ",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Pizza Peyniri, Napoliten Sos, Domates, Mantar, Biber, Mısır, Zeytin, Sucuk, Sosis ve Salam İle ( KARBONHİDRAT DEĞERİ 197,7 )\n\n",
+    "ingredients": [
+      "Pizza Peyniri",
+      "Napoliten Sos",
+      "Domates",
+      "Mantar",
+      "Biber",
+      "Mısır",
+      "Zeytin",
+      "Sucuk",
+      "Sosis ve Salam"
+    ]
+  },
+  {
+    "id": "prod_v8uuezuyt",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_l4ot9jdlr",
+    "name": "KÖRİ SOSLU TAVUK",
+    "price": 250,
+    "imageUrl": "/assets/KÖRİ SOSLU TAVUK.jpg",
+    "shortDescription": "Jülyen Doğranmış Piliç Bonfile, Mantar, Köri Baharatı, Krema, Mevsim Yeşilliği ve Pilav",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Jülyen Doğranmış Piliç Bonfile, Mantar, Köri Baharatı, Krema, Mevsim Yeşilliği ve Pilav ile ( KARBONHİDRAT DEĞERİ 96,04 )\n",
+    "ingredients": [
+      "Jülyen Doğranmış Piliç Bonfile",
+      "Mantar",
+      "Köri Baharatı",
+      "Krema",
+      "Mevsim Yeşilliği ve Pilav"
+    ]
+  },
+  {
+    "id": "prod_274e4azl6",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_l4ot9jdlr",
+    "name": "BARBEKÜ SOSLU TAVUK",
+    "price": 250,
+    "imageUrl": "/assets/BARBEKÜ SOSLU TAVUK.jpg",
+    "shortDescription": "Jülyen Doğranmış Piliç Bonfile, Mantar, Renkli Biberler, Mısır, Barbekü Sos, Mevsim Yeşilliği ve Pilav",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Jülyen Doğranmış Piliç Bonfile, Mantar, Renkli Biberler, Mısır, Barbekü Sos, Mevsim Yeşilliği ve Pilav ile servis edilir",
+    "ingredients": [
+      "Jülyen Doğranmış Piliç Bonfile",
+      "Mantar",
+      "Renkli Biberler",
+      "Mısır",
+      "Barbekü Sos",
+      "Mevsim Yeşilliği ve Pilav"
+    ]
+  },
+  {
+    "id": "prod_nxmfb2iqr",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_l4ot9jdlr",
+    "name": "FESLEĞEN SOSLU TAVUK",
+    "price": 250,
+    "imageUrl": "/assets/FESLEĞEN SOSLU TAVUK.jpg",
+    "shortDescription": "Jülyen Doğranmış Piliç Bonfile, Mantar, Fesleğen, Krema, Mevsim Yeşilliği ve Pilav",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Jülyen Doğranmış Piliç Bonfile, Mantar, Fesleğen, Krema, Mevsim Yeşilliği ve Pilav ile servis edilir",
+    "ingredients": [
+      "Jülyen Doğranmış Piliç Bonfile",
+      "Mantar",
+      "Fesleğen",
+      "Krema",
+      "Mevsim Yeşilliği ve Pilav"
+    ]
+  },
+  {
+    "id": "prod_aloq44kbd",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_l4ot9jdlr",
+    "name": "ACI SOSLU TAVUK",
+    "price": 250,
+    "imageUrl": "/assets/ACI SOSLU TAVUK.jpg",
+    "shortDescription": "Jülyen Doğranmış Piliç Bonfile, Mantar, Mexican Sos, Mexican Fasulye, Renkli Biberler, Mevsim Yeşilliği ve Pilav",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Jülyen Doğranmış Piliç Bonfile, Mantar, Mexican Sos, Mexican Fasulye, Renkli Biberler, Mevsim Yeşilliği ve Pilav ile ( KARBONHİDRAT DEĞERİ 80,7 )",
+    "ingredients": [
+      "Jülyen Doğranmış Piliç Bonfile",
+      "Mantar",
+      "Mexican Sos",
+      "Mexican Fasulye",
+      "Renkli Biberler",
+      "Mevsim Yeşilliği ve Pilav"
+    ]
+  },
+  {
+    "id": "prod_zfuhuy5ac",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_l4ot9jdlr",
+    "name": "DAĞ KEKİKLİ TAVUK",
+    "price": 250,
+    "imageUrl": "/assets/DAĞ KEKİKLİ TAVUK.jpg",
+    "shortDescription": "Jülyen Doğranmış Piliç Bonfile, Sebze Çeşni, Kekik, Krema, Mevsim Yeşilliği ve Pilav",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Jülyen Doğranmış Piliç Bonfile, Sebze Çeşni, Kekik, Krema, Mevsim Yeşilliği ve Pilav ile servis edilir\n",
+    "ingredients": [
+      "Jülyen Doğranmış Piliç Bonfile",
+      "Sebze Çeşni",
+      "Kekik",
+      "Krema",
+      "Mevsim Yeşilliği ve Pilav"
+    ]
+  },
+  {
+    "id": "prod_vvor9jjxr",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_l4ot9jdlr",
+    "name": "IZGARA TAVUK",
+    "price": 250,
+    "imageUrl": "/assets/IZGARA TAVUK.jpg",
+    "shortDescription": "Piliç Bonfile, Kajun Baharatı, Köz Domates, Köz Biber, Mevsim Yeşilliği ve Pilav",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Piliç Bonfile, Kajun Baharatı, Köz Domates, Köz Biber, Mevsim Yeşilliği ve Pilav ile ( KARBONHİDRAT DEĞERİ 97,7 )\n",
+    "ingredients": [
+      "Piliç Bonfile",
+      "Kajun Baharatı",
+      "Köz Domates",
+      "Köz Biber",
+      "Mevsim Yeşilliği ve Pilav"
+    ]
+  },
+  {
+    "id": "prod_ct9x0gp1v",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_l4ot9jdlr",
+    "name": "SCHNİTZEL",
+    "price": 250,
+    "imageUrl": "/assets/SCHNİTZEL.jpg",
+    "shortDescription": "Panelenmiş Tavuk Bonfile, Mevsim Yeşilliği ve Pilav",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Panelenmiş Tavuk Bonfile, Mevsim Yeşilliği ve Pilav ile ( KARBONHİDRAT DEĞERİ 247,65 )",
+    "ingredients": [
+      "Panelenmiş Tavuk Bonfile",
+      "Mevsim Yeşilliği ve Pilav"
+    ]
+  },
+  {
+    "id": "prod_quiw4av71",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_l4ot9jdlr",
+    "name": "KREMALI MANTARLI TAVUK",
+    "price": 250,
+    "imageUrl": "/assets/KREMALI MANTARLI TAVUK.jpg",
+    "shortDescription": "Jülyen Doğranmış Piliç Bonfile, Mantar, Krema, Mevsim Yeşilliği ve Pilav \n\n",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Jülyen Doğranmış Piliç Bonfile, Mantar, Krema, Mevsim Yeşilliği ve Pilav ile ( KARBONHİDRAT DEĞERİ 84,57 )",
+    "ingredients": [
+      "Jülyen Doğranmış Piliç Bonfile",
+      "Mantar",
+      "Krema",
+      "Mevsim Yeşilliği ve Pilav"
+    ]
+  },
+  {
+    "id": "prod_4469448ga",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_l4ot9jdlr",
+    "name": "TAVUK FAJİTA",
+    "price": 250,
+    "imageUrl": "/assets/TAVUK FAJİTA.jpeg",
+    "shortDescription": "Renkli Biberler ve Soğan ile Sotelenmiş Tavuk Bonfile Parçaları, Jelepon Biber, Süzme Yoğurt, Acı Sos ve Tortilla Ekmeği",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Renkli Biberler ve Soğan ile Sotelenmiş Tavuk Bonfile Parçaları, Jelepon Biber, Süzme Yoğurt, Acı Sos ve Tortilla Ekmeği ile ( KARBONHİDRAT DEĞERİ 102,55 )",
+    "ingredients": [
+      "Renkli Biberler ve Soğan ile Sotelenmiş Tavuk Bonfile Parçaları",
+      "Jelepon Biber",
+      "Süzme Yoğurt",
+      "Acı Sos ve Tortilla Ekmeği"
+    ]
+  },
+  {
+    "id": "prod_9s1dlcfji",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_0ienn9fmv",
+    "name": "IZGARA KÖFTE",
+    "price": 300,
+    "imageUrl": "/assets/IZGARA KÖFTE.jpg",
+    "shortDescription": "Izgara Köfte Yanında Köz Domates, Köz Biber, Mevsim Yeşilliği ve Pilav ",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Izgara Köfte Yanında Köz Domates, Köz Biber, Mevsim Yeşilliği ve Pilav İle ( KARBONHİDRAT DEĞERİ 106,37 )\n",
+    "ingredients": [
+      "Izgara Köfte Yanında Köz Domates",
+      "Köz Biber",
+      "Mevsim Yeşilliği ve Pilav"
+    ]
+  },
+  {
+    "id": "prod_2o2zehgwk",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_kwzymhtpn",
+    "name": "MANTI",
+    "price": 170,
+    "imageUrl": "/assets/MANTI.jpg",
+    "shortDescription": "Süzme yoğurt, Tereyağlı Sos ve isteğe bağlı Sarımsak",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Süzme yoğurt, Tereyağlı Sos ve isteğe bağlı Sarımsak ile ( KARBONHİDRAT DEĞERİ 141,24 )",
+    "ingredients": [
+      "Süzme yoğurt",
+      "Tereyağlı Sos ve isteğe bağlı Sarımsak"
+    ]
+  },
+  {
+    "id": "prod_x9t98n6kb",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_kwzymhtpn",
+    "name": "PENNE NAPOLİTEN",
+    "price": 200,
+    "imageUrl": "/assets/PENNE NAPOLİTEN.jpg",
+    "shortDescription": "Domates Sos, Taze fesleğen ve Kaşar peynir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Domates Sos, Taze fesleğen ve Kaşar peynir ile ( KARBONHİDRAT DEĞERİ 201,71 )",
+    "ingredients": [
+      "Domates Sos",
+      "Taze fesleğen ve Kaşar peynir"
+    ]
+  },
+  {
+    "id": "prod_lml2jrya0",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_kwzymhtpn",
+    "name": "PENNE PESTO",
+    "price": 200,
+    "imageUrl": "/assets/PENNE PESTO.jpg",
+    "shortDescription": "Pesto Soslu Krema ve Kaşar Peynir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Pesto Soslu Krema ve Kaşar Peynir ile ( KARBONHİDRAT DEĞERİ 207,08 )\n",
+    "ingredients": [
+      "Pesto Soslu Krema ve Kaşar Peynir"
+    ]
+  },
+  {
+    "id": "prod_3yhdm4eoe",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_kwzymhtpn",
+    "name": "PENNE ARABİATA",
+    "price": 200,
+    "imageUrl": "/assets/PENNE ARABİATA.jpg",
+    "shortDescription": "Acılı Domates Sos, Siyah Zeytin ve Kaşar Peynir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Acılı Domates Sos, Siyah Zeytin ve Kaşar Peynir ile ( KARBONHİDRAT DEĞERİ 212,85 )",
+    "ingredients": [
+      "Acılı Domates Sos",
+      "Siyah Zeytin ve Kaşar Peynir"
+    ]
+  },
+  {
+    "id": "prod_f0p009r73",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_kwzymhtpn",
+    "name": "PENNE KÖRİ",
+    "price": 200,
+    "imageUrl": "/assets/PENNE KÖRİ.jpg",
+    "shortDescription": "Köri Sos, Krema, Mantar, Piliç Bonfile ve Kaşar",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Köri Sos, Krema, Mantar, Piliç Bonfile ve Kaşar ile servis edilir\n\n",
+    "ingredients": [
+      "Köri Sos",
+      "Krema",
+      "Mantar",
+      "Piliç Bonfile ve Kaşar"
+    ]
+  },
+  {
+    "id": "prod_yhhdn767e",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_kwzymhtpn",
+    "name": "PENNE ALFREDO",
+    "price": 200,
+    "imageUrl": "/assets/PENNE ALFREDO.jpg",
+    "shortDescription": "Piliç Bonfile, Mantar, Krema, Fesleğen ve Kaşar",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Piliç Bonfile, Mantar, Krema, Fesleğen ve Kaşar ile servis edilir\n",
+    "ingredients": [
+      "Piliç Bonfile",
+      "Mantar",
+      "Krema",
+      "Fesleğen ve Kaşar"
+    ]
+  },
+  {
+    "id": "prod_7f3ovwv6p",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_kwzymhtpn",
+    "name": "IZGARA TAVUK SALATA",
+    "price": 130,
+    "imageUrl": "/assets/IZGARA TAVUK SALATA.jpg",
+    "shortDescription": "Marul, Izgara Tavuk Dilimleri, Fırınlanmış Ekmek, Kurutulmuş Domates, Kaşar Peynir, Çeri Domates",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Marul, Izgara Tavuk Dilimleri, Fırınlanmış Ekmek, Kurutulmuş Domates, Kaşar Peynir, Çeri Domates ile servis edilir",
+    "ingredients": [
+      "Marul",
+      "Izgara Tavuk Dilimleri",
+      "Fırınlanmış Ekmek",
+      "Kurutulmuş Domates",
+      "Kaşar Peynir",
+      "Çeri Domates"
+    ]
+  },
+  {
+    "id": "prod_1hkcfw20a",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_kwzymhtpn",
+    "name": "TAVUKLU SEZAR SALATA",
+    "price": 160,
+    "imageUrl": "/assets/TAVUKLU SEZAR SALATA.jpg",
+    "shortDescription": "Marul, Izgara Tavuk Dilimleri, Fırınlanmış Ekmek, Kurutulmuş Domates, Kaşar Peynir, Çeri Domates ve Sezar Sos ",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Marul, Izgara Tavuk Dilimleri, Fırınlanmış Ekmek, Kurutulmuş Domates, Kaşar Peynir, Çeri Domates ve Sezar Sos ile ( KARBONHİDRAT DEĞERİ 50,22 )",
+    "ingredients": [
+      "Marul",
+      "Izgara Tavuk Dilimleri",
+      "Fırınlanmış Ekmek",
+      "Kurutulmuş Domates",
+      "Kaşar Peynir",
+      "Çeri Domates ve Sezar Sos"
+    ]
+  },
+  {
+    "id": "prod_jr4xffesc",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_kwzymhtpn",
+    "name": "AKDENİZ SALATA",
+    "price": 120,
+    "imageUrl": "/assets/AKDENİZ SALATA.jpg",
+    "shortDescription": "Mevsim Yeşilliği, Çeri Domates, Topi Peynir, Siyah Zeytin, Kurutulmuş Domates, Mısır ve Ceviz ",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Mevsim Yeşilliği, Çeri Domates, Topi Peynir, Siyah Zeytin, Kurutulmuş Domates, Mısır ve Ceviz ile ( KARBONHİDRAT DEĞERİ 37,81 )",
+    "ingredients": [
+      "Mevsim Yeşilliği",
+      "Çeri Domates",
+      "Topi Peynir",
+      "Siyah Zeytin",
+      "Kurutulmuş Domates",
+      "Mısır ve Ceviz"
+    ]
+  },
+  {
+    "id": "prod_248wyfiy0",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_ww5amtjb7",
+    "name": "CHEESECAKE LİMON",
+    "price": 160,
+    "imageUrl": "/assets/LİMON CHEESECAKE.png",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_l1yeiu835",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_ww5amtjb7",
+    "name": "CHEESECAKE FRAMBUAZ",
+    "price": 160,
+    "imageUrl": "/assets/FRANBUAZLI CHEESECAKE.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_2lvqevdku",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_ww5amtjb7",
+    "name": "LOTUS KARAMELLİ",
+    "price": 160,
+    "imageUrl": "/assets/LOTUS KARAMELLİ.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_gn6rvs2ow",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_ww5amtjb7",
+    "name": "TİRAMİSU",
+    "price": 150,
+    "imageUrl": "/assets/TİRAMİSU.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_grkv02l38",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_ww5amtjb7",
+    "name": "TRİLEÇE",
+    "price": 150,
+    "imageUrl": "/assets/TRİLİÇE.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_u52vmkffk",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_ww5amtjb7",
+    "name": "MAGNOLYA",
+    "price": 150,
+    "imageUrl": "/assets/MAGNOLYA.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_19xnnbm6a",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_ww5amtjb7",
+    "name": "CLASSİC WAFFLE",
+    "price": 170,
+    "imageUrl": "/assets/CLASSİC WAFFLE.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "KARBONHİDRAT DEĞERİ 401,25"
+  },
+  {
+    "id": "prod_ivj7sb1ib",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_ww5amtjb7",
+    "name": "ICE CREAM WAFFLE",
+    "price": 200,
+    "imageUrl": "/assets/ICE CREAM WAFFLE.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Karbonhidrat Değeri 318,2"
+  },
+  {
+    "id": "prod_17rltzh0e",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_ww5amtjb7",
+    "name": "1 TOP DONDURMA",
+    "price": 40,
+    "imageUrl": "/assets/1 TOP DONDURMA.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_3hfio2f9q",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_ww5amtjb7",
+    "name": "DONDURMA CUP",
+    "price": 150,
+    "imageUrl": "/assets/DONDURMA CUP.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_cot7fwk1q",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_ww5amtjb7",
+    "name": "KARNAVAL PASTA",
+    "price": 160,
+    "imageUrl": "/assets/KARNAVAL PASTA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_czhrzna4d",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_ww5amtjb7",
+    "name": "FISTIK RÜYASI",
+    "price": 160,
+    "imageUrl": "/assets/FISTIK RÜYASI.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_j4k4d907g",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_ww5amtjb7",
+    "name": "TEREYAĞLI SADE KRUVASAN",
+    "price": 100,
+    "imageUrl": "/assets/TEREYAĞLI SADE KRUVASAN.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_0z02syzz8",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_ww5amtjb7",
+    "name": "ÇİKOLATALI KRUVASAN",
+    "price": 130,
+    "imageUrl": "/assets/TEREYAĞLI ÇİKOLATALI KRUVASAN.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_f5h1lt4wc",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_5nvi90igx",
+    "name": "TÜRK KAHVESİ",
+    "price": 60,
+    "imageUrl": "/assets/TÜRK KAHVESİ.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_yve0a8u0e",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_5nvi90igx",
+    "name": "DİBEK KAHVESİ",
+    "price": 70,
+    "imageUrl": "/assets/DİBEK KAHVESİ.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_91qff0axg",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_5nvi90igx",
+    "name": "DAMLA SAKIZLI TÜRK KAHVESİ",
+    "price": 70,
+    "imageUrl": "/assets/DAMLA SAKIZLI TÜRK KAHVESİ.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_jpakynxun",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_5nvi90igx",
+    "name": "AFFOGATO",
+    "price": 80,
+    "imageUrl": "/assets/AFFOGATO.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_vvra4vyqp",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_5nvi90igx",
+    "name": "AMERİCANO",
+    "price": 80,
+    "imageUrl": "/assets/AMERİCANO.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_5ofnh6aip",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_5nvi90igx",
+    "name": "CAFE LATTE",
+    "price": 85,
+    "imageUrl": "/assets/CAFE LATTE.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_ebwxd51hr",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_5nvi90igx",
+    "name": "CARAMEL LATTE",
+    "price": 85,
+    "imageUrl": "/assets/CARAMEL LATTE.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_h8qaa4b11",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_5nvi90igx",
+    "name": "CAFFE MOCHA",
+    "price": 85,
+    "imageUrl": "/assets/CAFFE MOCHA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_0ln836gwk",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_5nvi90igx",
+    "name": "WHİTE CHOCOLATE MOCHA",
+    "price": 85,
+    "imageUrl": "/assets/WHİTE CHOCOLATE MOCHA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_uvvmp0xh8",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_5nvi90igx",
+    "name": "CAPPUCCİNO",
+    "price": 85,
+    "imageUrl": "/assets/CAPPUCCİNO.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_3bhwfvav0",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_5nvi90igx",
+    "name": "ESPRESSO",
+    "price": 85,
+    "imageUrl": "/assets/ESPRESSO.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_0ps9ggcjz",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_5nvi90igx",
+    "name": "DOUBLE ESPRESSO",
+    "price": 85,
+    "imageUrl": "/assets/DOUBLE ESPRESSO.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_0m8ehcajt",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_5nvi90igx",
+    "name": "ESPRESSO MACCHİATO",
+    "price": 85,
+    "imageUrl": "/assets/ESPRESSO MACCHİATO.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_3onfvozbj",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_5nvi90igx",
+    "name": "FİLTER COFFEE",
+    "price": 80,
+    "imageUrl": "/assets/FİLTRE KAHVE.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_3forhsup6",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_5nvi90igx",
+    "name": "POT SÜT",
+    "price": 30,
+    "imageUrl": "/assets/POT SÜT.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_gnqf2hxkt",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_10qyhwnkc",
+    "name": "ADA ÇAYI",
+    "price": 100,
+    "imageUrl": "/assets/ADA ÇAYI.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_rkr0kqeep",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_10qyhwnkc",
+    "name": "IHLAMUR",
+    "price": 100,
+    "imageUrl": "/assets/IHLAMUR.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_85p35a7km",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_10qyhwnkc",
+    "name": "KIŞ ÇAYI",
+    "price": 100,
+    "imageUrl": "/assets/KIŞ ÇAYI.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_teewm6533",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_10qyhwnkc",
+    "name": "KUŞBURNU",
+    "price": 100,
+    "imageUrl": "/assets/KUŞBURNU.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_qxnv2gip6",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_10qyhwnkc",
+    "name": "NANE LİMON",
+    "price": 100,
+    "imageUrl": "/assets/NANE LİMON.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_fbav74spy",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_10qyhwnkc",
+    "name": "PAPATYA ÇAYI",
+    "price": 100,
+    "imageUrl": "/assets/PAPATYA ÇAYI.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_dnl9dz4uu",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_10qyhwnkc",
+    "name": "YEŞİL ÇAY",
+    "price": 100,
+    "imageUrl": "/assets/YEŞİL ÇAY.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_fugeawbdv",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_ociv0e9fx",
+    "name": "LİMONATA",
+    "price": 130,
+    "imageUrl": "/assets/LİMONATA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_map0flmth",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_ociv0e9fx",
+    "name": "ÇİLEKLİ LİMONATA",
+    "price": 150,
+    "imageUrl": "/assets/ÇİLEKLİ LİMONATA.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_x4pvs52qt",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_ociv0e9fx",
+    "name": "ELMALI LİMONATA",
+    "price": 150,
+    "imageUrl": "/assets/ELMALI LİMONATA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_w88qy7oci",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_ociv0e9fx",
+    "name": "KARPUZLU LİMONATA",
+    "price": 150,
+    "imageUrl": "/assets/KARPUZLU LİMONATA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_7x1etzt5j",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_ociv0e9fx",
+    "name": "PORTAKAL SUYU",
+    "price": 130,
+    "imageUrl": "/assets/PORTAKAL SUYU.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_9xmk4jsd4",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_ociv0e9fx",
+    "name": "BALLI MUZLU SÜT",
+    "price": 150,
+    "imageUrl": "/assets/BALLI MUZLU SÜT.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_pvlpyio8a",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_4k8uui0ef",
+    "name": "MİLKSHAKE VANİLYA",
+    "price": 140,
+    "imageUrl": "/assets/MİLKSHAKE VANİLYA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_9rsoqjeay",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_4k8uui0ef",
+    "name": "MİLKSHAKE ÇİKOLATA",
+    "price": 140,
+    "imageUrl": "/assets/MİLKSHAKE ÇİKOLATA.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_lur7r6a7t",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_4k8uui0ef",
+    "name": "MİLKSHAKE ÇİLEK",
+    "price": 140,
+    "imageUrl": "/assets/MİLKSHAKE ÇİLEK.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_qmv9noyi0",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_4k8uui0ef",
+    "name": "MİLKSHAKE KARAMEL",
+    "price": 140,
+    "imageUrl": "/assets/MİLKSHAKE KARAMEL.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_exmzi23dy",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_4k8uui0ef",
+    "name": "FROZEN ÇİLEK",
+    "price": 120,
+    "imageUrl": "/assets/FROZEN ÇİLEK.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_fxzjjmn1n",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_4k8uui0ef",
+    "name": "FROZEN MUZ",
+    "price": 120,
+    "imageUrl": "/assets/FROZEN MUZ.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_teozmd74j",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_4k8uui0ef",
+    "name": "FROZEN KARPUZ",
+    "price": 120,
+    "imageUrl": "/assets/FROZEN KARPUZ.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_z2n4yzl6d",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_4k8uui0ef",
+    "name": "SMOOTHİES ÇİLEK",
+    "price": 140,
+    "imageUrl": "/assets/SMOOTHİES ÇİLEK.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_nfyudhyij",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_4k8uui0ef",
+    "name": "SMOOTHİES MUZ",
+    "price": 140,
+    "imageUrl": "/assets/SMOOTHİES MUZ.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_s5ohtkyb4",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_bzyxenkph",
+    "name": "ICE COFFEE FRAPPE",
+    "price": 120,
+    "imageUrl": "/assets/ICE COFFEE FRAPPE.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_cdav0n0lu",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_bzyxenkph",
+    "name": "ICE CHOCOLATE WHİTE MOCHA",
+    "price": 120,
+    "imageUrl": "/assets/ICE CHOCOLATE WHİTE MOCHA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_0mjcrbnz0",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_bzyxenkph",
+    "name": "ICE COFFEE MOCHA",
+    "price": 120,
+    "imageUrl": "/assets/ICE COFFEE MOCHA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_xzpwsmz24",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_bzyxenkph",
+    "name": "ICE AMERİCANO",
+    "price": 110,
+    "imageUrl": "/assets/ICE AMERİCANO.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_rc5zeji8t",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_bzyxenkph",
+    "name": "ICE LATTE",
+    "price": 120,
+    "imageUrl": "/assets/ICE LATTE.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_k9zbr6luy",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_bzyxenkph",
+    "name": "ICE CHOCOLATE",
+    "price": 120,
+    "imageUrl": "/assets/ICE CHOCOLATE.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_trsczewa3",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_bzyxenkph",
+    "name": "MOJİTO",
+    "price": 140,
+    "imageUrl": "/assets/MOJİTO.jpg",
+    "shortDescription": "Sprite, Esmer Şeker, Taze Nane\n\n",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Sprite, Esmer Şeker, Taze Nane\n\n",
+    "ingredients": [
+      "Sprite",
+      "Esmer Şeker",
+      "Taze Nane"
+    ]
+  },
+  {
+    "id": "prod_aeya1bkpr",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_bzyxenkph",
+    "name": "ENERJİ DÜNYASI",
+    "price": 170,
+    "imageUrl": "/assets/ENERJİ DÜNYASI.jpg",
+    "shortDescription": "Burn, Limonlu Dondurma, Karadutlu Dondurma\n\n",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Burn, Limonlu Dondurma, Karadutlu Dondurma\n\n",
+    "ingredients": [
+      "Burn",
+      "Limonlu Dondurma",
+      "Karadutlu Dondurma"
+    ]
   }
 ]
