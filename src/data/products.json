@@ -1800,5 +1800,184 @@
       "glutenFree": false
     },
     "longDescription": "Yumurta, Sucuk, Kaşar Peynir, Mantar ve Tere Yağ İle (Domates ve Salatalık İle Servis Edilir)"
+  },
+  {
+    "id": "prod_a54b3rxtc",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_0rz4e0bbm",
+    "name": "PATATESLİ GÖZLEME",
+    "price": 140,
+    "imageUrl": "/assets/PATATESLİ GÖZLEME.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "(Domates, Salatalık ve Zeytin İle Servis Edilir) karbonhidrat değeri( 113,83 g)"
+  },
+  {
+    "id": "prod_rzaz6oc17",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_0rz4e0bbm",
+    "name": "PEYNİRLİ GÖZLEME",
+    "price": 140,
+    "imageUrl": "/assets/PEYNİRLİ GÖZLEME.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "(Domates, Salatalık ve Zeytin İle Servis Edilir) karbonhidrat değeri( 104,58 g)"
+  },
+  {
+    "id": "prod_hq08a6oes",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_0rz4e0bbm",
+    "name": "KAŞARLI GÖZLEME",
+    "price": 140,
+    "imageUrl": "/assets/KAŞARLI GÖZLEME.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "(Domates, Salatalık ve Zeytin İle Servis Edilir) karbonhidrat değeri(106,16 g)"
+  },
+  {
+    "id": "prod_4a8gwmrfs",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_0rz4e0bbm",
+    "name": "KAŞARLI TOST",
+    "price": 130,
+    "imageUrl": "/assets/KAŞARLI TOST.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Tost Ekmeği Arasında Kaşar peyniri (Mevsim Yeşillikleri ve Patates İle Servis Edilir) karbonhidrat değeri( 87,89 g)"
+  },
+  {
+    "id": "prod_btxc73gp9",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_0rz4e0bbm",
+    "name": "KARIŞIK TOST",
+    "price": 150,
+    "imageUrl": "/assets/KARIŞIK TOST.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Tost Ekmeği Arasında Kaşar Peyniri ve Sucuk (Mevsim Yeşillikleri ve Patates İle Servis Edilir ) karbonhidrat değeri(85,84 g)"
+  },
+  {
+    "id": "prod_b2pkenhnp",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_jv305gbqp",
+    "name": "GÜNÜN ÇORBASI",
+    "price": 70,
+    "imageUrl": "/assets/GÜNÜN ÇORBASI.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_wtsj7hs2z",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_jv305gbqp",
+    "name": "SİGARA BÖREĞİ",
+    "price": 140,
+    "imageUrl": "/assets/SİGARA BÖREĞİ.jpg",
+    "shortDescription": "Mevsim Yeşillikleri ve Parmak Patates",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Mevsim Yeşillikleri ve Parmak Patates İle servis edilir. karbonhidrat değeri( 184,66 g)"
+  },
+  {
+    "id": "prod_lufu6wc6h",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_jv305gbqp",
+    "name": "PATATES TABAĞI",
+    "price": 100,
+    "imageUrl": "/assets/PATATES TABAĞI.png",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Parmak patates karbonhidrat değeri(53 g)"
+  },
+  {
+    "id": "prod_grp1z574w",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_jv305gbqp",
+    "name": "COMBO SEPETİ",
+    "price": 250,
+    "imageUrl": "/assets/COMBO SEPETİ.jpg",
+    "shortDescription": "Sigara Böreği, Soğan Halkası, Parmak patates, Nugget, Sosis, Sucuk",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Sigara Böreği, Soğan Halkası, Parmak patates, Nugget, Sosis, Sucuk İle karbonhidrat değeri( 127,63)"
+  },
+  {
+    "id": "prod_p16bx7dn8",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_jv305gbqp",
+    "name": "CAJUN TAVUK SEPETİ",
+    "price": 230,
+    "imageUrl": "/assets/CAJUN TAVUK SEPETİ.jpeg",
+    "shortDescription": "Kajun Baharatı İle Panelenmiş Piliç Parçaları ve Patates",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Kajun Baharatı İle Panelenmiş Piliç Parçaları ve Patates İle karbonhidrat değeri( 93,23 g)"
+  },
+  {
+    "id": "prod_x5ok115i6",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_jv305gbqp",
+    "name": "TAVUK DÜRÜM",
+    "price": 200,
+    "imageUrl": "/assets/TAVUK DÜRÜM.jpg",
+    "shortDescription": "Tortilla Ekmeği Arasında Sotelenmiş Mantar, Renkli biberler, Piliç Bonfile Parçaları, Kaşar Peyniri, Mevsim Yeşilliği ve Patates",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Tortilla Ekmeği Arasında Sotelenmiş Mantar, Renkli biberler, Piliç Bonfile Parçaları, Kaşar Peyniri, Mevsim Yeşilliği ve Patates İle karbonhidrat değeri( 136,41 g)"
+  },
+  {
+    "id": "prod_zm5h4e9ue",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_jv305gbqp",
+    "name": "KÖFTE DÜRÜM",
+    "price": 220,
+    "imageUrl": "/assets/KÖFTE DÜRÜM.jpg",
+    "shortDescription": "Tortilla Ekmeği Arasında Sotelenmiş Mantar, Renkli biberler, Izgara Köfte Parçaları, Kaşar peyniri, Mevsim Yeşilliği ve Patates",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Tortilla Ekmeği Arasında Sotelenmiş Mantar, Renkli biberler, Izgara Köfte Parçaları, Kaşar peyniri, Mevsim Yeşilliği ve Patates İle karbonhidrat değeri( 156,63 g)"
   }
 ]
