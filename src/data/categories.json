@@ -75,5 +75,26 @@
     "name": "Ara Sıcak ve Dürümler",
     "order": 11,
     "imageUrl": "/assets/ara sıcak ve dürümler.jpg"
+  },
+  {
+    "id": "cat_39sftar05",
+    "businessId": "kent-park-tesisleri",
+    "name": "Sıcak İçecekler",
+    "order": 1,
+    "imageUrl": "/assets/sıcak içecekler.jpg"
+  },
+  {
+    "id": "cat_r2ww3yvdc",
+    "businessId": "kent-park-tesisleri",
+    "name": "Soğuk İçecekler",
+    "order": 2,
+    "imageUrl": "/assets/soğuk içecekler.jpeg"
+  },
+  {
+    "id": "cat_4q2pmw2ig",
+    "businessId": "kent-park-tesisleri",
+    "name": "Kahvaltılar ve Omleter",
+    "order": 3,
+    "imageUrl": "/assets/kahvaltılar ve omletler.jpg"
   }
 ]

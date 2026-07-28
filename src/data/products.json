@@ -1979,5 +1979,684 @@
       "glutenFree": false
     },
     "longDescription": "Tortilla Ekmeği Arasında Sotelenmiş Mantar, Renkli biberler, Izgara Köfte Parçaları, Kaşar peyniri, Mevsim Yeşilliği ve Patates İle karbonhidrat değeri( 156,63 g)"
+  },
+  {
+    "id": "prod_spddhtibn",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_39sftar05",
+    "name": "BARDAK ÇAY",
+    "price": 20,
+    "imageUrl": "/assets/BARDAK ÇAY.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_ea8j3i7j6",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_39sftar05",
+    "name": "FİNCAN ÇAY",
+    "price": 35,
+    "imageUrl": "/assets/FİNCAN ÇAY2.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_dlre3b501",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_39sftar05",
+    "name": "SICAK ÇİKOLATA",
+    "price": 80,
+    "imageUrl": "/assets/SICAK ÇİKOLATA2.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_m8ynaf3hp",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_39sftar05",
+    "name": "SICAK ÇİKOLATA KARAMELLİ",
+    "price": 80,
+    "imageUrl": "/assets/SICAK ÇİKOLATA KARAMELLİ.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_9mrs7559l",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_39sftar05",
+    "name": "SICAK ÇİKOLATA ÇİLEKLİ",
+    "price": 80,
+    "imageUrl": "/assets/SICAK ÇİKOLATA ÇİLEKLİ.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_5ebl65i83",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_39sftar05",
+    "name": "SICAK ÇİKOLATA FINDIKLI",
+    "price": 80,
+    "imageUrl": "/assets/SICAK ÇİKOLATA FINDIKLI.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_2hb3hv5vq",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_39sftar05",
+    "name": "SICAK ÇİKOLATA MUZLU",
+    "price": 80,
+    "imageUrl": "/assets/SICAK ÇİKOLATA MUZLU.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_alimoxa09",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_39sftar05",
+    "name": "SALEP",
+    "price": 80,
+    "imageUrl": "/assets/SALEP.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_zb6ejt91l",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_39sftar05",
+    "name": "DAMLA SAKIZLI SALEP",
+    "price": 90,
+    "imageUrl": "/assets/DAMLA SAKIZLI SALEP.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_it80wzxtp",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_39sftar05",
+    "name": "SICAK SÜT",
+    "price": 65,
+    "imageUrl": "/assets/SICAK SÜT.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_8157oc8a3",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_r2ww3yvdc",
+    "name": "MEYVE SUYU KARIŞIK",
+    "price": 70,
+    "imageUrl": "/assets/MEYVE SUYU KARIŞIK.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "KARBONHİDRAT DEĞERİ 66,66"
+  },
+  {
+    "id": "prod_7r79yqbip",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_r2ww3yvdc",
+    "name": "MEYVE SUYU ŞEFTALİ",
+    "price": 70,
+    "imageUrl": "/assets/MEYVE SUYU ŞEFTALİ2.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "KARBONHİDRAT DEĞERİ 83,16"
+  },
+  {
+    "id": "prod_4a2jbbmtr",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_r2ww3yvdc",
+    "name": "MEYVE SUYU VİŞNE",
+    "price": 70,
+    "imageUrl": "/assets/MEYVE SUYU VİŞNE2.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "KARBONHİDRAT DEĞERİ 83,16"
+  },
+  {
+    "id": "prod_nzavwiv7t",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_r2ww3yvdc",
+    "name": "MEYVE SUYU KAYISI",
+    "price": 70,
+    "imageUrl": "/assets/MEYVE SUYU KAYISI2.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_25crxn2t6",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_r2ww3yvdc",
+    "name": "SODA",
+    "price": 30,
+    "imageUrl": "/assets/SADE SODA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_bi1k1k3zw",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_r2ww3yvdc",
+    "name": "SU",
+    "price": 20,
+    "imageUrl": "/assets/SU2.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_khoarhbry",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_r2ww3yvdc",
+    "name": "CHURCHİLL",
+    "price": 50,
+    "imageUrl": "/assets/CHURCHİLL2.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_dkfxry8yt",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_r2ww3yvdc",
+    "name": "KARPUZ ÇİLEKLİ SODA",
+    "price": 50,
+    "imageUrl": "/assets/KARPUZ ÇİLEKLİ SODA2.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_54yt6m5p1",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_r2ww3yvdc",
+    "name": "ELMALI SODA",
+    "price": 50,
+    "imageUrl": "/assets/ELMALI SODA2.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_o4eooaeyh",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_r2ww3yvdc",
+    "name": "LİMONLU SODA",
+    "price": 50,
+    "imageUrl": "/assets/LİMONLU SODA2.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_l9p53ekcs",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_r2ww3yvdc",
+    "name": "NARLI SODA",
+    "price": 50,
+    "imageUrl": "/assets/NARLI SODA.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_8njy2riew",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_r2ww3yvdc",
+    "name": "AYRAN",
+    "price": 40,
+    "imageUrl": "/assets/AYRAN.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_wnnzrr9cl",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_r2ww3yvdc",
+    "name": "COCA COLA",
+    "price": 70,
+    "imageUrl": "/assets/COCA COLA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "KARBONHİDRAT DEĞERİ 69,96\n\n"
+  },
+  {
+    "id": "prod_ih5t1mmvx",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_r2ww3yvdc",
+    "name": "FANTA",
+    "price": 70,
+    "imageUrl": "/assets/FANTA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "KARBONHİDRAT DEĞERİ 48,18\n\n"
+  },
+  {
+    "id": "prod_9z4v6jhhq",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_r2ww3yvdc",
+    "name": "SPRİTE",
+    "price": 70,
+    "imageUrl": "/assets/SPRİTE2.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "KARBONHİDRAT DEĞERİ 20,46\n\n"
+  },
+  {
+    "id": "prod_kcx3mypx2",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_r2ww3yvdc",
+    "name": "FUSE TEA ŞEFTALİ",
+    "price": 70,
+    "imageUrl": "/assets/FUSE TEA ŞEFTALİ.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_f74je86lm",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_r2ww3yvdc",
+    "name": "FUSE TEA MANGO & ANANAS",
+    "price": 70,
+    "imageUrl": "/assets/FUSE TEA MANGO&ANANAS.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_a5eegpk3m",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_r2ww3yvdc",
+    "name": "FUSE TEA KARPUZ",
+    "price": 70,
+    "imageUrl": "/assets/FUSE TEA KARPUZ.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "KARBONHİDRAT DEĞERİ 54,12\n\n"
+  },
+  {
+    "id": "prod_70jxy52im",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_r2ww3yvdc",
+    "name": "FUSE TEA LİMON",
+    "price": 70,
+    "imageUrl": "/assets/FUSE TEA LİMON.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "KARBONHİDRAT DEĞERİ 34,98\n\n"
+  },
+  {
+    "id": "prod_wmfakq4j0",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_r2ww3yvdc",
+    "name": "COCA COLA ZERO",
+    "price": 70,
+    "imageUrl": "/assets/COCA COLA ZERO.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "KARBONHİDRAT DEĞERİ 0,066\n\n"
+  },
+  {
+    "id": "prod_lwklkdoi4",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_r2ww3yvdc",
+    "name": "BURN",
+    "price": 90,
+    "imageUrl": "/assets/BURN.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "KARBONHİDRAT DEĞERİ 65\n\n"
+  },
+  {
+    "id": "prod_34rz46z89",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_4q2pmw2ig",
+    "name": "SERPME KAHVALTI 2 KİŞİLİK",
+    "price": 700,
+    "imageUrl": "/assets/SERPME KAHVALTI 2 KİŞİLİK2.jpg",
+    "shortDescription": "Beyaz Peynir, Kaşar Peynir, Ezine peynir, Örgü Peynir, Hellim Peynir,Sosis, Domates, Salatalık, Mevsim Yeşilliği, Siyah Zeytin, Yeşil Zeytin, Reçel, Tereyağ, Süzme Bal, Kaymak, Kuru Kayısı, Kuru Üzüm, Sigara Böreği, Kahvaltılık Sos, Sade Omlet,Patates Tava, Sütlü Çikolata, Ceviz,,Sucuk,Zeytin Yağlı Sos,Simit,Çemen",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Beyaz Peynir, Kaşar Peynir, Ezine peynir, Örgü Peynir, Hellim Peynir,Sosis, Domates, Salatalık, Mevsim Yeşilliği, Siyah Zeytin, Yeşil Zeytin, Reçel, Tereyağ, Süzme Bal, Kaymak, Kuru Kayısı, Kuru Üzüm, Sigara Böreği, Kahvaltılık Sos, Sade Omlet,Patates Tava, Sütlü Çikolata, Ceviz,,Sucuk,Zeytin Yağlı Sos,Simit,Çemen ( KARBONHİDRAT DEĞERİ 629,134 )",
+    "ingredients": [
+      "Beyaz Peynir",
+      "Kaşar Peynir",
+      "Ezine peynir",
+      "Örgü Peynir",
+      "Hellim Peynir",
+      "Sosis",
+      "Domates",
+      "Salatalık",
+      "Mevsim Yeşilliği",
+      "Siyah Zeytin",
+      "Yeşil Zeytin",
+      "Reçel",
+      "Tereyağ",
+      "Süzme Bal",
+      "Kaymak",
+      "Kuru Kayısı",
+      "Kuru Üzüm",
+      "Sigara Böreği",
+      "Kahvaltılık Sos",
+      "Sade Omlet",
+      "Patates Tava",
+      "Sütlü Çikolata",
+      "Ceviz",
+      "Sucuk",
+      "Zeytin Yağlı Sos",
+      "Simit",
+      "Çemen"
+    ]
+  },
+  {
+    "id": "prod_4h5gaacqu",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_4q2pmw2ig",
+    "name": "KAHVALTI TABAĞI TEK KİŞİLİK",
+    "price": 300,
+    "imageUrl": "/assets/KAHVALTI TABAĞI TEK KİŞİLİK2.jpg",
+    "shortDescription": "Beyaz Peynir, Kaşar Peynir, Hellim peynir, Sosis, Haşlanmış Yumurta, Domates, Salatalık, Siyah Zeytin, Yeşil Zeytin, Reçel, Sütlü Çikolata, Süzme Bal, Kaymak, Tere Yağ, Sigara Böreği, Kuru Üzüm, Kuru Kayısı, Patates Tava, Sucuk, Simit",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Beyaz Peynir, Kaşar Peynir, Hellim peynir, Sosis, Haşlanmış Yumurta, Domates, Salatalık, Siyah Zeytin, Yeşil Zeytin, Reçel, Sütlü Çikolata, Süzme Bal, Kaymak, Tere Yağ, Sigara Böreği, Kuru Üzüm, Kuru Kayısı, Patates Tava, Sucuk, Simit (KARBONHİDRAT DEĞERİ 372,535 )",
+    "ingredients": [
+      "Beyaz Peynir",
+      "Kaşar Peynir",
+      "Hellim peynir",
+      "Sosis",
+      "Haşlanmış Yumurta",
+      "Domates",
+      "Salatalık",
+      "Siyah Zeytin",
+      "Yeşil Zeytin",
+      "Reçel",
+      "Sütlü Çikolata",
+      "Süzme Bal",
+      "Kaymak",
+      "Tere Yağ",
+      "Sigara Böreği",
+      "Kuru Üzüm",
+      "Kuru Kayısı",
+      "Patates Tava",
+      "Sucuk",
+      "Simit"
+    ]
+  },
+  {
+    "id": "prod_77lru9vdp",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_4q2pmw2ig",
+    "name": "SAHANDA YUMURTA",
+    "price": 70,
+    "imageUrl": "/assets/SAHANDA YUMURTA2.jpeg",
+    "shortDescription": "Yumurta ve Tere Yağ",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Yumurta ve Tere Yağ ile ( KARBONHİDRAT DEĞERİ 1,36 )",
+    "ingredients": [
+      "Yumurta ve Tere Yağ"
+    ]
+  },
+  {
+    "id": "prod_g4geebjsu",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_4q2pmw2ig",
+    "name": "KAŞARLI SAHANDA YUMURTA",
+    "price": 100,
+    "imageUrl": "/assets/KAŞARLI SAHANDA YUMURTA2.jpg",
+    "shortDescription": "Yumurta, Kaşar Peynir ve Tere Yağ",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Yumurta, Kaşar Peynir ve Tere Yağ ile ( KARBONHİDRAT DEĞERİ 4,19 )",
+    "ingredients": [
+      "Yumurta",
+      "Kaşar Peynir ve Tere Yağ"
+    ]
+  },
+  {
+    "id": "prod_eh96mh1q7",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_4q2pmw2ig",
+    "name": "SUCUKLU SAHANDA YUMURTA",
+    "price": 125,
+    "imageUrl": "/assets/SUCUKLU SAHANDA YUMURTA2.jpeg",
+    "shortDescription": "Yumurta, Sucuk ve Tere Yağ",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Yumurta, Sucuk ve Tere Yağ ile ( KARBONHİDRAT DEĞERİ 3,24 )",
+    "ingredients": [
+      "Yumurta",
+      "Sucuk ve Tere Yağ"
+    ]
+  },
+  {
+    "id": "prod_hioaymu38",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_4q2pmw2ig",
+    "name": "MENEMEN",
+    "price": 110,
+    "imageUrl": "/assets/MENEMEN2.jpeg",
+    "shortDescription": "Yumurta, Domates, Biber ve Tere Yağ",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Yumurta, Domates, Biber ve Tere Yağ İle ( KARBONHİDRAT DEĞERİ 31,84 )\n\n",
+    "ingredients": [
+      "Yumurta",
+      "Domates",
+      "Biber ve Tere Yağ"
+    ]
+  },
+  {
+    "id": "prod_mse17rcb0",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_4q2pmw2ig",
+    "name": "SADE OMLET",
+    "price": 90,
+    "imageUrl": "/assets/SADE OMLET2.jpeg",
+    "shortDescription": "Yumurta ve Tere Yağ İle (Domates ve Salatalık İle Servis Edilir)",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Yumurta ve Tere Yağ İle (Domates ve Salatalık İle Servis Edilir) ( KARBONHİDRAT DEĞERİ 1,32 )",
+    "ingredients": [
+      "Yumurta ve Tere Yağ İle (Domates ve Salatalık İle Servis Edilir)"
+    ]
+  },
+  {
+    "id": "prod_p60cxov0q",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_4q2pmw2ig",
+    "name": "KAŞARLI OMLET",
+    "price": 110,
+    "imageUrl": "/assets/KAŞARLI OMLET2.jpg",
+    "shortDescription": "Yumurta, Kaşar Peynir ve Tere Yağ İle (Domates ve Salatalık İle Servis Edilir)",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Yumurta, Kaşar Peynir ve Tere Yağ İle (Domates ve Salatalık İle Servis Edilir)",
+    "ingredients": [
+      "Yumurta",
+      "Kaşar Peynir ve Tere Yağ İle (Domates ve Salatalık İle Servis Edilir)"
+    ]
+  },
+  {
+    "id": "prod_7ffkxvvnt",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_4q2pmw2ig",
+    "name": "BEYAZ PEYNİRLİ OMLET",
+    "price": 100,
+    "imageUrl": "/assets/BEYAZ PEYNİRLİ OMLET2.jpeg",
+    "shortDescription": "Yumurta, Beyaz Peynir, Maydanoz ve Tere Yağ İle (Domates ve Salatalık İle Servis Edilir)",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Yumurta, Beyaz Peynir, Maydanoz ve Tere Yağ İle (Domates ve Salatalık İle Servis Edilir) ( KARBONHİDRAT DEĞERİ 9,03 )",
+    "ingredients": [
+      "Yumurta",
+      "Beyaz Peynir",
+      "Maydanoz ve Tere Yağ İle (Domates ve Salatalık İle Servis Edilir)"
+    ]
+  },
+  {
+    "id": "prod_j499ltkc9",
+    "businessId": "kent-park-tesisleri",
+    "categoryId": "cat_4q2pmw2ig",
+    "name": "KARIŞIK OMLET",
+    "price": 125,
+    "imageUrl": "/assets/KARIŞIK OMLET2.jpeg",
+    "shortDescription": "Yumurta, Sucuk, Kaşar Peynir, Mantar ve Tere Yağ İle (Domates ve Salatalık İle Servis Edilir)",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Yumurta, Sucuk, Kaşar Peynir, Mantar ve Tere Yağ İle (Domates ve Salatalık İle Servis Edilir)",
+    "ingredients": [
+      "Yumurta",
+      "Sucuk",
+      "Kaşar Peynir",
+      "Mantar ve Tere Yağ İle (Domates ve Salatalık İle Servis Edilir)"
+    ]
   }
 ]
