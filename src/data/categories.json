@@ -180,5 +180,40 @@
     "name": "Soğuk Kahveler & Kokteyl Şöleni",
     "order": 15,
     "imageUrl": "/assets/SOĞUK KAHVELER & KOKTEYL ŞÖLENİ.jpg"
+  },
+  {
+    "id": "cat_80et9u238",
+    "businessId": "biz_pgxu887bi",
+    "name": "Kahvaltılar ve Omletler",
+    "order": 1,
+    "imageUrl": "/assets/kahvaltılar ve omletler.jpg"
+  },
+  {
+    "id": "cat_fstb1di9i",
+    "businessId": "biz_pgxu887bi",
+    "name": "Tavuklar",
+    "order": 2,
+    "imageUrl": "/assets/tavuklar.jpg"
+  },
+  {
+    "id": "cat_xrzbu2qoe",
+    "businessId": "biz_pgxu887bi",
+    "name": "Kırmızı Etler",
+    "order": 3,
+    "imageUrl": "/assets/KIRMIZI ETLER.jpg"
+  },
+  {
+    "id": "cat_j5bpknsxc",
+    "businessId": "biz_pgxu887bi",
+    "name": "Gözleme ve Tostlar",
+    "order": 4,
+    "imageUrl": "/assets/gözleme ve tostlar.jpg"
+  },
+  {
+    "id": "cat_tfy1t11ox",
+    "businessId": "biz_pgxu887bi",
+    "name": "Ara Sıcak ve Dürümler",
+    "order": 5,
+    "imageUrl": "/assets/ara sıcak ve dürümler.jpg"
   }
 ]

@@ -4362,5 +4362,634 @@
       "Limonlu Dondurma",
       "Karadutlu Dondurma"
     ]
+  },
+  {
+    "id": "prod_nbf0sh5x3",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_80et9u238",
+    "name": "SERPME KAHVALTI 2 KİŞİLİK",
+    "price": 700,
+    "imageUrl": "/assets/SERPME KAHVALTI 2 KİŞİLİK2.jpg",
+    "shortDescription": "Beyaz Peynir, Kaşar Peynir, Ezine peynir, Örgü Peynir,Sosis, Domates, Salatalık, Mevsim Yeşilliği, Siyah Zeytin, Yeşil Zeytin, Reçel, Tereyağ, Süzme Bal, Kaymak, Kuru Kayısı, Kuru Üzüm, Sigara Böreği, Kahvaltılık Sos, Sade Omlet,Patates Tava, Sütlü Çikolata, Ceviz,Sucuk,Zeytin Yağlı Sos,Simit, Çemen",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Beyaz Peynir, Kaşar Peynir, Ezine peynir, Örgü Peynir,Sosis, Domates, Salatalık, Mevsim Yeşilliği, Siyah Zeytin, Yeşil Zeytin, Reçel, Tereyağ, Süzme Bal, Kaymak, Kuru Kayısı, Kuru Üzüm, Sigara Böreği, Kahvaltılık Sos, Sade Omlet,Patates Tava, Sütlü Çikolata, Ceviz,Sucuk,Zeytin Yağlı Sos,Simit, Çemen",
+    "ingredients": [
+      "Beyaz Peynir",
+      "Kaşar Peynir",
+      "Ezine peynir",
+      "Örgü Peynir",
+      "Sosis",
+      "Domates",
+      "Salatalık",
+      "Mevsim Yeşilliği",
+      "Siyah Zeytin",
+      "Yeşil Zeytin",
+      "Reçel",
+      "Tereyağ",
+      "Süzme Bal",
+      "Kaymak",
+      "Kuru Kayısı",
+      "Kuru Üzüm",
+      "Sigara Böreği",
+      "Kahvaltılık Sos",
+      "Sade Omlet",
+      "Patates Tava",
+      "Sütlü Çikolata",
+      "Ceviz",
+      "Sucuk",
+      "Zeytin Yağlı Sos",
+      "Simit",
+      "Çemen"
+    ]
+  },
+  {
+    "id": "prod_57sk98cpo",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_80et9u238",
+    "name": "KAHVALTI TABAĞI 1 KİŞİLİK",
+    "price": 300,
+    "imageUrl": "/assets/KAHVALTI TABAĞI TEK KİŞİLİK2.jpg",
+    "shortDescription": "Beyaz Peynir, Kaşar Peynir, Sosis, Haşlanmış Yumurta, Domates, Salatalık, Siyah Zeytin, Yeşil Zeytin, Reçel, Sütlü Çikolata, Süzme Bal, Kaymak, Tere Yağ, Sigara Böreği, Kuru Üzüm, Kuru Kayısı, Patates Tava, Sucuk, Simit ",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Beyaz Peynir, Kaşar Peynir, Sosis, Haşlanmış Yumurta, Domates, Salatalık, Siyah Zeytin, Yeşil Zeytin, Reçel, Sütlü Çikolata, Süzme Bal, Kaymak, Tere Yağ, Sigara Böreği, Kuru Üzüm, Kuru Kayısı, Patates Tava, Sucuk, Simit (KARBONHİDRAT DEĞERİ: 372,535)",
+    "ingredients": [
+      "Beyaz Peynir",
+      "Kaşar Peynir",
+      "Sosis",
+      "Haşlanmış Yumurta",
+      "Domates",
+      "Salatalık",
+      "Siyah Zeytin",
+      "Yeşil Zeytin",
+      "Reçel",
+      "Sütlü Çikolata",
+      "Süzme Bal",
+      "Kaymak",
+      "Tere Yağ",
+      "Sigara Böreği",
+      "Kuru Üzüm",
+      "Kuru Kayısı",
+      "Patates Tava",
+      "Sucuk",
+      "Simit"
+    ]
+  },
+  {
+    "id": "prod_9euczdltu",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_80et9u238",
+    "name": "SAHANDA YUMURTA",
+    "price": 70,
+    "imageUrl": "/assets/SAHANDA YUMURTA2.jpeg",
+    "shortDescription": "Yumurta ve Tere Yağ ile Servis Edilir. ",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Yumurta ve Tere Yağ ile Servis Edilir. (KARBONHİDRAT DEĞERİ: 1,36)",
+    "ingredients": [
+      "Yumurta ve Tere Yağ ile Servis Edilir."
+    ]
+  },
+  {
+    "id": "prod_ukdb1yd78",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_80et9u238",
+    "name": "KAŞARLI SAHANDA YUMURTA",
+    "price": 100,
+    "imageUrl": "/assets/KAŞARLI SAHANDA YUMURTA2.jpg",
+    "shortDescription": "Yumurta, Kaşar Peynir ve Tere Yağ ile Servis Edilir. ",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Yumurta, Kaşar Peynir ve Tere Yağ ile Servis Edilir. (KARBONHİDRAT DEĞERİ: 4,19)",
+    "ingredients": [
+      "Yumurta",
+      "Kaşar Peynir ve Tere Yağ ile Servis Edilir."
+    ]
+  },
+  {
+    "id": "prod_68k2ir7qi",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_80et9u238",
+    "name": "SUCUKLU SAHANDA YUMURTA",
+    "price": 125,
+    "imageUrl": "/assets/SUCUKLU SAHANDA YUMURTA2.jpeg",
+    "shortDescription": "Yumurta, Sucuk ve Tere Yağ ile Servis Edilir. ",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Yumurta, Sucuk ve Tere Yağ ile Servis Edilir. (KARBONHİDRAT DEĞERİ: 3,24)",
+    "ingredients": [
+      "Yumurta",
+      "Sucuk ve Tere Yağ ile Servis Edilir."
+    ]
+  },
+  {
+    "id": "prod_dz6r9ivfh",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_80et9u238",
+    "name": "MENEMEN",
+    "price": 110,
+    "imageUrl": "/assets/MENEMEN2.jpeg",
+    "shortDescription": "Yumurta, Domates, Biber ve Tere Yağ İle Servis Edilir.",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Yumurta, Domates, Biber ve Tere Yağ İle Servis Edilir. (KARBONHİDRAT DEĞERİ: 31,84)",
+    "ingredients": [
+      "Yumurta",
+      "Domates",
+      "Biber ve Tere Yağ İle Servis Edilir."
+    ]
+  },
+  {
+    "id": "prod_lnxn9wjxj",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_80et9u238",
+    "name": "SADE OMLET",
+    "price": 90,
+    "imageUrl": "/assets/SADE OMLET2.jpeg",
+    "shortDescription": "Yumurta, Tere Yağ İle Servis edilir.",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Yumurta, Tere Yağ İle Servis edilir. (KARBONHİDRAT DEĞERİ: 1,32)",
+    "ingredients": []
+  },
+  {
+    "id": "prod_wzh2x85mb",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_80et9u238",
+    "name": "KAŞARLI OMLET",
+    "price": 110,
+    "imageUrl": "/assets/KAŞARLI OMLET2.jpg",
+    "shortDescription": "Yumurta, Kaşar Peynir ve Tere Yağ İle (Domates ve Salatalık İle Servis Edilir)",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Yumurta, Kaşar Peynir ve Tere Yağ İle (Domates ve Salatalık İle Servis Edilir)"
+  },
+  {
+    "id": "prod_xpxhqbcpl",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_80et9u238",
+    "name": "BEYAZ PEYNİRLİ OMLET",
+    "price": 100,
+    "imageUrl": "/assets/BEYAZ PEYNİRLİ OMLET2.jpeg",
+    "shortDescription": "Yumurta, Beyaz Peynir, Maydanoz ve Tere Yağ İle (Domates ve Salatalık İle Servis Edilir)",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Yumurta, Beyaz Peynir, Maydanoz ve Tere Yağ İle (Domates ve Salatalık İle Servis Edilir)"
+  },
+  {
+    "id": "prod_u9od22ivz",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_80et9u238",
+    "name": "KARIŞIK OMLET",
+    "price": 125,
+    "imageUrl": "/assets/KARIŞIK OMLET2.jpeg",
+    "shortDescription": "Yumurta, Sucuk, Kaşar Peynir, Mantar ve Tere Yağ İle (Domates ve Salatalık İle Servis Edilir)",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Yumurta, Sucuk, Kaşar Peynir, Mantar ve Tere Yağ İle (Domates ve Salatalık İle Servis Edilir)"
+  },
+  {
+    "id": "prod_i29brdx82",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_80et9u238",
+    "name": "SİMİT TABAĞI",
+    "price": 60,
+    "imageUrl": "/assets/SİMİT TABAĞI.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_5h22iagli",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_fstb1di9i",
+    "name": "KÖRİ SOSLU TAVUK",
+    "price": 250,
+    "imageUrl": "/assets/KÖRİ SOSLU TAVUK.jpg",
+    "shortDescription": "Jülyen Doğranmış Piliç Bonfile, Mantar, Köri Baharatı, Krema, Mevsim Yeşilliği ve Pilav ile servis",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Jülyen Doğranmış Piliç Bonfile, Mantar, Köri Baharatı, Krema, Mevsim Yeşilliği ve Pilav ile... (KARBONHİDRAT DEĞERİ: 96,04)",
+    "ingredients": [
+      "Jülyen Doğranmış Piliç Bonfile",
+      "Mantar",
+      "Köri Baharatı",
+      "Krema",
+      "Mevsim Yeşilliği ve Pilav"
+    ]
+  },
+  {
+    "id": "prod_44gmlwrju",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_fstb1di9i",
+    "name": "BARBEKÜ SOSLU TAVUK",
+    "price": 250,
+    "imageUrl": "/assets/BARBEKÜ SOSLU TAVUK.jpg",
+    "shortDescription": "Jülyen Doğranmış Piliç Bonfile, Mantar, Renkli Biberler, Mısır, Barbekü Sos, Mevsim Yeşilliği ve Pilav ile servis edilir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Jülyen Doğranmış Piliç Bonfile, Mantar, Renkli Biberler, Mısır, Barbekü Sos, Mevsim Yeşilliği ve Pilav ile servis edilir.",
+    "ingredients": [
+      "Jülyen Doğranmış Piliç Bonfile",
+      "Mantar",
+      "Renkli Biberler",
+      "Mısır",
+      "Barbekü Sos",
+      "Mevsim Yeşilliği ve Pilav"
+    ]
+  },
+  {
+    "id": "prod_w0lhkvc6h",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_fstb1di9i",
+    "name": "KREMALI MANTARLI TAVUK",
+    "price": 250,
+    "imageUrl": "/assets/KREMALI MANTARLI TAVUK.jpg",
+    "shortDescription": "Jülyen Doğranmış Piliç Bonfile, Mantar, Krema, Mevsim Yeşilliği ve Pilav ile servis edilir.",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Jülyen Doğranmış Piliç Bonfile, Mantar, Krema, Mevsim Yeşilliği ve Pilav ile... (KARBONHİDRAT DEĞERİ: 84,57)",
+    "ingredients": [
+      "Jülyen Doğranmış Piliç Bonfile",
+      "Mantar",
+      "Krema",
+      "Mevsim Yeşilliği ve Pilav"
+    ]
+  },
+  {
+    "id": "prod_r6tjw37qa",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_fstb1di9i",
+    "name": "IZGARA TAVUK",
+    "price": 250,
+    "imageUrl": "/assets/IZGARA TAVUK.jpg",
+    "shortDescription": "Piliç Bonfile, Kajun Baharatı, Köz Domates, Köz Biber, Mevsim Yeşilliği ve Pilav ile servis edilir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Piliç Bonfile, Kajun Baharatı, Köz Domates, Köz Biber, Mevsim Yeşilliği ve Pilav ile... (KARBONHİDRAT DEĞERİ: 97,7)",
+    "ingredients": [
+      "Piliç Bonfile",
+      "Kajun Baharatı",
+      "Köz Domates",
+      "Köz Biber",
+      "Mevsim Yeşilliği ve Pilav"
+    ]
+  },
+  {
+    "id": "prod_upc5k23li",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_fstb1di9i",
+    "name": "ACI SOSLU TAVUK",
+    "price": 250,
+    "imageUrl": "/assets/ACI SOSLU TAVUK.jpg",
+    "shortDescription": "Jülyen Doğranmış Piliç Bonfile, Mantar, Mexican Sos, Mexican Fasulye, Renkli Biberler, Mevsim Yeşilliği ve Pilav ile servis edilir.",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Jülyen Doğranmış Piliç Bonfile, Mantar, Mexican Sos, Mexican Fasulye, Renkli Biberler, Mevsim Yeşilliği ve Pilav ile... (KARBONHİDRAT DEĞERİ: 80,7)",
+    "ingredients": [
+      "Jülyen Doğranmış Piliç Bonfile",
+      "Mantar",
+      "Mexican Sos",
+      "Mexican Fasulye",
+      "Renkli Biberler",
+      "Mevsim Yeşilliği ve Pilav"
+    ]
+  },
+  {
+    "id": "prod_pb2dtotug",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_fstb1di9i",
+    "name": "DAĞ KEKİKLİ TAVUK",
+    "price": 250,
+    "imageUrl": "/assets/DAĞ KEKİKLİ TAVUK.jpg",
+    "shortDescription": "Jülyen Doğranmış Piliç Bonfile, Sebze Çeşni, Kekik, Krema, Mevsim Yeşilliği ve Pilav ile servis edilir\n",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Jülyen Doğranmış Piliç Bonfile, Sebze Çeşni, Kekik, Krema, Mevsim Yeşilliği ve Pilav ile servis edilir",
+    "ingredients": [
+      "Jülyen Doğranmış Piliç Bonfile",
+      "Sebze Çeşni",
+      "Kekik",
+      "Krema",
+      "Mevsim Yeşilliği ve Pilav"
+    ]
+  },
+  {
+    "id": "prod_41bjd76s1",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_fstb1di9i",
+    "name": "FESLEĞEN SOSLU TAVUK",
+    "price": 250,
+    "imageUrl": "/assets/FESLEĞEN SOSLU TAVUK.jpg",
+    "shortDescription": "Jülyen Doğranmış Piliç Bonfile, Mantar, Fesleğen, Krema, Mevsim Yeşilliği ve Pilav ile servis edilir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Jülyen Doğranmış Piliç Bonfile, Mantar, Fesleğen, Krema, Mevsim Yeşilliği ve Pilav ile servis edilir",
+    "ingredients": [
+      "Jülyen Doğranmış Piliç Bonfile",
+      "Mantar",
+      "Fesleğen",
+      "Krema",
+      "Mevsim Yeşilliği ve Pilav"
+    ]
+  },
+  {
+    "id": "prod_goh9jhoy1",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_xrzbu2qoe",
+    "name": "IZGARA KÖFTE",
+    "price": 300,
+    "imageUrl": "/assets/IZGARA KÖFTE.jpg",
+    "shortDescription": "Izgara Köfte Yanında Köz Domates, Köz Biber, Mevsim Yeşilliği ve Pilav İle servis edilir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Izgara Köfte Yanında Köz Domates, Köz Biber, Mevsim Yeşilliği ve Pilav İle... (KARBONHİDRAT DEĞERİ: 106,37)",
+    "ingredients": [
+      "Izgara Köfte Yanında Köz Domates",
+      "Köz Biber",
+      "Mevsim Yeşilliği ve Pilav"
+    ]
+  },
+  {
+    "id": "prod_43zztcpr6",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_j5bpknsxc",
+    "name": "PEYNİRLİ GÖZLEME",
+    "price": 140,
+    "imageUrl": "/assets/PEYNİRLİ GÖZLEME.jpg",
+    "shortDescription": "Domates, Salatalık ve Siyah Zeytin İle Servis Edilir.",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Domates, Salatalık ve Siyah Zeytin İle Servis Edilir. (KARBONHİDRAT DEĞERİ: 104,58)",
+    "ingredients": [
+      "Domates",
+      "Salatalık ve Siyah Zeytin"
+    ]
+  },
+  {
+    "id": "prod_ef8rz9l4s",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_j5bpknsxc",
+    "name": "KAŞARLI GÖZLEME",
+    "price": 140,
+    "imageUrl": "/assets/KAŞARLI GÖZLEME.jpg",
+    "shortDescription": "Domates, Salatalık ve Siyah Zeytin İle Servis Edilir.",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Domates, Salatalık ve Siyah Zeytin İle Servis Edilir. (KARBONHİDRAT DEĞERİ: 106,16)",
+    "ingredients": [
+      "Domates",
+      "Salatalık ve Siyah Zeytin"
+    ]
+  },
+  {
+    "id": "prod_pstnrd562",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_j5bpknsxc",
+    "name": "KARIŞIK TOST",
+    "price": 150,
+    "imageUrl": "/assets/KARIŞIK TOST.jpg",
+    "shortDescription": "Tost Ekmeği Arasında Kaşar Peyniri ve Sucuk (Mevsim Yeşillikleri ve Patates İle Servis Edilir )",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Tost Ekmeği Arasında Kaşar Peyniri ve Sucuk (Mevsim Yeşillikleri ve Patates İle Servis Edilir ) (KARBONHİDRAT DEĞERİ: 85,84)\n\n",
+    "ingredients": [
+      "Tost Ekmeği Arasında Kaşar Peyniri ve Sucuk (Mevsim Yeşillikleri ve Patates"
+    ]
+  },
+  {
+    "id": "prod_dq8gf1njh",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_j5bpknsxc",
+    "name": "KAŞARLI TOST",
+    "price": 130,
+    "imageUrl": "/assets/KAŞARLI TOST.jpg",
+    "shortDescription": "Tost Ekmeği Arasında Kaşar Peyniri (Mevsim Yeşillikleri ve Patates İle Servis Edilir)",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Tost Ekmeği Arasında Kaşar Peyniri (Mevsim Yeşillikleri ve Patates İle Servis Edilir) (KARBONHİDRAT DEĞERİ: 87,89)",
+    "ingredients": [
+      "Tost Ekmeği Arasında Kaşar Peyniri",
+      "Mevsim Yeşillikleri ve Patates"
+    ]
+  },
+  {
+    "id": "prod_1zjtov3wv",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_j5bpknsxc",
+    "name": "PATATESLİ GÖZLEME",
+    "price": 140,
+    "imageUrl": "/assets/PATATESLİ GÖZLEME.jpg",
+    "shortDescription": "Domates, Salatalık ve Siyah Zeytin ile servis edilir. ",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Domates, Salatalık ve Siyah Zeytin ile servis edilir. (KARBONHİDRAT DEĞERİ: 113,83)",
+    "ingredients": [
+      "Domates",
+      "Salatalık ve Siyah Zeytin"
+    ]
+  },
+  {
+    "id": "prod_8up80ywqs",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_tfy1t11ox",
+    "name": "GÜNÜN ÇORBASI",
+    "price": 70,
+    "imageUrl": "/assets/GÜNÜN ÇORBASI.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_nidng36it",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_tfy1t11ox",
+    "name": "SİGARA BÖREĞİ",
+    "price": 140,
+    "imageUrl": "/assets/SİGARA BÖREĞİ.jpg",
+    "shortDescription": "Mevsim Yeşillikleri ve Parmak Patates İle servis edilir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Mevsim Yeşillikleri ve Parmak Patates İle (KARBONHİDRAT DEĞERİ: 184,66)",
+    "ingredients": [
+      "Mevsim Yeşillikleri ve Parmak Patates"
+    ]
+  },
+  {
+    "id": "prod_jf2edzdit",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_tfy1t11ox",
+    "name": "PATATES TAVA",
+    "price": 100,
+    "imageUrl": "/assets/PATATES TAVA.jpeg",
+    "shortDescription": "Parmak Patates ile Servis Edilir. \n\n",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Parmak Patates ile Servis Edilir. (KARBONHİDRAT DEĞERİ: 53)\n\n"
+  },
+  {
+    "id": "prod_7fnn0mhhw",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_tfy1t11ox",
+    "name": "CAJUN TAVUK TABAĞI",
+    "price": 230,
+    "imageUrl": "/assets/CAJUN TAVUK TABAĞI.jpeg",
+    "shortDescription": "Cajun Baharatı İle Panelenmiş Piliç Parçaları ve Patates İle Servis Edilir\n",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Cajun Baharatı İle Panelenmiş Piliç Parçaları ve Patates İle Servis Edilir\n\n"
+  },
+  {
+    "id": "prod_duk42d4fn",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_tfy1t11ox",
+    "name": "TAVUK DÜRÜM",
+    "price": 200,
+    "imageUrl": "/assets/TAVUK DÜRÜM.jpg",
+    "shortDescription": "Tortilla Ekmeği Arasında Sotelenmiş Mantar, Renkli biberler, Piliç Bonfile Parçaları, Kaşar Peyniri, Mevsim Yeşilliği ve Patates İle servis edilir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Tortilla Ekmeği Arasında Sotelenmiş Mantar, Renkli biberler, Piliç Bonfile Parçaları, Kaşar Peyniri, Mevsim Yeşilliği ve Patates İle... (KARBONHİDRAT DEĞERİ: 136,41)\n",
+    "ingredients": [
+      "Tortilla Ekmeği Arasında Sotelenmiş Mantar",
+      "Renkli biberler",
+      "Piliç Bonfile Parçaları",
+      "Kaşar Peyniri",
+      "Mevsim Yeşilliği ve Patates"
+    ]
+  },
+  {
+    "id": "prod_kb68x0teh",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_tfy1t11ox",
+    "name": "KÖFTE DÜRÜM",
+    "price": 220,
+    "imageUrl": "/assets/KÖFTE DÜRÜM.jpg",
+    "shortDescription": "Tortilla Ekmeği Arasında Sotelenmiş Mantar, Renkli biberler, Izgara Köfte Parçaları, Kaşar peyniri, Mevsim Yeşilliği ve Patates İle servis edilir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Tortilla Ekmeği Arasında Sotelenmiş Mantar, Renkli biberler, Izgara Köfte Parçaları, Kaşar peyniri, Mevsim Yeşilliği ve Patates İle... (KARBONHİDRAT DEĞERİ: 156,63)",
+    "ingredients": [
+      "Tortilla Ekmeği Arasında Sotelenmiş Mantar",
+      "Renkli biberler",
+      "Izgara Köfte Parçaları",
+      "Kaşar peyniri",
+      "Mevsim Yeşilliği ve Patates"
+    ]
+  },
+  {
+    "id": "prod_n53tl5dga",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_tfy1t11ox",
+    "name": "COMBO TABAĞI",
+    "price": 250,
+    "imageUrl": "/assets/COMBO TABAĞI.jpeg",
+    "shortDescription": "SİGARA BÖREĞİ, PAÇANGA BÖREĞİ, SOĞAN HALKASI, PATATES TAVA, NUGGET, SOSİS, SUCUK İLE SERVİS EDİLİR.",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "SİGARA BÖREĞİ, PAÇANGA BÖREĞİ, SOĞAN HALKASI, PATATES TAVA, NUGGET, SOSİS, SUCUK İLE SERVİS EDİLİR. (KARBONHİDRAT DEĞERİ: 127,63)",
+    "ingredients": [
+      "SİGARA BÖREĞİ",
+      "PAÇANGA BÖREĞİ",
+      "SOĞAN HALKASI",
+      "PATATES TAVA",
+      "NUGGET",
+      "SOSİS",
+      "SUCUK"
+    ]
   }
 ]
