@@ -215,5 +215,89 @@
     "name": "Ara Sıcak ve Dürümler",
     "order": 5,
     "imageUrl": "/assets/ara sıcak ve dürümler.jpg"
+  },
+  {
+    "id": "cat_mkpi1qlqm",
+    "businessId": "biz_pgxu887bi",
+    "name": "Burgerler",
+    "order": 6,
+    "imageUrl": "/assets/burgerler ve pizzalar.jpg"
+  },
+  {
+    "id": "cat_5q0pae9dy",
+    "businessId": "biz_pgxu887bi",
+    "name": "Makarna ve Salatalar",
+    "order": 7,
+    "imageUrl": "/assets/makarna ve salatalar.jpg"
+  },
+  {
+    "id": "cat_14fnsqu2r",
+    "businessId": "biz_pgxu887bi",
+    "name": "Çerez & Tatlılar & Dondurma",
+    "order": 8,
+    "imageUrl": "/assets/ÇEREZ TATLILAR DONDURMA.jpg"
+  },
+  {
+    "id": "cat_8bxg3kz23",
+    "businessId": "biz_pgxu887bi",
+    "name": "Sıcak İçecekler",
+    "order": 9,
+    "imageUrl": "/assets/sıcak içecekler.jpg"
+  },
+  {
+    "id": "cat_syzi433vo",
+    "businessId": "biz_pgxu887bi",
+    "name": "Türk Kahveleri",
+    "order": 10,
+    "imageUrl": "/assets/türk kahveleri.jpg"
+  },
+  {
+    "id": "cat_ia0ziegwp",
+    "businessId": "biz_pgxu887bi",
+    "name": "Soğuk İçecekler",
+    "order": 11,
+    "imageUrl": "/assets/soğuk içecekler.jpeg"
+  },
+  {
+    "id": "cat_6detznoqu",
+    "businessId": "biz_pgxu887bi",
+    "name": "Limonata & Vitamin Bar",
+    "order": 12,
+    "imageUrl": "/assets/limonata & vitamin bar.jpg"
+  },
+  {
+    "id": "cat_w5p400fiy",
+    "businessId": "biz_pgxu887bi",
+    "name": "Bitki Çayları",
+    "order": 13,
+    "imageUrl": "/assets/bitki çayları.jpg"
+  },
+  {
+    "id": "cat_rwl9rseut",
+    "businessId": "biz_pgxu887bi",
+    "name": "Sıcak Çikolata ve Salep",
+    "order": 14,
+    "imageUrl": "/assets/sıcak çikolata ve salep.jpg"
+  },
+  {
+    "id": "cat_acmfiwt0b",
+    "businessId": "biz_pgxu887bi",
+    "name": "Espresso Special",
+    "order": 15,
+    "imageUrl": "/assets/ESPRESSO spacial.jpg"
+  },
+  {
+    "id": "cat_h65xekn3v",
+    "businessId": "biz_pgxu887bi",
+    "name": "Milkshake & Frozen & Smoothies",
+    "order": 16,
+    "imageUrl": "/assets/MİLKSHAKE & FROZEN & SMOOTHIES.jpeg"
+  },
+  {
+    "id": "cat_z0n8lw33q",
+    "businessId": "biz_pgxu887bi",
+    "name": "Soğuk Kahveler",
+    "order": 17,
+    "imageUrl": "/assets/SOĞUK KAHVELER & KOKTEYL ŞÖLENİ.jpg"
   }
 ]

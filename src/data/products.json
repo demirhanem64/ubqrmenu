@@ -4991,5 +4991,1585 @@
       "SOSİS",
       "SUCUK"
     ]
+  },
+  {
+    "id": "prod_np8bcnfyh",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_mkpi1qlqm",
+    "name": "HAMBURGER",
+    "price": 220,
+    "imageUrl": "/assets/hamburger.jpg",
+    "shortDescription": "El Yapımı Burger Köftesi, Marul, Turşu, Domates, Mevsim Yeşilliği ve Patates İle servis edilir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "El Yapımı Burger Köftesi, Marul, Turşu, Domates, Mevsim Yeşilliği ve Patates İle... (KARBONHİDRAT DEĞERİ: 97)",
+    "ingredients": [
+      "El Yapımı Burger Köftesi",
+      "Marul",
+      "Turşu",
+      "Domates",
+      "Mevsim Yeşilliği ve Patates"
+    ]
+  },
+  {
+    "id": "prod_idmri4cia",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_mkpi1qlqm",
+    "name": "CHEESEBURGER",
+    "price": 240,
+    "imageUrl": "/assets/CHEESEBURGER.jpg",
+    "shortDescription": "El Yapımı Burger Köftesi Üzerine Cheddar Peyniri, Marul, Turşu, Domates, Mevsim yeşilliği ve Patates İle servis edilir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "El Yapımı Burger Köftesi Üzerine Cheddar Peyniri, Marul, Turşu, Domates, Mevsim yeşilliği ve Patates İle... (KARBONHİDRAT DEĞERİ: 113,53)",
+    "ingredients": [
+      "El Yapımı Burger Köftesi Üzerine Cheddar Peyniri",
+      "Marul",
+      "Turşu",
+      "Domates",
+      "Mevsim yeşilliği ve Patates"
+    ]
+  },
+  {
+    "id": "prod_0vr7bu0xx",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_mkpi1qlqm",
+    "name": "TAVUK BURGER",
+    "price": 200,
+    "imageUrl": "/assets/TAVUK BURGER.jpg",
+    "shortDescription": "Piliç Bonfile, Cheddar Peyniri, Marul, Turşu, Domates, Mevsim Yeşilliği ve Patates İle servis edilir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Piliç Bonfile, Cheddar Peyniri, Marul, Turşu, Domates, Mevsim Yeşilliği ve Patates İle... (KARBONHİDRAT DEĞERİ: 120,39)",
+    "ingredients": [
+      "Piliç Bonfile",
+      "Cheddar Peyniri",
+      "Marul",
+      "Turşu",
+      "Domates",
+      "Mevsim Yeşilliği ve Patates"
+    ]
+  },
+  {
+    "id": "prod_na3jvl2r5",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_mkpi1qlqm",
+    "name": "MEXİCAN BURGER",
+    "price": 240,
+    "imageUrl": "/assets/MEXİCAN BURGER.jpg",
+    "shortDescription": "El Yapımı Burger Köftesi, Mexican Sos, Cheddar Peyniri, Marul, Turşu, Domates, Mevsim Yeşilliği ve Patates İle servis edilir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "El Yapımı Burger Köftesi, Mexican Sos, Cheddar Peyniri, Marul, Turşu, Domates, Mevsim Yeşilliği ve Patates İle... (KARBONHİDRAT DEĞERİ: 80)",
+    "ingredients": [
+      "El Yapımı Burger Köftesi",
+      "Mexican Sos",
+      "Cheddar Peyniri",
+      "Marul",
+      "Turşu",
+      "Domates",
+      "Mevsim Yeşilliği ve Patates"
+    ]
+  },
+  {
+    "id": "prod_hmf5ulm0r",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_5q0pae9dy",
+    "name": "PENNE PESTO",
+    "price": 200,
+    "imageUrl": "/assets/PENNE PESTO.jpg",
+    "shortDescription": "Pesto Soslu Krema ve Kaşar Peynir ile servis edilir\n",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Pesto Soslu Krema ve Kaşar Peynir ile... (KARBONHİDRAT DEĞERİ: 207,08)",
+    "ingredients": [
+      "Pesto Soslu Krema ve Kaşar Peynir"
+    ]
+  },
+  {
+    "id": "prod_m2xk1bq27",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_5q0pae9dy",
+    "name": "PENNE ARABİATA",
+    "price": 200,
+    "imageUrl": "/assets/PENNE ARABİATA.jpg",
+    "shortDescription": "Acılı Domates Sos, Siyah Zeytin ve Kaşar Peynir ile servis edilir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Acılı Domates Sos, Siyah Zeytin ve Kaşar Peynir ile... (KARBONHİDRAT DEĞERİ: 212,85)",
+    "ingredients": [
+      "Acılı Domates Sos",
+      "Siyah Zeytin ve Kaşar Peynir"
+    ]
+  },
+  {
+    "id": "prod_m5b3hhays",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_5q0pae9dy",
+    "name": "PENNE KÖRİ",
+    "price": 200,
+    "imageUrl": "/assets/PENNE KÖRİ.jpg",
+    "shortDescription": "Köri Sos, Krema, Mantar, Piliç Bonfile ve Kaşar ile servis edilir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Köri Sos, Krema, Mantar, Piliç Bonfile ve Kaşar ile servis edilir\n",
+    "ingredients": [
+      "Köri Sos",
+      "Krema",
+      "Mantar",
+      "Piliç Bonfile ve Kaşar"
+    ]
+  },
+  {
+    "id": "prod_6rsjt7jz7",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_5q0pae9dy",
+    "name": "PENNE ALFREDO",
+    "price": 200,
+    "imageUrl": "/assets/PENNE ALFREDO.jpg",
+    "shortDescription": "Piliç Bonfile, Mantar, Krema, Fesleğen ve Kaşar ile servis edilir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Piliç Bonfile, Mantar, Krema, Fesleğen ve Kaşar ile servis edilir",
+    "ingredients": [
+      "Piliç Bonfile",
+      "Mantar",
+      "Krema",
+      "Fesleğen ve Kaşar"
+    ]
+  },
+  {
+    "id": "prod_id0tn4t4e",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_5q0pae9dy",
+    "name": "ÇOBAN SALATA",
+    "price": 150,
+    "imageUrl": "/assets/ÇOBAN SALATA.jpeg",
+    "shortDescription": "Domates, Salatalık, Biber, Maydanoz ve isteğe bağlı Soğan ile servis edilir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Domates, Salatalık, Biber, Maydanoz ve isteğe bağlı Soğan ile servis edilir",
+    "ingredients": [
+      "Domates",
+      "Salatalık",
+      "Biber",
+      "Maydanoz ve isteğe bağlı Soğan"
+    ]
+  },
+  {
+    "id": "prod_1s2myk2x4",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_5q0pae9dy",
+    "name": "AKDENİZ SALATA",
+    "price": 120,
+    "imageUrl": "/assets/AKDENİZ SALATA.jpg",
+    "shortDescription": "Mevsim Yeşilliği, Çeri Domates, Topi Peynir, Siyah Zeytin, Kurutulmuş Domates, Mısır ve Ceviz ile Servis Edilir.",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Mevsim Yeşilliği, Çeri Domates, Topi Peynir, Siyah Zeytin, Kurutulmuş Domates, Mısır ve Ceviz ile Servis Edilir. (KARBONHİDRAT DEĞERİ: 37,81)",
+    "ingredients": [
+      "Mevsim Yeşilliği",
+      "Çeri Domates",
+      "Topi Peynir",
+      "Siyah Zeytin",
+      "Kurutulmuş Domates",
+      "Mısır ve Ceviz"
+    ]
+  },
+  {
+    "id": "prod_i8a3x9lou",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_5q0pae9dy",
+    "name": "IZGARA TAVUK SALATA",
+    "price": 130,
+    "imageUrl": "/assets/IZGARA TAVUK SALATA.jpg",
+    "shortDescription": "Marul, Izgara Tavuk Dilimleri, Fırınlanmış Ekmek, Kurutulmuş Domates, Kaşar Peynir, Çeri Domates ile servis edilir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Marul, Izgara Tavuk Dilimleri, Fırınlanmış Ekmek, Kurutulmuş Domates, Kaşar Peynir, Çeri Domates ile... (KARBONHİDRAT DEĞERİ: 50,22)\n\n",
+    "ingredients": [
+      "Marul",
+      "Izgara Tavuk Dilimleri",
+      "Fırınlanmış Ekmek",
+      "Kurutulmuş Domates",
+      "Kaşar Peynir",
+      "Çeri Domates"
+    ]
+  },
+  {
+    "id": "prod_z3rl9ziwb",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_5q0pae9dy",
+    "name": "TAVUKLU SEZAR SALATA",
+    "price": 160,
+    "imageUrl": "/assets/TAVUKLU SEZAR SALATA.jpg",
+    "shortDescription": "Marul, Izgara Tavuk Dilimleri, Fırınlanmış Ekmek, Kurutulmuş Domates, Kaşar Peynir, Çeri Domates ve Sezar Sos ile servis edilir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Marul, Izgara Tavuk Dilimleri, Fırınlanmış Ekmek, Kurutulmuş Domates, Kaşar Peynir, Çeri Domates ve Sezar Sos ile ( KARBONHİDRAT DEĞERİ 50,22 )",
+    "ingredients": [
+      "Marul",
+      "Izgara Tavuk Dilimleri",
+      "Fırınlanmış Ekmek",
+      "Kurutulmuş Domates",
+      "Kaşar Peynir",
+      "Çeri Domates ve Sezar Sos"
+    ]
+  },
+  {
+    "id": "prod_bjzdo6a2y",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_5q0pae9dy",
+    "name": "PENNE NAPOLİTEN",
+    "price": 200,
+    "imageUrl": "/assets/PENNE NAPOLİTEN.jpg",
+    "shortDescription": "Domates Sos, Taze fesleğen ve Kaşar peynir ile servis edilir",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Domates Sos, Taze fesleğen ve Kaşar peynir ile ( KARBONHİDRAT DEĞERİ 201,71 )",
+    "ingredients": [
+      "Domates Sos",
+      "Taze fesleğen ve Kaşar peynir"
+    ]
+  },
+  {
+    "id": "prod_6zj6euo9t",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_14fnsqu2r",
+    "name": "PROFİTEROLLÜ PASTA",
+    "price": 150,
+    "imageUrl": "/assets/PROFİTEROLLÜ PASTA.png",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_qriwqcrn8",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_14fnsqu2r",
+    "name": "TİRAMİSU",
+    "price": 150,
+    "imageUrl": "/assets/TİRAMİSU.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_cx325n50w",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_14fnsqu2r",
+    "name": "1 TOP DONDURMA",
+    "price": 40,
+    "imageUrl": "/assets/1 TOP DONDURMA.jpeg",
+    "shortDescription": "Bal Badem - Çikolata - Yaban Mersini - Damla Sakızı - Çilek - Vanilya - Antep Fıstık - Karadut-Limon-Karamel\n\n",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Bal Badem - Çikolata - Yaban Mersini - Damla Sakızı - Çilek - Vanilya - Antep Fıstık - Karadut-Limon-Karamel\n\n"
+  },
+  {
+    "id": "prod_7bxig8iun",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_14fnsqu2r",
+    "name": "CUP DONDURMA",
+    "price": 150,
+    "imageUrl": "/assets/CUP DONDURMA.jpg",
+    "shortDescription": "Bal Badem - Çikolata - Yaban Mersini - Damla Sakızı - Çilek - Vanilya - Antep Fıstık - Karadut-Limon-Karamel\n\n",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Bal Badem - Çikolata - Yaban Mersini - Damla Sakızı - Çilek - Vanilya - Antep Fıstık - Karadut-Limon-Karamel\n\n"
+  },
+  {
+    "id": "prod_qdutb2spr",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_14fnsqu2r",
+    "name": "MAGNOLİA ÇİLEKLİ",
+    "price": 150,
+    "imageUrl": "/assets/ÇİLEKLİ MAGNOLİA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_t9tn2u6qr",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_14fnsqu2r",
+    "name": "TRİLEÇE",
+    "price": 150,
+    "imageUrl": "/assets/TRİLİÇE.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_73loxo9la",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_14fnsqu2r",
+    "name": "KARIŞIK ÇEREZ",
+    "price": 200,
+    "imageUrl": "/assets/ÇEREZ TABAĞI.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_rej5r3lp8",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_14fnsqu2r",
+    "name": "KÖSTEBEK PASTA",
+    "price": 60,
+    "imageUrl": "/assets/KÖSTEBEK PASTA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_0aoycwkwa",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_14fnsqu2r",
+    "name": "MALAGA",
+    "price": 150,
+    "imageUrl": "/assets/MALAGA PASTA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_pko3v4g8a",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_14fnsqu2r",
+    "name": "FRAMBUAZLI TRİLEÇE",
+    "price": 150,
+    "imageUrl": "/assets/FRAMBUAZLI TRİLİÇE.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_81950p9ka",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_14fnsqu2r",
+    "name": "ÇİLEKLİ BROWNİ",
+    "price": 150,
+    "imageUrl": "/assets/ÇİLEKLİ BROWNİ.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_i08ubvnp6",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_14fnsqu2r",
+    "name": "MAGNOLİA MUZLU",
+    "price": 150,
+    "imageUrl": "/assets/MUZLU MAGNOLİA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_ww1k8xea0",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_8bxg3kz23",
+    "name": "BARDAK ÇAY",
+    "price": 20,
+    "imageUrl": "/assets/BARDAK ÇAY.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_73xxwyq4m",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_8bxg3kz23",
+    "name": "FİNCAN ÇAY",
+    "price": 35,
+    "imageUrl": "/assets/FİNCAN ÇAY2.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_nkpmb6dzj",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_syzi433vo",
+    "name": "TÜRK KAHVESİ",
+    "price": 60,
+    "imageUrl": "/assets/TÜRK KAHVESİ.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_li6nhr0fl",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_syzi433vo",
+    "name": "DİBEK KAHVESİ",
+    "price": 70,
+    "imageUrl": "/assets/DİBEK KAHVESİ.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_k6whkhini",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_syzi433vo",
+    "name": "DAMLA SAKIZLI TÜRK KAHVESİ",
+    "price": 70,
+    "imageUrl": "/assets/DAMLA SAKIZLI TÜRK KAHVESİ.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_8n734ycgg",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_syzi433vo",
+    "name": "MENENGİÇ TÜRK KAHVESİ",
+    "price": 70,
+    "imageUrl": "/assets/MENENGİÇ TÜRK KAHVESİ.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_0s25g0yxk",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_ia0ziegwp",
+    "name": "MEYVE SUYU KARIŞIK",
+    "price": 70,
+    "imageUrl": "/assets/MEYVE SUYU KARIŞIK.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "KARBONHİDRAT DEĞERİ: 66,66\n\n"
+  },
+  {
+    "id": "prod_8wzipk0gp",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_ia0ziegwp",
+    "name": "MEYVE SUYU ŞEFTALİ",
+    "price": 70,
+    "imageUrl": "/assets/MEYVE SUYU ŞEFTALİ.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "KARBONHİDRAT DEĞERİ: 83,16\n\n"
+  },
+  {
+    "id": "prod_2yixh2icx",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_ia0ziegwp",
+    "name": "MEYVE SUYU VİŞNE",
+    "price": 70,
+    "imageUrl": "/assets/MEYVE SUYU VİŞNE.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "KARBONHİDRAT DEĞERİ: 83,16\n\n"
+  },
+  {
+    "id": "prod_iyca1zn27",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_ia0ziegwp",
+    "name": "MEYVE SUYU KAYISI",
+    "price": 70,
+    "imageUrl": "/assets/MEYVE SUYU KAYISI.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_i2nt9r6qj",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_ia0ziegwp",
+    "name": "COCA COLA",
+    "price": 70,
+    "imageUrl": "/assets/COCA COLA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "KARBONHİDRAT DEĞERİ: 69,96\n\n"
+  },
+  {
+    "id": "prod_pajl0q9ap",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_ia0ziegwp",
+    "name": "FANTA",
+    "price": 70,
+    "imageUrl": "/assets/FANTA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "KARBONHİDRAT DEĞERİ: 48,18\n\n"
+  },
+  {
+    "id": "prod_bv763anp3",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_ia0ziegwp",
+    "name": "SPRİTE",
+    "price": 70,
+    "imageUrl": "/assets/SPRİTE.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "KARBONHİDRAT DEĞERİ: 20,46\n\n"
+  },
+  {
+    "id": "prod_v9wbbonkr",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_ia0ziegwp",
+    "name": "MEYVELİ SODA KARPUZ ÇİLEK",
+    "price": 50,
+    "imageUrl": "/assets/KARPUZ ÇİLEKLİ SODA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_lfr0otdta",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_ia0ziegwp",
+    "name": "MEYVELİ SODA ELMALI",
+    "price": 50,
+    "imageUrl": "/assets/ELMALI SODA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "KARBONHİDRAT DEĞERİ: 14,8\n\n"
+  },
+  {
+    "id": "prod_y72yhj3yh",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_ia0ziegwp",
+    "name": "MEYVELİ SODA LİMON",
+    "price": 50,
+    "imageUrl": "/assets/LİMONLU SODA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_c0ae75d3a",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_ia0ziegwp",
+    "name": "MEYVELİ SODA NAR",
+    "price": 50,
+    "imageUrl": "/assets/NARLI SODA.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_9g16z11fh",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_ia0ziegwp",
+    "name": "CHURCHİLL",
+    "price": 50,
+    "imageUrl": "/assets/CHURCHİLL.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_0cur4j4ow",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_ia0ziegwp",
+    "name": "SADE SODA",
+    "price": 30,
+    "imageUrl": "/assets/SADE SODA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_2c2jrzbi6",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_ia0ziegwp",
+    "name": "AYRAN",
+    "price": 40,
+    "imageUrl": "/assets/AYRAN.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_93ija3u6v",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_ia0ziegwp",
+    "name": "BURN",
+    "price": 90,
+    "imageUrl": "/assets/BURN.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "KARBONHİDRAT DEĞERİ: 65\n\n"
+  },
+  {
+    "id": "prod_qwvpzndr7",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_ia0ziegwp",
+    "name": "FUSE TEA ŞEFTALİ",
+    "price": 70,
+    "imageUrl": "/assets/FUSE TEA ŞEFTALİ.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_ad7wirzdl",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_ia0ziegwp",
+    "name": "FUSE TEA MANGO",
+    "price": 70,
+    "imageUrl": "/assets/FUSE TEA MANGO.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_a4f9dbtkj",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_ia0ziegwp",
+    "name": "FUSE TEA KARPUZ",
+    "price": 70,
+    "imageUrl": "/assets/FUSE TEA KARPUZ.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_m2x6wfe51",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_ia0ziegwp",
+    "name": "FUSE TEA KAVUN ÇİLEK",
+    "price": 70,
+    "imageUrl": "/assets/FUSE TEA KAVUN ÇİLEK.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_oaaavfeov",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_ia0ziegwp",
+    "name": "SU",
+    "price": 20,
+    "imageUrl": "/assets/SU.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_hh6eyq8bs",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_ia0ziegwp",
+    "name": "COCA COLA ZERO",
+    "price": 70,
+    "imageUrl": "/assets/COCA COLA ZERO.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "KARBONHİDRAT DEĞERİ: 0,066\n\n"
+  },
+  {
+    "id": "prod_bjcsqzcsv",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_ia0ziegwp",
+    "name": "ŞALGAM",
+    "price": 70,
+    "imageUrl": "/assets/ŞALGAM.png",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "ACILI DOĞANAY ŞALGAM\n"
+  },
+  {
+    "id": "prod_fnf1q3ra5",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_ia0ziegwp",
+    "name": "TURŞU SUYU",
+    "price": 50,
+    "imageUrl": "/assets/TURŞU SUYU.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_2l57nli2w",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_6detznoqu",
+    "name": "LİMONATA",
+    "price": 130,
+    "imageUrl": "/assets/LİMONATA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_lefye8vor",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_6detznoqu",
+    "name": "LİMONATA ÇİLEKLİ",
+    "price": 150,
+    "imageUrl": "/assets/LİMONATA ÇİLEKLİ.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_2ibjro0ec",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_6detznoqu",
+    "name": "LİMONATA KARPUZLU",
+    "price": 150,
+    "imageUrl": "/assets/LİMONATA KARPUZLU.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_ik5rt4aqp",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_6detznoqu",
+    "name": "LİMONATA ELMALI",
+    "price": 150,
+    "imageUrl": "/assets/LİMONATA ELMALI.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_q4epmy6ef",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_6detznoqu",
+    "name": "PORTAKAL SUYU",
+    "price": 130,
+    "imageUrl": "/assets/PORTAKAL SUYU.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "KARBONHİDRAT DEĞERİ: 139,4\n\n"
+  },
+  {
+    "id": "prod_ji5mfglv7",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_6detznoqu",
+    "name": "BALLI MUZLU SÜT",
+    "price": 150,
+    "imageUrl": "/assets/BALLI MUZLU SÜT.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_1snbcxuv1",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_w5p400fiy",
+    "name": "ADAÇAYI",
+    "price": 100,
+    "imageUrl": "/assets/ADA ÇAYI.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_bjuyghtkn",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_w5p400fiy",
+    "name": "IHLAMUR",
+    "price": 100,
+    "imageUrl": "/assets/IHLAMUR.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_l308qy43k",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_w5p400fiy",
+    "name": "KIŞÇAYI",
+    "price": 100,
+    "imageUrl": "/assets/KIŞ ÇAYI.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_l9f5v0yf2",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_w5p400fiy",
+    "name": "KUŞBURNU",
+    "price": 100,
+    "imageUrl": "/assets/KUŞBURNU.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_taonoyni4",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_w5p400fiy",
+    "name": "NANE LİMON",
+    "price": 100,
+    "imageUrl": "/assets/NANE LİMON.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_cdbxn50ai",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_w5p400fiy",
+    "name": "PAPATYA ÇAYI",
+    "price": 100,
+    "imageUrl": "/assets/PAPATYA ÇAYI.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_ou7lq36r3",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_w5p400fiy",
+    "name": "YEŞİL ÇAY",
+    "price": 100,
+    "imageUrl": "/assets/YEŞİL ÇAY.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_8x2hxosgv",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_rwl9rseut",
+    "name": "SICAK ÇİKOLATA",
+    "price": 80,
+    "imageUrl": "/assets/SICAK ÇİKOLATA2.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_tnl3rjzv3",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_rwl9rseut",
+    "name": "SICAK ÇİKOLATA KARAMELLİ",
+    "price": 80,
+    "imageUrl": "/assets/SICAK ÇİKOLATA KARAMELLİ.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_d00et6e54",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_rwl9rseut",
+    "name": "SICAK ÇİKOLATA ÇİLEKLİ",
+    "price": 80,
+    "imageUrl": "/assets/SICAK ÇİKOLATA ÇİLEKLİ.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_dvscugz5y",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_rwl9rseut",
+    "name": "SICAK ÇİKOLATA FINDIKLI",
+    "price": 80,
+    "imageUrl": "/assets/SICAK ÇİKOLATA FINDIKLI.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_jrc6r7bc6",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_rwl9rseut",
+    "name": "SICAK ÇİKOLATA MUZLU",
+    "price": 80,
+    "imageUrl": "/assets/SICAK ÇİKOLATA MUZLU.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_qh6qachpx",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_rwl9rseut",
+    "name": "BEYAZ ÇİKOLATA",
+    "price": 80,
+    "imageUrl": "/assets/BEYAZ ÇİKOLATA.png",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_1nhbcggbu",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_rwl9rseut",
+    "name": "SALEP",
+    "price": 80,
+    "imageUrl": "/assets/SALEP.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_dg38kehaj",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_rwl9rseut",
+    "name": "DAMLA SAKIZLI SALEP",
+    "price": 90,
+    "imageUrl": "/assets/DAMLA SAKIZLI SALEP.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_bjmguong9",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_rwl9rseut",
+    "name": "BAL BADEM SALEP",
+    "price": 90,
+    "imageUrl": "/assets/BAL BADEM SALEP.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_qnxv4s3yj",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_rwl9rseut",
+    "name": "SICAK SÜT",
+    "price": 65,
+    "imageUrl": "/assets/SICAK SÜT.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_q636yu1xp",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_acmfiwt0b",
+    "name": "AMERİCANO",
+    "price": 80,
+    "imageUrl": "/assets/AMERİCANO.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_73kuelpyz",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_acmfiwt0b",
+    "name": "CAFE LATTE",
+    "price": 85,
+    "imageUrl": "/assets/CAFE LATTE.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_f3ut4xrkm",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_acmfiwt0b",
+    "name": "CARAMEL LATTE",
+    "price": 85,
+    "imageUrl": "/assets/CARAMEL LATTE.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_bcfqexz3c",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_acmfiwt0b",
+    "name": "CAFE MOCHA",
+    "price": 85,
+    "imageUrl": "/assets/CAFE MOCHA.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_og8v5a2cj",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_acmfiwt0b",
+    "name": "WHİTE CHOCOLATE MOCHA",
+    "price": 85,
+    "imageUrl": "/assets/WHİTE CHOCOLATE MOCHA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_9ooaotpe8",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_acmfiwt0b",
+    "name": "CAPPUCCİNO",
+    "price": 85,
+    "imageUrl": "/assets/CAPPUCCİNO.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_x2eij1zb3",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_acmfiwt0b",
+    "name": "ESPRESSO",
+    "price": 85,
+    "imageUrl": "/assets/ESPRESSO.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_ovbgjrdnb",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_acmfiwt0b",
+    "name": "DOUBLE ESPRESSO",
+    "price": 85,
+    "imageUrl": "/assets/DOUBLE ESPRESSO.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_lywjj9wwk",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_acmfiwt0b",
+    "name": "ESPRESSO MACCHİATO",
+    "price": 85,
+    "imageUrl": "/assets/ESPRESSO MACCHİATO.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_qhr8gvhbi",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_acmfiwt0b",
+    "name": "FİLTER COFFE",
+    "price": 80,
+    "imageUrl": "/assets/FİLTRE KAHVE.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_dms7yqg95",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_acmfiwt0b",
+    "name": "POT SÜT",
+    "price": 30,
+    "imageUrl": "/assets/POT SÜT.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_7pcqnfgrm",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_acmfiwt0b",
+    "name": "AFFOGATO",
+    "price": 80,
+    "imageUrl": "/assets/AFFOGATO.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_xl4093j49",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_h65xekn3v",
+    "name": "MİLKSHAKE VANİLYA",
+    "price": 140,
+    "imageUrl": "/assets/MİLKSHAKE VANİLYA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_divuuqw6u",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_h65xekn3v",
+    "name": "MİLKSHAKE ÇİKOLATA",
+    "price": 140,
+    "imageUrl": "/assets/MİLKSHAKE ÇİKOLATA.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_mb5hgrek1",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_h65xekn3v",
+    "name": "MİLKSHAKE ÇİLEK",
+    "price": 140,
+    "imageUrl": "/assets/MİLKSHAKE ÇİLEK.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_floj6pkzc",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_h65xekn3v",
+    "name": "MİLKSHAKE MUZ",
+    "price": 140,
+    "imageUrl": "/assets/MİLKSHAKE MUZ.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_fs13bqfc4",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_h65xekn3v",
+    "name": "MİLKSHAKE KARAMEL",
+    "price": 140,
+    "imageUrl": "/assets/MİLKSHAKE KARAMEL.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_79hrreq5i",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_h65xekn3v",
+    "name": "FROZEN ÇİLEK",
+    "price": 120,
+    "imageUrl": "/assets/FROZEN ÇİLEK.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_qir6qpszy",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_h65xekn3v",
+    "name": "FROZEN MUZ",
+    "price": 120,
+    "imageUrl": "/assets/FROZEN MUZ.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_d58erxiam",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_h65xekn3v",
+    "name": "FROZEN KARPUZ",
+    "price": 120,
+    "imageUrl": "/assets/FROZEN KARPUZ.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_dgn2rzl7e",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_h65xekn3v",
+    "name": "SMOOTHİES ÇİLEK",
+    "price": 140,
+    "imageUrl": "/assets/SMOOTHİES ÇİLEK.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_2okrov2ee",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_h65xekn3v",
+    "name": "SMOOTHİES MUZ",
+    "price": 140,
+    "imageUrl": "/assets/SMOOTHİES MUZ.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_abbhkrsr7",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_z0n8lw33q",
+    "name": "ICE CHOCOLATE WHİTE MOCHA",
+    "price": 120,
+    "imageUrl": "/assets/ICE CHOCOLATE WHİTE MOCHA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_rr081m2ps",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_z0n8lw33q",
+    "name": "ICE COFFE MOCHA",
+    "price": 120,
+    "imageUrl": "/assets/ICE COFFE MOCHA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_ekfcbpn5o",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_z0n8lw33q",
+    "name": "ICE LATTE",
+    "price": 120,
+    "imageUrl": "/assets/ICE LATTE.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_0ypezpfe9",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_z0n8lw33q",
+    "name": "ICE AMERİCANO",
+    "price": 110,
+    "imageUrl": "/assets/ICE AMERİCANO.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_tydgv7wfm",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_z0n8lw33q",
+    "name": "ICE COFFEE FRAPPE",
+    "price": 120,
+    "imageUrl": "/assets/ICE COFFEE FRAPPE.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_3xqgbayyf",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_z0n8lw33q",
+    "name": "ICE CHOCOLATE",
+    "price": 120,
+    "imageUrl": "/assets/ICE CHOCOLATE.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
   }
 ]
