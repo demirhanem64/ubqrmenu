@@ -7141,5 +7141,85 @@
       "vegetarian": false,
       "glutenFree": false
     }
+  },
+  {
+    "id": "prod_nxagwhhjc",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_0e2qrzv2i",
+    "name": "LOVE 66 NARGİLE",
+    "price": 500,
+    "imageUrl": "/assets/nargile.jpg",
+    "shortDescription": "Karpuz, Kavun, Çarkıfelek, Çiçek Notaları ve Mentol Aromalarının birleştiği ferah bir karışım.",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Karpuz, Kavun, Çarkıfelek, Çiçek Notaları ve Mentol Aromalarının birleştiği ferah bir karışım.",
+    "ingredients": [
+      "Karpuz",
+      "Kavun",
+      "Çarkıfelek",
+      "çiçek Notaları ve Mentol Aromaları"
+    ]
+  },
+  {
+    "id": "prod_n74mcz5xy",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_0e2qrzv2i",
+    "name": "ANASONLU NARGİLE",
+    "price": 500,
+    "imageUrl": "/assets/nargile.jpg",
+    "shortDescription": "Bitkisel Gliserin, Pekmez veya Melas ve Anason Bitkisinden elde edilen yoğun aromalardan oluşur.",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Bitkisel Gliserin, Pekmez veya Melas ve Anason Bitkisinden elde edilen yoğun aromalardan oluşur."
+  },
+  {
+    "id": "prod_n2vlppxn4",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_0e2qrzv2i",
+    "name": "MASTİC NARGİLE",
+    "price": 500,
+    "imageUrl": "/assets/nargile.jpg",
+    "shortDescription": "Bitkisel Gliserin, Şerbet ve Damla Sakızı Ağacından elde edilen esans birleşiminden oluşur.",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Bitkisel Gliserin, Şerbet ve Damla Sakızı Ağacından elde edilen esans birleşiminden oluşur."
+  },
+  {
+    "id": "prod_5stfrrtcg",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_0e2qrzv2i",
+    "name": "ÜZÜM & NANE NARGİLE",
+    "price": 500,
+    "imageUrl": "/assets/nargile.jpg",
+    "shortDescription": "Tatlı üzüm ve ferahlatıcı nane aromalarının kombinasyonundan oluşur.",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "Tatlı üzüm ve ferahlatıcı nane aromalarının kombinasyonundan oluşur."
+  },
+  {
+    "id": "prod_ha0hpu95r",
+    "businessId": "atikapinar-tesisleri",
+    "categoryId": "cat_0e2qrzv2i",
+    "name": "LÜLE DEĞİŞİM",
+    "price": 300,
+    "imageUrl": "/assets/lüle.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
   }
 ]

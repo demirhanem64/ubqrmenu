@@ -348,5 +348,12 @@
     "name": "Milkshake & Frozen & Limonata",
     "order": 7,
     "imageUrl": "/assets/milkshake frozen limonata.jpg"
+  },
+  {
+    "id": "cat_0e2qrzv2i",
+    "businessId": "atikapinar-tesisleri",
+    "name": "Nargile",
+    "order": 12,
+    "imageUrl": "/assets/nargile.jpg"
   }
 ]
