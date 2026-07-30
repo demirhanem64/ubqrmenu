@@ -5844,20 +5844,6 @@
     "longDescription": "ACILI DOĞANAY ŞALGAM\n"
   },
   {
-    "id": "prod_fnf1q3ra5",
-    "businessId": "biz_pgxu887bi",
-    "categoryId": "cat_ia0ziegwp",
-    "name": "TURŞU SUYU",
-    "price": 50,
-    "imageUrl": "/assets/TURŞU SUYU.jpg",
-    "shortDescription": "",
-    "badges": {
-      "vegan": false,
-      "vegetarian": false,
-      "glutenFree": false
-    }
-  },
-  {
     "id": "prod_2l57nli2w",
     "businessId": "biz_pgxu887bi",
     "categoryId": "cat_6detznoqu",
