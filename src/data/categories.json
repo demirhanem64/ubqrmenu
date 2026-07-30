@@ -299,5 +299,54 @@
     "name": "Soğuk Kahveler",
     "order": 17,
     "imageUrl": "/assets/SOĞUK KAHVELER & KOKTEYL ŞÖLENİ.jpg"
+  },
+  {
+    "id": "cat_sv2uali58",
+    "businessId": "biz_zjqmlwkxd",
+    "name": "Yiyecekler",
+    "order": 1,
+    "imageUrl": "/assets/burgerler ve pizzalar.jpg"
+  },
+  {
+    "id": "cat_xqy09mu6d",
+    "businessId": "biz_zjqmlwkxd",
+    "name": "Soğuk İçecekler",
+    "order": 4,
+    "imageUrl": "/assets/soğuk içecekler.jpeg"
+  },
+  {
+    "id": "cat_cu6tzx35x",
+    "businessId": "biz_zjqmlwkxd",
+    "name": "Soğuk Kahveler",
+    "order": 5,
+    "imageUrl": "/assets/SOĞUK KAHVELER & KOKTEYL ŞÖLENİ.jpg"
+  },
+  {
+    "id": "cat_ofbru5h4l",
+    "businessId": "biz_zjqmlwkxd",
+    "name": "Sıcak İçecekler",
+    "order": 2,
+    "imageUrl": "/assets/TÜRK KAHVELERİ & ESPRESSO SPECIAL.jpg"
+  },
+  {
+    "id": "cat_bx0mf3i9d",
+    "businessId": "biz_zjqmlwkxd",
+    "name": "Bitki Çayları",
+    "order": 3,
+    "imageUrl": "/assets/bitki çayları.jpg"
+  },
+  {
+    "id": "cat_x4g8cn00s",
+    "businessId": "biz_zjqmlwkxd",
+    "name": "Dondurma",
+    "order": 6,
+    "imageUrl": "/assets/DONDURMA CUP.jpeg"
+  },
+  {
+    "id": "cat_ieftu6nf8",
+    "businessId": "biz_zjqmlwkxd",
+    "name": "Milkshake & Frozen & Limonata",
+    "order": 7,
+    "imageUrl": "/assets/milkshake frozen limonata.jpg"
   }
 ]
