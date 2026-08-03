@@ -4975,16 +4975,15 @@
     "name": "COMBO TABAĞI",
     "price": 250,
     "imageUrl": "/assets/COMBO TABAĞI.jpeg",
-    "shortDescription": "SİGARA BÖREĞİ, PAÇANGA BÖREĞİ, SOĞAN HALKASI, PATATES TAVA, NUGGET, SOSİS, SUCUK İLE SERVİS EDİLİR.",
+    "shortDescription": "SİGARA BÖREĞİ, SOĞAN HALKASI, PATATES TAVA, NUGGET, SOSİS, SUCUK İLE SERVİS EDİLİR.",
     "badges": {
       "vegan": false,
       "vegetarian": false,
       "glutenFree": false
     },
-    "longDescription": "SİGARA BÖREĞİ, PAÇANGA BÖREĞİ, SOĞAN HALKASI, PATATES TAVA, NUGGET, SOSİS, SUCUK İLE SERVİS EDİLİR. (KARBONHİDRAT DEĞERİ: 127,63)",
+    "longDescription": "SİGARA BÖREĞİ, SOĞAN HALKASI, PATATES TAVA, NUGGET, SOSİS, SUCUK İLE SERVİS EDİLİR. (KARBONHİDRAT DEĞERİ: 127,63)",
     "ingredients": [
       "SİGARA BÖREĞİ",
-      "PAÇANGA BÖREĞİ",
       "SOĞAN HALKASI",
       "PATATES TAVA",
       "NUGGET",
