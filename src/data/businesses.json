@@ -44,5 +44,13 @@
     "imageUrl": "/assets/termalkantin.jpg",
     "slug": "termal-kantin",
     "order": 4
+  },
+  {
+    "id": "biz_09b54021r",
+    "name": "Huzurpark Kafe Restoran",
+    "description": "Pazartesi Günleri Kapalıyız.",
+    "address": "Dikilitaş Mh. Atatürk Bulvarı Yan Yolu Ilıcaksubaşı Parkı UŞAK",
+    "imageUrl": "/assets/huzurparkfake.jpg",
+    "order": 5
   }
 ]

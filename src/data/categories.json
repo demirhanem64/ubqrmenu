@@ -362,5 +362,89 @@
     "name": "Nargile",
     "order": 18,
     "imageUrl": "/assets/nargile.jpg"
+  },
+  {
+    "id": "cat_b73jvif6j",
+    "businessId": "biz_09b54021r",
+    "name": "Kahvaltılar ve Omletler",
+    "order": 1,
+    "imageUrl": "/assets/kahvaltılar ve omletler.jpg"
+  },
+  {
+    "id": "cat_secbfkif8",
+    "businessId": "biz_09b54021r",
+    "name": "Gözleme ve Tostlar",
+    "order": 2,
+    "imageUrl": "/assets/gözleme ve tostlar.jpg"
+  },
+  {
+    "id": "cat_r5nwuwq8d",
+    "businessId": "biz_09b54021r",
+    "name": "Burger ve Pizzalar",
+    "order": 3,
+    "imageUrl": "/assets/burgerler ve pizzalar.jpg"
+  },
+  {
+    "id": "cat_88mpgd2g8",
+    "businessId": "biz_09b54021r",
+    "name": "Makarna ve Salatalar",
+    "order": 4,
+    "imageUrl": "/assets/makarna ve salatalar.jpg"
+  },
+  {
+    "id": "cat_f391bydl8",
+    "businessId": "biz_09b54021r",
+    "name": "Tavuklar",
+    "order": 5,
+    "imageUrl": "/assets/tavuklar.jpg"
+  },
+  {
+    "id": "cat_fypoew2f7",
+    "businessId": "biz_09b54021r",
+    "name": "Kırmızı Etler",
+    "order": 6,
+    "imageUrl": "/assets/KIRMIZI ETLER.jpg"
+  },
+  {
+    "id": "cat_ax3hp0gwz",
+    "businessId": "biz_09b54021r",
+    "name": "Ara Sıcak ve Dürümler",
+    "order": 7,
+    "imageUrl": "/assets/ara sıcak ve dürümler.jpg"
+  },
+  {
+    "id": "cat_svqxeug31",
+    "businessId": "biz_09b54021r",
+    "name": "Sıcak İçecekler",
+    "order": 8,
+    "imageUrl": "/assets/sıcak içecekler.jpg"
+  },
+  {
+    "id": "cat_yuc8fi29j",
+    "businessId": "biz_09b54021r",
+    "name": "Bitki Çayları",
+    "order": 9,
+    "imageUrl": "/assets/bitki çayları.jpg"
+  },
+  {
+    "id": "cat_8zf9lg9yt",
+    "businessId": "biz_09b54021r",
+    "name": "Soğuk İçecekler",
+    "order": 10,
+    "imageUrl": "/assets/soğuk içecekler.jpeg"
+  },
+  {
+    "id": "cat_5ewkrekft",
+    "businessId": "biz_09b54021r",
+    "name": "Dondurma ve Tatlılar",
+    "order": 11,
+    "imageUrl": "/assets/DONDURMA CUP.jpeg"
+  },
+  {
+    "id": "cat_gmw0m5co4",
+    "businessId": "biz_09b54021r",
+    "name": "Vitamin Bar",
+    "order": 12,
+    "imageUrl": "/assets/limonata & vitamin bar.jpg"
   }
 ]
