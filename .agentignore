@@ -1,0 +1,62 @@
+# Node.js / Bağımlılıklar
+node_modules/
+jspm_packages/
+web_modules/
+
+# Derleme ve Çıktı Klasörleri
+dist/
+build/
+out/
+.next/
+.nuxt/
+.vuepress/dist
+.svelte-kit/
+
+# Log ve Depolama Dosyaları
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Ortam ve Gizli Değişkenler
+.env
+.env.*
+!.env.example
+
+# Git ve IDE Yapılandırmaları
+.git/
+.svn/
+.hg/
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Docker ve Geçici Dosyalar
+.docker/
+tmp/
+temp/
+.cache/
+
+# Medya ve Statik Büyük Dosyalar
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.pdf
+*.zip
+*.tar.gz
+*.mp4
+*.mp3
+
+# Veritabanı ve Önbellek
+*.sqlite
+*.db
+.sqlite3
