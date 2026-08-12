@@ -9117,5 +9117,131 @@
       "vegetarian": false,
       "glutenFree": false
     }
+  },
+  {
+    "id": "prod_87sntibav",
+    "businessId": "biz_09b54021r",
+    "categoryId": "cat_rexisppam",
+    "name": "MİLKSHAKE VANİLYA",
+    "price": 140,
+    "imageUrl": "/assets/MİLKSHAKE VANİLYA.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_2sc3stlcz",
+    "businessId": "biz_09b54021r",
+    "categoryId": "cat_rexisppam",
+    "name": "MİLKSHAKE ÇİKOLATA",
+    "price": 140,
+    "imageUrl": "/assets/MİLKSHAKE ÇİKOLATA.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_6ij9sy5qy",
+    "businessId": "biz_09b54021r",
+    "categoryId": "cat_rexisppam",
+    "name": "MİLKSHAKE ÇİLEK",
+    "price": 140,
+    "imageUrl": "/assets/MİLKSHAKE ÇİLEK.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_ol99kuqfx",
+    "businessId": "biz_09b54021r",
+    "categoryId": "cat_rexisppam",
+    "name": "MİLKSHAKE KARAMEL",
+    "price": 140,
+    "imageUrl": "/assets/MİLKSHAKE KARAMEL.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_dh40v8r6j",
+    "businessId": "biz_09b54021r",
+    "categoryId": "cat_rexisppam",
+    "name": "FROZEN ÇİLEK",
+    "price": 120,
+    "imageUrl": "/assets/FROZEN ÇİLEK.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_knlm1fyob",
+    "businessId": "biz_09b54021r",
+    "categoryId": "cat_rexisppam",
+    "name": "FROZEN MUZ",
+    "price": 120,
+    "imageUrl": "/assets/FROZEN MUZ.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_yumq6oypr",
+    "businessId": "biz_09b54021r",
+    "categoryId": "cat_rexisppam",
+    "name": "FROZEN KARPUZ",
+    "price": 120,
+    "imageUrl": "/assets/FROZEN KARPUZ.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_wgzwq4a39",
+    "businessId": "biz_09b54021r",
+    "categoryId": "cat_rexisppam",
+    "name": "SMOOTHİES ÇİLEK",
+    "price": 140,
+    "imageUrl": "/assets/SMOOTHİES ÇİLEK.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_81vthnl9m",
+    "businessId": "biz_09b54021r",
+    "categoryId": "cat_rexisppam",
+    "name": "SMOOTHİES MUZ",
+    "price": 140,
+    "imageUrl": "/assets/SMOOTHİES MUZ.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
   }
 ]

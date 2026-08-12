@@ -444,7 +444,14 @@
     "id": "cat_gmw0m5co4",
     "businessId": "biz_09b54021r",
     "name": "Vitamin Bar",
-    "order": 12,
+    "order": 13,
     "imageUrl": "/assets/limonata & vitamin bar.jpg"
+  },
+  {
+    "id": "cat_rexisppam",
+    "businessId": "biz_09b54021r",
+    "name": "Milkshake & Frozen & Smoothies",
+    "order": 12,
+    "imageUrl": "/assets/MİLKSHAKE & FROZEN & SMOOTHIES.jpeg"
   }
 ]
