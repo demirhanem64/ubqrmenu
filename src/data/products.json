@@ -5361,7 +5361,7 @@
     "businessId": "biz_pgxu887bi",
     "categoryId": "cat_14fnsqu2r",
     "name": "KARIŞIK ÇEREZ",
-    "price": 200,
+    "price": 150,
     "imageUrl": "/assets/ÇEREZ TABAĞI.jpg",
     "shortDescription": "",
     "badges": {
@@ -9243,5 +9243,20 @@
       "vegetarian": false,
       "glutenFree": false
     }
+  },
+  {
+    "id": "prod_mjli6c483",
+    "businessId": "biz_pgxu887bi",
+    "categoryId": "cat_14fnsqu2r",
+    "name": "ÇEKİRDEK",
+    "price": 40,
+    "imageUrl": "/assets/ÇEKİRDEK.jpg",
+    "shortDescription": "ÇEKİRDEK\n",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "ÇEKİRDEK\n"
   }
 ]
