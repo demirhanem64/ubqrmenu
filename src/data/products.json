@@ -5183,29 +5183,6 @@
     ]
   },
   {
-    "id": "prod_1s2myk2x4",
-    "businessId": "biz_pgxu887bi",
-    "categoryId": "cat_5q0pae9dy",
-    "name": "AKDENİZ SALATA",
-    "price": 120,
-    "imageUrl": "/assets/AKDENİZ SALATA.jpg",
-    "shortDescription": "Mevsim Yeşilliği, Çeri Domates, Topi Peynir, Siyah Zeytin, Kurutulmuş Domates, Mısır ve Ceviz ile Servis Edilir.",
-    "badges": {
-      "vegan": false,
-      "vegetarian": false,
-      "glutenFree": false
-    },
-    "longDescription": "Mevsim Yeşilliği, Çeri Domates, Topi Peynir, Siyah Zeytin, Kurutulmuş Domates, Mısır ve Ceviz ile Servis Edilir. (KARBONHİDRAT DEĞERİ: 37,81)",
-    "ingredients": [
-      "Mevsim Yeşilliği",
-      "Çeri Domates",
-      "Topi Peynir",
-      "Siyah Zeytin",
-      "Kurutulmuş Domates",
-      "Mısır ve Ceviz"
-    ]
-  },
-  {
     "id": "prod_i8a3x9lou",
     "businessId": "biz_pgxu887bi",
     "categoryId": "cat_5q0pae9dy",
