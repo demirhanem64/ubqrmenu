@@ -8553,9 +8553,9 @@
     "id": "prod_buxkpr88k",
     "businessId": "biz_09b54021r",
     "categoryId": "cat_yuc8fi29j",
-    "name": "TOZ KUŞBURNU ÇAYI",
-    "price": 20,
-    "imageUrl": "/assets/TOZ KUŞBURNU ÇAYI.png",
+    "name": "DEMLEME KUŞBURNU ÇAYI",
+    "price": 100,
+    "imageUrl": "/assets/KUŞBURNU.jpeg",
     "shortDescription": "",
     "badges": {
       "vegan": false,
@@ -8581,9 +8581,9 @@
     "id": "prod_iaigqck9j",
     "businessId": "biz_09b54021r",
     "categoryId": "cat_yuc8fi29j",
-    "name": "TOZ NANE LİMON ÇAYI",
-    "price": 20,
-    "imageUrl": "/assets/TOZ NANE LİMON ÇAYI.jpg",
+    "name": "DEMLEME NANE LİMON ÇAYI",
+    "price": 100,
+    "imageUrl": "/assets/NANE LİMON.jpeg",
     "shortDescription": "",
     "badges": {
       "vegan": false,
@@ -9235,5 +9235,117 @@
       "glutenFree": false
     },
     "longDescription": "ÇEKİRDEK\n"
+  },
+  {
+    "id": "prod_uqkyb24r7",
+    "businessId": "biz_09b54021r",
+    "categoryId": "cat_svqxeug31",
+    "name": "SICAK ÇİKOLATA KARAMELLİ",
+    "price": 80,
+    "imageUrl": "/assets/SICAK ÇİKOLATA KARAMELLİ.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_8x5jz3bmg",
+    "businessId": "biz_09b54021r",
+    "categoryId": "cat_svqxeug31",
+    "name": "SICAK ÇİKOLATA ÇİLEKLİ",
+    "price": 80,
+    "imageUrl": "/assets/SICAK ÇİKOLATA ÇİLEKLİ.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_guz5s7xwd",
+    "businessId": "biz_09b54021r",
+    "categoryId": "cat_svqxeug31",
+    "name": "SICAK ÇİKOLATA FINDIKLI",
+    "price": 80,
+    "imageUrl": "/assets/SICAK ÇİKOLATA FINDIKLI.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_lyhq68cy7",
+    "businessId": "biz_09b54021r",
+    "categoryId": "cat_svqxeug31",
+    "name": "SICAK ÇİKOLATA MUZLU",
+    "price": 80,
+    "imageUrl": "/assets/SICAK ÇİKOLATA MUZLU.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_ffo7w67qq",
+    "businessId": "biz_09b54021r",
+    "categoryId": "cat_svqxeug31",
+    "name": "DAMLA SAKIZLI TÜRK KAHVESİ",
+    "price": 70,
+    "imageUrl": "/assets/DAMLA SAKIZLI TÜRK KAHVESİ.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_9atg25xrz",
+    "businessId": "biz_09b54021r",
+    "categoryId": "cat_svqxeug31",
+    "name": "DİBEK KAHVESİ",
+    "price": 70,
+    "imageUrl": "/assets/DİBEK KAHVESİ.jpeg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_2nbmotdxz",
+    "businessId": "biz_09b54021r",
+    "categoryId": "cat_svqxeug31",
+    "name": "CARAMEL LATTE",
+    "price": 85,
+    "imageUrl": "/assets/CARAMEL LATTE.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
+  },
+  {
+    "id": "prod_3yfusgaed",
+    "businessId": "biz_09b54021r",
+    "categoryId": "cat_yuc8fi29j",
+    "name": "DEMLEME ZENCEFİL LİMON ÇAYI",
+    "price": 100,
+    "imageUrl": "/assets/ÇİÇEK ÇAYI.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
   }
 ]
