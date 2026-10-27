@@ -9347,5 +9347,19 @@
       "vegetarian": false,
       "glutenFree": false
     }
+  },
+  {
+    "id": "prod_su8sbw02k",
+    "businessId": "biz_09b54021r",
+    "categoryId": "cat_yuc8fi29j",
+    "name": "DEMLEME ELMA TARÇIN ÇAYI",
+    "price": 100,
+    "imageUrl": "/assets/ÇİÇEK ÇAYI.jpg",
+    "shortDescription": "",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
   }
 ]
