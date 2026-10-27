@@ -8522,20 +8522,6 @@
     }
   },
   {
-    "id": "prod_ji7vf19ur",
-    "businessId": "biz_09b54021r",
-    "categoryId": "cat_yuc8fi29j",
-    "name": "TOZ ELMA ÇAYI",
-    "price": 20,
-    "imageUrl": "/assets/TOZ ELMA ÇAYI.png",
-    "shortDescription": "",
-    "badges": {
-      "vegan": false,
-      "vegetarian": false,
-      "glutenFree": false
-    }
-  },
-  {
     "id": "prod_kfi6z7ws4",
     "businessId": "biz_09b54021r",
     "categoryId": "cat_yuc8fi29j",
@@ -8564,40 +8550,12 @@
     }
   },
   {
-    "id": "prod_1j68vpjk4",
-    "businessId": "biz_09b54021r",
-    "categoryId": "cat_yuc8fi29j",
-    "name": "TOZ LİMON ÇAYI",
-    "price": 20,
-    "imageUrl": "/assets/TOZ LİMON ÇAYI.jpg",
-    "shortDescription": "",
-    "badges": {
-      "vegan": false,
-      "vegetarian": false,
-      "glutenFree": false
-    }
-  },
-  {
     "id": "prod_iaigqck9j",
     "businessId": "biz_09b54021r",
     "categoryId": "cat_yuc8fi29j",
     "name": "DEMLEME NANE LİMON ÇAYI",
     "price": 100,
     "imageUrl": "/assets/NANE LİMON.jpeg",
-    "shortDescription": "",
-    "badges": {
-      "vegan": false,
-      "vegetarian": false,
-      "glutenFree": false
-    }
-  },
-  {
-    "id": "prod_b0bk4vwg8",
-    "businessId": "biz_09b54021r",
-    "categoryId": "cat_yuc8fi29j",
-    "name": "TOZ MUZ ÇAYI",
-    "price": 20,
-    "imageUrl": "/assets/TOZ MUZ ÇAYI.jpg",
     "shortDescription": "",
     "badges": {
       "vegan": false,
