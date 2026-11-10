@@ -9333,5 +9333,19 @@
       "vegetarian": false,
       "glutenFree": false
     }
+  },
+  {
+    "id": "prod_r4py0u382",
+    "businessId": "biz_hz78mwcad",
+    "categoryId": "cat_cpvcw4zez",
+    "name": "KAŞARLI TOST",
+    "price": 130,
+    "imageUrl": "/assets/KAŞARLI TOST.jpg?v=1794310061018",
+    "shortDescription": "Tost Ekmeği Arasında Kaşar Peyniri (Mevsim Yeşillikleri ve Patates İle Servis Edilir) (KARBONHİDRAT DEĞERİ: 87,89)\n\n",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    }
   }
 ]
