@@ -50,20 +50,35 @@ function localJsonEditorPlugin() {
           }
 
           const uploadPath = path.resolve(assetsDir, filename);
-          const writeStream = fs.createWriteStream(uploadPath);
-          
-          req.pipe(writeStream);
-          
+          const chunks: Buffer[] = [];
+
+          req.on('data', (chunk) => {
+            chunks.push(Buffer.from(chunk));
+          });
+
           req.on('end', () => {
-             res.statusCode = 200;
-             res.setHeader('Content-Type', 'application/json');
-             res.end(JSON.stringify({ url: `/assets/${filename}` }));
+             if (req.aborted) return;
+             try {
+               const fileBuffer = Buffer.concat(chunks);
+               if (fileBuffer.length > 0) {
+                 fs.writeFileSync(uploadPath, fileBuffer);
+               }
+               res.statusCode = 200;
+               res.setHeader('Content-Type', 'application/json');
+               res.end(JSON.stringify({ url: `/assets/${filename}` }));
+             } catch (err) {
+               console.error('Upload write error', err);
+               res.statusCode = 500;
+               res.end(JSON.stringify({ error: err.message }));
+             }
           });
           
           req.on('error', (err) => {
              console.error('Upload error', err);
-             res.statusCode = 500;
-             res.end(JSON.stringify({ error: err.message }));
+             if (!res.headersSent) {
+               res.statusCode = 500;
+               res.end(JSON.stringify({ error: err.message }));
+             }
           });
         } else {
           next();

@@ -61,7 +61,7 @@ const TestPage: React.FC = () => {
     if (success) {
       setSaveMessage('✅ İşletme bilgisi kaydedildi!');
       setBusinesses(updatedBusinesses);
-      setTimeout(() => setEditingBusiness(null), 1500);
+      setTimeout(() => { setEditingBusiness(null); setSaveMessage(''); }, 1500);
     } else {
       setSaveMessage('❌ Kaydedilirken hata oluştu.');
     }
@@ -89,7 +89,7 @@ const TestPage: React.FC = () => {
     if (success) {
       setSaveMessage('✅ Kategori kaydedildi!');
       setAllCategories(updatedCategories);
-      setTimeout(() => setEditingCategory(null), 1500);
+      setTimeout(() => { setEditingCategory(null); setSaveMessage(''); }, 1500);
     } else {
       setSaveMessage('❌ Kaydedilirken hata oluştu.');
     }
@@ -117,7 +117,7 @@ const TestPage: React.FC = () => {
     if (success) {
       setSaveMessage('✅ Ürün bilgisi kaydedildi!');
       setAllProducts(updatedAllProducts);
-      setTimeout(() => setEditingProduct(null), 1500);
+      setTimeout(() => { setEditingProduct(null); setSaveMessage(''); }, 1500);
     } else {
       setSaveMessage('❌ Kaydedilirken hata oluştu.');
     }
@@ -218,11 +218,13 @@ const TestPage: React.FC = () => {
     if (!file) return;
     setIsSaving(true);
     try {
+      const arrayBuffer = await file.arrayBuffer();
       const response = await fetch(`/api/upload?filename=${encodeURIComponent(file.name)}`, {
         method: 'POST',
-        body: file,
+        body: arrayBuffer,
         headers: { 'Content-Type': 'application/octet-stream' }
       });
+      if (!response.ok) throw new Error('Upload failed');
       const data = await response.json();
       if (data.url) callback(data.url);
     } catch (err) {
