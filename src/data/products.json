@@ -9319,19 +9319,5 @@
       "vegetarian": false,
       "glutenFree": false
     }
-  },
-  {
-    "id": "prod_m4dnn50wy",
-    "businessId": "biz_hz78mwcad",
-    "categoryId": "cat_cpvcw4zez",
-    "name": "KARIŞIK TOST",
-    "price": 150,
-    "imageUrl": "/assets/KARIŞIK TOST.jpg",
-    "shortDescription": "Tost Ekmeği Arasında Kaşar Peyniri ve Sucuk (Mevsim Yeşillikleri ve Patates İle Servis Edilir ) (KARBONHİDRAT DEĞERİ: 85,84)\n\n",
-    "badges": {
-      "vegan": false,
-      "vegetarian": false,
-      "glutenFree": false
-    }
   }
 ]
