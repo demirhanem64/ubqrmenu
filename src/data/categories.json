@@ -453,5 +453,12 @@
     "name": "Milkshake & Frozen & Smoothies",
     "order": 12,
     "imageUrl": "/assets/MİLKSHAKE & FROZEN & SMOOTHIES.jpeg"
+  },
+  {
+    "id": "cat_cpvcw4zez",
+    "businessId": "biz_hz78mwcad",
+    "name": "Patso & Tost",
+    "order": 1,
+    "imageUrl": "/assets/gözleme ve tostlar.jpg"
   }
 ]

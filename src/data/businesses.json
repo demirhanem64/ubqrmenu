@@ -52,5 +52,13 @@
     "address": "Dikilitaş Mh. Atatürk Bulvarı Yan Yolu Ilıcaksubaşı Parkı UŞAK",
     "imageUrl": "/assets/huzurparkfake.jpg",
     "order": 5
+  },
+  {
+    "id": "biz_hz78mwcad",
+    "name": "Kemalöz Gençlik Merkezi Kafeterya",
+    "description": "Pazar Günleri Kapalıyız.",
+    "address": "Kemalöz Mh. İbrahim Tahtakılıç Cad. No:139 Uşak",
+    "imageUrl": "/assets/kemlaöz.jpg",
+    "order": 6
   }
 ]
