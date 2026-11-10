@@ -65,7 +65,7 @@ function localJsonEditorPlugin() {
                }
                res.statusCode = 200;
                res.setHeader('Content-Type', 'application/json');
-               res.end(JSON.stringify({ url: `/assets/${filename}` }));
+               res.end(JSON.stringify({ url: `/assets/${filename}?v=${Date.now()}` }));
              } catch (err) {
                console.error('Upload write error', err);
                res.statusCode = 500;
