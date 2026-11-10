@@ -460,5 +460,89 @@
     "name": "Patso & Tost",
     "order": 1,
     "imageUrl": "/assets/gözleme ve tostlar.jpg?v=2"
+  },
+  {
+    "id": "cat_gr3ydbk9r",
+    "businessId": "biz_hz78mwcad",
+    "name": "Sıcak İçecekler",
+    "order": 2,
+    "imageUrl": "/assets/sıcak içecekler.jpg?v=1794315528728"
+  },
+  {
+    "id": "cat_r57o1u1a2",
+    "businessId": "biz_hz78mwcad",
+    "name": "Dondurma",
+    "order": 3,
+    "imageUrl": "/assets/DONDURMA CUP.jpeg?v=1794316106802"
+  },
+  {
+    "id": "cat_eu7246am6",
+    "businessId": "biz_hz78mwcad",
+    "name": "Bitki Çayları",
+    "order": 4,
+    "imageUrl": "/assets/bitki çayları.jpg?v=1794316234342"
+  },
+  {
+    "id": "cat_eapr2ackf",
+    "businessId": "biz_hz78mwcad",
+    "name": "Soğuk İçecekler",
+    "order": 5,
+    "imageUrl": "/assets/soğuk içecekler.jpeg?v=1794316379563"
+  },
+  {
+    "id": "cat_cjttf45qi",
+    "businessId": "biz_hz78mwcad",
+    "name": "Ara Sıcaklar & Dürümler",
+    "order": 6,
+    "imageUrl": "/assets/ara sıcak ve dürümler.jpg?v=1794316758616"
+  },
+  {
+    "id": "cat_61w95vm7z",
+    "businessId": "biz_hz78mwcad",
+    "name": "Burger & Pizza",
+    "order": 7,
+    "imageUrl": "/assets/burgerler ve pizzalar.jpg?v=1794316925132"
+  },
+  {
+    "id": "cat_2lvzxs4w7",
+    "businessId": "biz_hz78mwcad",
+    "name": "Tavuklar",
+    "order": 8,
+    "imageUrl": "/assets/tavuklar.jpg?v=1794317196440"
+  },
+  {
+    "id": "cat_enlahg42l",
+    "businessId": "biz_hz78mwcad",
+    "name": "Türk Kahveleri & Espresso Special",
+    "order": 9,
+    "imageUrl": "/assets/TÜRK KAHVELERİ & ESPRESSO SPECIAL.jpg?v=1794317551953"
+  },
+  {
+    "id": "cat_plcwhc77o",
+    "businessId": "biz_hz78mwcad",
+    "name": "Limonata & Vitamin Bar",
+    "order": 10,
+    "imageUrl": "/assets/limonata & vitamin bar.jpg?v=1794317965800"
+  },
+  {
+    "id": "cat_o7kix7wb9",
+    "businessId": "biz_hz78mwcad",
+    "name": "Milkshake & Frozen & Smoothies",
+    "order": 11,
+    "imageUrl": "/assets/milkshake frozen limonata.jpg?v=1794318058705"
+  },
+  {
+    "id": "cat_shgurz6qv",
+    "businessId": "biz_hz78mwcad",
+    "name": "Soğuk Kahveler",
+    "order": 12,
+    "imageUrl": "/assets/SOĞUK KAHVELER & KOKTEYL ŞÖLENİ.jpg?v=1794318573928"
+  },
+  {
+    "id": "cat_1t70l30hx",
+    "businessId": "biz_hz78mwcad",
+    "name": "Makarna & Salatalar",
+    "order": 13,
+    "imageUrl": "/assets/makarna ve salatalar.jpg?v=1794318707063"
   }
 ]
