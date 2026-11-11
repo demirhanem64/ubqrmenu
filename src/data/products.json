@@ -10622,5 +10622,23 @@
       "domates ve ayran"
     ],
     "longDescription": ""
+  },
+  {
+    "id": "prod_owtfsmwg2",
+    "businessId": "biz_hz78mwcad",
+    "categoryId": "cat_cpvcw4zez",
+    "name": "Öğrenci Tost Menü",
+    "price": 70,
+    "imageUrl": "/assets/öğrencitost.jpg?v=1794382686171",
+    "shortDescription": "Yarım ekmek arası sucuklu, kaşarlı tost yanında patates kızartması ile birlikte servis edilir.",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "ingredients": [
+      "Sucuklu",
+      "kaşarlı tost yanında patates kızartması"
+    ]
   }
 ]
