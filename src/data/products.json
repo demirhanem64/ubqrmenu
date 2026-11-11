@@ -9461,20 +9461,6 @@
     }
   },
   {
-    "id": "prod_azusugxkn",
-    "businessId": "biz_hz78mwcad",
-    "categoryId": "cat_gr3ydbk9r",
-    "name": "DAMLA SAKIZLI SALEP",
-    "price": 80,
-    "imageUrl": "/assets/DAMLA SAKIZLI SALEP.jpeg?v=1794315926662",
-    "shortDescription": "",
-    "badges": {
-      "vegan": false,
-      "vegetarian": false,
-      "glutenFree": false
-    }
-  },
-  {
     "id": "prod_abke8ivdl",
     "businessId": "biz_hz78mwcad",
     "categoryId": "cat_gr3ydbk9r",
@@ -10586,5 +10572,55 @@
       "Kaşar Peynir",
       "Çeri Domates ve Sezar Sos"
     ]
+  },
+  {
+    "id": "prod_n0phf38du",
+    "businessId": "biz_hz78mwcad",
+    "categoryId": "cat_cpvcw4zez",
+    "name": "Patso",
+    "price": 60,
+    "imageUrl": "/assets/patso.jpg?v=1794381585860",
+    "shortDescription": "Ekmek arası sade patates ile servis edilir.",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "İsteğe bağlı ketçap & mayonez servis edilir."
+  },
+  {
+    "id": "prod_zazpvyspk",
+    "businessId": "biz_hz78mwcad",
+    "categoryId": "cat_cpvcw4zez",
+    "name": "Sosisli Patso",
+    "price": 70,
+    "imageUrl": "/assets/sosislipatso.jpg?v=1794381780310",
+    "shortDescription": "Patates ve Sosis ile ekmek arası olarak servis edilir.",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "longDescription": "İsteğe bağlı ketçap & mayonez ile servis edilir."
+  },
+  {
+    "id": "prod_yjvy2tbuh",
+    "businessId": "biz_hz78mwcad",
+    "categoryId": "cat_cpvcw4zez",
+    "name": "Tavuk Döner + Ayran",
+    "price": 80,
+    "imageUrl": "/assets/döner.jpg?v=1794382182788",
+    "shortDescription": "yarım ekmek arası soslanmış tavuk, marul, domates ve ayran ile birlikte servis edilir.",
+    "badges": {
+      "vegan": false,
+      "vegetarian": false,
+      "glutenFree": false
+    },
+    "ingredients": [
+      "soslanmış tavuk",
+      "marul",
+      "domates ve ayran"
+    ],
+    "longDescription": "Yarım Tavuk Döner + Ayran Menü"
   }
 ]
