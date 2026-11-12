@@ -2,7 +2,6 @@ import React, { useEffect, useState } from 'react';
 import type { Business, Product, Category, Settings } from '../types';
 import { getBusinesses, saveDataLocally } from '../services/dataService';
 import BusinessCard from '../components/BusinessCard';
-import ProductCard from '../components/ProductCard';
 
 const generateId = () => Math.random().toString(36).substr(2, 9);
 
@@ -14,6 +13,9 @@ const TestPage: React.FC = () => {
   const [editingSettings, setEditingSettings] = useState<Settings | null>(null);
   
   const [selectedBusinessId, setSelectedBusinessId] = useState<string | null>(null);
+  const [selectedCategoryId, setSelectedCategoryId] = useState<string>('ALL');
+  const [quickPrices, setQuickPrices] = useState<Record<string, string>>({});
+  const [quickSaveStatus, setQuickSaveStatus] = useState<Record<string, string>>({});
   
   const [editingBusiness, setEditingBusiness] = useState<Business | null>(null);
   const [editingCategory, setEditingCategory] = useState<Category | null>(null);
@@ -117,6 +119,7 @@ const TestPage: React.FC = () => {
     if (success) {
       setSaveMessage('✅ Ürün bilgisi kaydedildi!');
       setAllProducts(updatedAllProducts);
+      setQuickPrices(prev => { const c = { ...prev }; delete c[editingProduct.id]; return c; });
       setTimeout(() => { setEditingProduct(null); setSaveMessage(''); }, 1500);
     } else {
       setSaveMessage('❌ Kaydedilirken hata oluştu.');
@@ -206,11 +209,55 @@ const TestPage: React.FC = () => {
     if (success) {
       setSaveMessage('✅ Tüm işletmelerde güncellendi!');
       setAllProducts(updatedAllProducts);
-      setTimeout(() => setEditingProduct(null), 1500);
+      setQuickPrices({});
+      setTimeout(() => { setEditingProduct(null); setSaveMessage(''); }, 1500);
     } else {
       setSaveMessage('❌ Kaydedilirken hata oluştu.');
     }
     setIsSaving(false);
+  };
+
+  const handleQuickPriceSave = async (product: Product, applyToAllBusinesses: boolean = false) => {
+    const rawVal = quickPrices[product.id];
+    const newPrice = rawVal !== undefined ? Number(rawVal) : product.price;
+    if (isNaN(newPrice) || newPrice < 0) return;
+
+    if (!applyToAllBusinesses && newPrice === product.price) {
+      return;
+    }
+
+    const searchName = product.name.trim().toLocaleLowerCase('tr-TR');
+    let matchCount = 0;
+
+    const updatedAllProducts = allProducts.map(p => {
+      if (p.id === product.id) {
+        matchCount++;
+        return { ...p, price: newPrice };
+      }
+      if (applyToAllBusinesses && p.name.trim().toLocaleLowerCase('tr-TR') === searchName) {
+        matchCount++;
+        return { ...p, price: newPrice }; // Sadece fiyatı günceller, görsel ve açıklamaya dokunmaz
+      }
+      return p;
+    });
+
+    const success = await saveDataLocally('products', updatedAllProducts);
+    if (success) {
+      setAllProducts(updatedAllProducts);
+      setQuickSaveStatus(prev => ({
+        ...prev,
+        [product.id]: applyToAllBusinesses ? `✓ ${matchCount} tesiste eşitlendi` : '✓ Kaydedildi'
+      }));
+      setTimeout(() => {
+        setQuickSaveStatus(prev => {
+          const copy = { ...prev };
+          delete copy[product.id];
+          return copy;
+        });
+      }, 2000);
+    } else {
+      alert('Fiyat kaydedilirken hata oluştu.');
+    }
   };
 
   const handleImageUpload = async (e: React.ChangeEvent<HTMLInputElement>, callback: (url: string) => void) => {
@@ -270,7 +317,7 @@ const TestPage: React.FC = () => {
 
   if (!selectedBusinessId) {
     return (
-      <div className="container" style={{ paddingBottom: 'var(--space-2xl)' }}>
+      <div className="container" style={{ maxWidth: '1500px', width: '96%', paddingBottom: 'var(--space-2xl)' }}>
         <h1 style={{ padding: 'var(--space-md) 0' }}>Yönetim Paneli</h1>
         <p className="text-muted" style={{ marginBottom: 'var(--space-md)' }}>
           İşletmenin menüsünü düzenlemek için işletme kartına tıklayın. Sadece işletme detaylarını düzenlemek için "DÜZENLEMEK İÇİN TIKLA" butonuna basın.
@@ -444,9 +491,9 @@ const TestPage: React.FC = () => {
         </div>
         )}
 
-        <div style={{ margin: 'var(--space-md) 0' }}>
+        <div style={{ margin: 'var(--space-md) 0', display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(340px, 1fr))', gap: '16px' }}>
           {businesses.map(b => (
-            <div key={b.id} style={{ position: 'relative', cursor: 'pointer', marginBottom: '16px' }} onClick={() => setSelectedBusinessId(b.id)}>
+            <div key={b.id} style={{ position: 'relative', cursor: 'pointer' }} onClick={() => { setSelectedBusinessId(b.id); setSelectedCategoryId('ALL'); }}>
               <div style={{ pointerEvents: 'none' }}>
                 <BusinessCard business={b} onClick={() => {}} />
               </div>
@@ -464,22 +511,70 @@ const TestPage: React.FC = () => {
 
   const business = businesses.find(b => b.id === selectedBusinessId);
   const businessCategories = allCategories.filter(c => c.businessId === selectedBusinessId).sort((a,b) => a.order - b.order);
+  const visibleCategories = selectedCategoryId === 'ALL'
+    ? businessCategories
+    : businessCategories.filter(c => c.id === selectedCategoryId);
 
   return (
-    <div className="container" style={{ paddingBottom: 'var(--space-2xl)' }}>
-      <button 
-        className="btn" 
-        onClick={() => setSelectedBusinessId(null)} 
-        style={{ background: '#333', color: '#fff', marginBottom: 'var(--space-md)', padding: '6px 12px', fontSize: '0.9rem' }}
-      >
-        ← Geri Dön (İşletme Seçimi)
-      </button>
-      
-      <h1 style={{ padding: '0 0 var(--space-md) 0' }}>{business?.name} - Menü Yönetimi</h1>
+    <div className="container" style={{ maxWidth: '1600px', width: '96%', paddingBottom: 'var(--space-2xl)' }}>
+      <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '12px', padding: 'var(--space-md) 0', borderBottom: '1px solid #e5e5e5', marginBottom: 'var(--space-md)' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap' }}>
+          <button 
+            className="btn" 
+            onClick={() => setSelectedBusinessId(null)} 
+            style={{ background: '#333', color: '#fff', padding: '6px 14px', fontSize: '0.9rem' }}
+          >
+            ← Tesis Seçimi
+          </button>
+          <h1 style={{ margin: 0, fontSize: '1.5rem' }}>{business?.name}</h1>
+        </div>
 
-      <button className="btn btn-primary" onClick={addNewCategory} style={{ marginBottom: 'var(--space-xl)' }}>
-        + Yeni Kategori Ekle
-      </button>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '12px', flexWrap: 'wrap' }}>
+          <span style={{ fontSize: '0.82rem', color: '#555', background: '#fff8e1', border: '1px solid #ffe082', padding: '6px 12px', borderRadius: '8px' }}>
+            💡 <b>Hızlı Fiyat:</b> Sol alttaki fiyata tıklayıp değiştirin, <b>Enter</b> veya <b>Tab</b> tuşuna basın. <b>🌍</b> butonu sadece fiyatı tüm tesislerde eşitler.
+          </span>
+          <button className="btn btn-primary" onClick={addNewCategory} style={{ padding: '8px 16px', fontSize: '0.9rem' }}>
+            + Yeni Kategori Ekle
+          </button>
+        </div>
+      </div>
+
+      {/* Yatay Kategori Sekmeleri */}
+      <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', marginBottom: 'var(--space-lg)', padding: '10px', background: '#fff', borderRadius: '10px', boxShadow: 'var(--shadow-sm)' }}>
+        <button
+          className="btn"
+          onClick={() => setSelectedCategoryId('ALL')}
+          style={{
+            padding: '6px 14px',
+            fontSize: '0.85rem',
+            background: selectedCategoryId === 'ALL' ? 'var(--color-primary)' : '#f1f3f5',
+            color: selectedCategoryId === 'ALL' ? '#fff' : '#333',
+            fontWeight: selectedCategoryId === 'ALL' ? 600 : 500
+          }}
+        >
+          Tüm Kategoriler ({allProducts.filter(p => businessCategories.some(c => c.id === p.categoryId)).length})
+        </button>
+        {businessCategories.map(c => {
+          const count = allProducts.filter(p => p.categoryId === c.id).length;
+          const isActive = selectedCategoryId === c.id;
+          return (
+            <button
+              key={c.id}
+              className="btn"
+              onClick={() => setSelectedCategoryId(c.id)}
+              style={{
+                padding: '6px 14px',
+                fontSize: '0.85rem',
+                background: isActive ? 'var(--color-primary)' : '#f1f3f5',
+                color: isActive ? '#fff' : '#333',
+                fontWeight: isActive ? 600 : 500
+              }}
+            >
+              {c.name} ({count})
+            </button>
+          );
+        })}
+      </div>
 
       {editingCategory && (
 <div style={{ position: 'fixed', top: 0, left: 0, right: 0, bottom: 0, backgroundColor: 'rgba(0,0,0,0.5)', zIndex: 9999, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '20px', overflowY: 'auto' }}>
@@ -660,37 +755,181 @@ const TestPage: React.FC = () => {
         </div>
       )}
 
-      {businessCategories.map(c => {
+      {visibleCategories.map(c => {
         const catProducts = allProducts.filter(p => p.categoryId === c.id);
         
         return (
-          <div key={c.id} style={{ marginBottom: 'var(--space-2xl)', padding: 'var(--space-md)', background: '#f9f9f9', borderRadius: '8px' }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid #ddd', paddingBottom: '8px', marginBottom: '16px' }}>
-              <h2 style={{ margin: 0, fontSize: '1.3rem' }}>{c.name}</h2>
-              <button className="btn" onClick={() => setEditingCategory(c)} style={{ padding: '4px 8px', fontSize: '0.8rem', background: 'var(--color-primary)', color: '#fff' }}>
-                Kategoriyi Düzenle
-              </button>
-            </div>
-            
-            <div style={{ marginBottom: '16px' }}>
-              <button className="btn" onClick={() => { addNewProduct(c.id);  }} style={{ padding: '6px 12px', fontSize: '0.85rem', background: '#333', color: '#fff' }}>
+          <div key={c.id} style={{ marginBottom: 'var(--space-lg)', padding: 'var(--space-md)', background: '#f9f9f9', borderRadius: '12px', border: '1px solid #eee' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid #ddd', paddingBottom: '8px', marginBottom: '12px', flexWrap: 'wrap', gap: '8px' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                <h2 style={{ margin: 0, fontSize: '1.2rem' }}>{c.name}</h2>
+                <button className="btn" onClick={() => setEditingCategory(c)} style={{ padding: '4px 10px', fontSize: '0.75rem', background: 'var(--color-primary)', color: '#fff' }}>
+                  Kategoriyi Düzenle
+                </button>
+              </div>
+              <button className="btn" onClick={() => { addNewProduct(c.id); }} style={{ padding: '5px 12px', fontSize: '0.8rem', background: '#333', color: '#fff' }}>
                 + Bu Kategoriye Yeni Ürün Ekle
               </button>
             </div>
 
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))', gap: '16px' }}>
-              {catProducts.map(p => (
-                <div key={p.id} style={{ position: 'relative' }}>
-                  <div style={{ pointerEvents: 'none' }}>
-                     <ProductCard product={p} onClick={() => {}} />
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: '12px' }}>
+              {catProducts.map(p => {
+                const currentInputPrice = quickPrices[p.id] !== undefined ? quickPrices[p.id] : String(p.price);
+                const isPriceDirty = Number(currentInputPrice) !== p.price;
+                const statusMsg = quickSaveStatus[p.id];
+
+                return (
+                  <div
+                    key={p.id}
+                    style={{
+                      position: 'relative',
+                      background: '#fff',
+                      borderRadius: '12px',
+                      overflow: 'hidden',
+                      boxShadow: 'var(--shadow-sm)',
+                      border: statusMsg ? '2px solid #28a745' : isPriceDirty ? '2px solid var(--color-primary)' : '1px solid rgba(0,0,0,0.06)',
+                      display: 'flex',
+                      flexDirection: 'column',
+                      justifyContent: 'space-between',
+                      transition: 'border-color 0.2s ease'
+                    }}
+                  >
+                    <div>
+                      <div style={{ position: 'relative', height: '110px', width: '100%', background: '#eee' }}>
+                        <img
+                          src={p.imageUrl}
+                          alt={p.name}
+                          loading="lazy"
+                          style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                        />
+                        <button
+                          onClick={() => setEditingProduct(p)}
+                          style={{
+                            position: 'absolute',
+                            top: 8,
+                            right: 8,
+                            background: 'var(--color-primary)',
+                            color: '#fff',
+                            fontSize: '0.7rem',
+                            fontWeight: 600,
+                            padding: '4px 10px',
+                            borderRadius: '10px',
+                            cursor: 'pointer',
+                            boxShadow: '0 2px 6px rgba(0,0,0,0.25)'
+                          }}
+                        >
+                          DÜZENLE
+                        </button>
+                      </div>
+
+                      <div style={{ padding: '10px 10px 6px 10px' }}>
+                        <h3 style={{ fontSize: '0.92rem', fontWeight: 700, margin: '0 0 4px 0', lineHeight: 1.25 }}>
+                          {p.name}
+                        </h3>
+                        {p.shortDescription && (
+                          <p
+                            className="text-muted"
+                            style={{
+                              fontSize: '0.75rem',
+                              margin: 0,
+                              display: '-webkit-box',
+                              WebkitLineClamp: 1,
+                              WebkitBoxOrient: 'vertical',
+                              overflow: 'hidden'
+                            }}
+                            title={p.shortDescription}
+                          >
+                            {p.shortDescription}
+                          </p>
+                        )}
+                      </div>
+                    </div>
+
+                    {/* Sol Alt Hızlı Fiyat Düzenleme Alanı */}
+                    <div style={{ padding: '6px 10px 10px 10px', borderTop: '1px solid #f1f3f5', marginTop: '4px' }}>
+                      <div style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                        <div
+                          style={{
+                            display: 'flex',
+                            alignItems: 'center',
+                            background: isPriceDirty ? '#fff8e1' : '#f8f9fa',
+                            border: isPriceDirty ? '1px solid var(--color-primary)' : '1px solid #ced4da',
+                            borderRadius: '8px',
+                            padding: '2px 8px',
+                            flex: 1
+                          }}
+                        >
+                          <span style={{ fontWeight: 700, color: 'var(--color-primary)', fontSize: '0.95rem', marginRight: '2px' }}>₺</span>
+                          <input
+                            type="number"
+                            value={currentInputPrice}
+                            onChange={(e) => setQuickPrices(prev => ({ ...prev, [p.id]: e.target.value }))}
+                            onKeyDown={(e) => {
+                              if (e.key === 'Enter') {
+                                e.currentTarget.blur();
+                                handleQuickPriceSave(p, false);
+                              }
+                            }}
+                            onBlur={() => {
+                              if (isPriceDirty) {
+                                handleQuickPriceSave(p, false);
+                              }
+                            }}
+                            style={{
+                              width: '100%',
+                              border: 'none',
+                              background: 'transparent',
+                              fontWeight: 700,
+                              fontSize: '0.95rem',
+                              color: '#1a1a1a',
+                              outline: 'none',
+                              padding: '3px 0'
+                            }}
+                            title="Fiyatı yazıp Enter veya Tab tuşuna basın"
+                          />
+                        </div>
+
+                        <button
+                          type="button"
+                          onClick={() => handleQuickPriceSave(p, false)}
+                          style={{
+                            background: isPriceDirty ? '#28a745' : '#e9ecef',
+                            color: isPriceDirty ? '#fff' : '#495057',
+                            borderRadius: '8px',
+                            padding: '6px 9px',
+                            fontSize: '0.8rem',
+                            fontWeight: 700
+                          }}
+                          title="Sadece bu ürünü kaydet"
+                        >
+                          ✓
+                        </button>
+
+                        <button
+                          type="button"
+                          onClick={() => handleQuickPriceSave(p, true)}
+                          style={{
+                            background: '#17a2b8',
+                            color: '#fff',
+                            borderRadius: '8px',
+                            padding: '6px 8px',
+                            fontSize: '0.8rem'
+                          }}
+                          title="Aynı isimli ürünlerin SADECE FİYATINI tüm tesislerde bu fiyata eşitle (Görsel ve açıklamaya dokunmaz)"
+                        >
+                          🌍
+                        </button>
+                      </div>
+
+                      {statusMsg && (
+                        <div style={{ fontSize: '0.72rem', color: '#28a745', fontWeight: 600, marginTop: '4px' }}>
+                          {statusMsg}
+                        </div>
+                      )}
+                    </div>
                   </div>
-                  <div 
-                    onClick={() => { setEditingProduct(p);  }}
-                    style={{ position: 'absolute', top: 10, right: 10, background: 'var(--color-primary)', color: '#fff', fontSize: '0.7rem', padding: '4px 10px', borderRadius: '10px', cursor: 'pointer', pointerEvents: 'auto' }}>
-                    DÜZENLE
-                  </div>
-                </div>
-              ))}
+                );
+              })}
               {catProducts.length === 0 && <p style={{ fontSize: '0.9rem', color: '#888' }}>Bu kategoride henüz ürün yok.</p>}
             </div>
           </div>
