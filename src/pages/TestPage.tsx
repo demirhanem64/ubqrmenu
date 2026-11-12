@@ -540,12 +540,14 @@ const TestPage: React.FC = () => {
       </div>
 
       {/* Yatay Kategori Sekmeleri */}
-      <div style={{ display: 'flex', gap: '8px', flexWrap: 'wrap', marginBottom: 'var(--space-lg)', padding: '10px', background: '#fff', borderRadius: '10px', boxShadow: 'var(--shadow-sm)' }}>
+      <div style={{ display: 'flex', gap: '10px', flexWrap: 'wrap', marginBottom: 'var(--space-lg)', padding: '12px', background: '#fff', borderRadius: '12px', boxShadow: 'var(--shadow-sm)', alignItems: 'center' }}>
         <button
           className="btn"
           onClick={() => setSelectedCategoryId('ALL')}
           style={{
-            padding: '6px 14px',
+            padding: '8px 16px',
+            height: '52px',
+            borderRadius: '12px',
             fontSize: '0.85rem',
             background: selectedCategoryId === 'ALL' ? 'var(--color-primary)' : '#f1f3f5',
             color: selectedCategoryId === 'ALL' ? '#fff' : '#333',
@@ -563,14 +565,51 @@ const TestPage: React.FC = () => {
               className="btn"
               onClick={() => setSelectedCategoryId(c.id)}
               style={{
-                padding: '6px 14px',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '8px',
+                padding: '6px 12px 6px 6px',
+                height: '52px',
+                borderRadius: '12px',
                 fontSize: '0.85rem',
                 background: isActive ? 'var(--color-primary)' : '#f1f3f5',
                 color: isActive ? '#fff' : '#333',
-                fontWeight: isActive ? 600 : 500
+                fontWeight: isActive ? 600 : 500,
+                border: isActive ? '2px solid var(--color-primary-dark)' : '1px solid #e9ecef'
               }}
             >
-              {c.name} ({count})
+              {c.imageUrl ? (
+                <img
+                  src={c.imageUrl}
+                  alt={c.name}
+                  style={{
+                    width: '40px',
+                    height: '40px',
+                    borderRadius: '8px',
+                    objectFit: 'cover',
+                    flexShrink: 0,
+                    background: '#ddd'
+                  }}
+                />
+              ) : (
+                <div
+                  style={{
+                    width: '40px',
+                    height: '40px',
+                    borderRadius: '8px',
+                    background: '#dee2e6',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    fontSize: '0.7rem',
+                    color: '#666',
+                    flexShrink: 0
+                  }}
+                >
+                  Yok
+                </div>
+              )}
+              <span>{c.name} ({count})</span>
             </button>
           );
         })}
@@ -762,6 +801,13 @@ const TestPage: React.FC = () => {
           <div key={c.id} style={{ marginBottom: 'var(--space-lg)', padding: 'var(--space-md)', background: '#f9f9f9', borderRadius: '12px', border: '1px solid #eee' }}>
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', borderBottom: '1px solid #ddd', paddingBottom: '8px', marginBottom: '12px', flexWrap: 'wrap', gap: '8px' }}>
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
+                {c.imageUrl && (
+                  <img
+                    src={c.imageUrl}
+                    alt={c.name}
+                    style={{ width: '38px', height: '38px', borderRadius: '8px', objectFit: 'cover', background: '#ddd' }}
+                  />
+                )}
                 <h2 style={{ margin: 0, fontSize: '1.2rem' }}>{c.name}</h2>
                 <button className="btn" onClick={() => setEditingCategory(c)} style={{ padding: '4px 10px', fontSize: '0.75rem', background: 'var(--color-primary)', color: '#fff' }}>
                   Kategoriyi Düzenle
